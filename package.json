@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test public/learning-core.test.mjs"
+    "test": "node --test public/*.test.mjs"
   },
   "dependencies": {
     "jose": "^6.1.0"

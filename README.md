@@ -19,8 +19,10 @@ The server accepts only loopback connections. An iPad cannot open this computer'
 
 ## Features
 
-- Ten first-semester units, 188 original questions: choice, numeric/fraction answers, multi-step answers and error correction.
+- Ten first-semester units, 188 foundation questions plus 30 interactive missions (218 total): choice, numeric/fraction answers, multi-step answers and error correction.
 - Direct question selection, hints, illustrated solutions and progress records.
+- `#games` opens 30 independent missions across all ten units: chart plotting, factor grouping, angle assembly, fraction painting, mirror points, step-card puzzles, time boxes and cube-net exploration. Drag or click to place cards. Mission badges are separate from academic scores.
+- See `CURRICULUM_REVIEW.md` for the grade-five content review, coverage and remaining limitations.
 - Per-question handwriting canvas with pen/touch/mouse, eraser, undo and pen-only mode.
 - Camera/gallery images, local preview and explicit attachment to text chat alongside question context.
 - Floating tutor chat and WebRTC voice with interruption, mute and end controls.

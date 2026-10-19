@@ -19,7 +19,7 @@ catch (error) { if(error.code !== 'ENOENT') throw error; host={id:'urn:uuid:'+ra
 let registration;
 try { registration=JSON.parse(await readFile(root+'.local/registration.json','utf8')); } catch(error) { if(error.code!=='ENOENT') throw error; }
 const lessons=vm.runInNewContext((await readFile(root+'public/lessons.js','utf8'))+'; lessons');
-const learningCore=vm.runInNewContext((await readFile(root+'public/learning-core.js','utf8'))+'; LearningCore');
+const learningCore=vm.runInNewContext((await readFile(root+'public/game-core.js','utf8'))+';'+(await readFile(root+'public/learning-core.js','utf8'))+'; LearningCore');
 const jwks=createRemoteJWKSet(new URL('https://auth.openai.com/.well-known/jwks.json'));
 const sessions=new Map();
 const mime={'.png':'image/png','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8'};
@@ -138,7 +138,7 @@ const server=http.createServer(async(req,res)=>{
    try{const reply=await generate(s,input,instructions);s.chats.set(key,[...history.slice(-10),{role:'user',content:data.message+(data.image?'（此輪有附圖；後續若需重新檢視，請學生再次附圖。）':'')},{role:'assistant',content:reply}]);return json(res,200,{reply});}finally{s.busy=false;}
   }
   if(req.method==='GET'){
-   const allowed=['/','/index.html','/app.js','/lessons.js','/diagrams.js','/learning-core.js','/tutor.js','/scratchpad.js','/realtime.js','/mascot-xiaoguang.png','/xiaoguang-sprites.png','/north-star-logo.png','/styles.css'];
+   const allowed=['/','/index.html','/app.js','/lessons.js','/diagrams.js','/learning-core.js','/game-core.js','/games.js','/tutor.js','/scratchpad.js','/realtime.js','/mascot-xiaoguang.png','/xiaoguang-sprites.png','/north-star-logo.png','/styles.css'];
    if(!allowed.includes(url.pathname))throw fail('找不到頁面。',404);
    const name=url.pathname==='/'?'index.html':url.pathname.slice(1);
    const content=await readFile(root+'public/'+name);res.writeHead(200,{'Content-Type':mime[name.slice(name.lastIndexOf('.'))]||'application/octet-stream'});return res.end(content);

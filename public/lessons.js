@@ -1,3 +1,4 @@
+// Original exercises; interactive missions share this data with the tutor server.
 const lessons = Object.freeze([
   {
     "id": "charts",
@@ -112,7 +113,7 @@ const lessons = Object.freeze([
             "unit": "本"
           }
         ],
-        "hint": "週一20本，週二25本。",
+        "hint": "先沿著週一的點讀出本數，再加上週二的本數。",
         "explain": "20＋25＝45本。",
         "diagram": {
           "kind": "chart",
@@ -167,7 +168,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明把縱軸每格5本看成1本，說週二是5本。正確是多少？",
+        "prompt": "小光把縱軸每格5本看成1本，說週二是5本。正確是多少？",
         "answer": "25",
         "unit": "本",
         "hint": "格數還要乘每格代表的量。",
@@ -266,7 +267,7 @@ const lessons = Object.freeze([
             "unit": "本"
           }
         ],
-        "hint": "先把20、25、15、30相加，再除以4。",
+        "hint": "先把四天的本數合起來，再平均分成四份。",
         "explain": "合計90本，平均90÷4＝22.5本。",
         "diagram": {
           "kind": "chart",
@@ -287,10 +288,89 @@ const lessons = Object.freeze([
           "step": 5
         },
         "id": "charts-8"
+      },
+      {
+        "id": "charts-game-1",
+        "type": "game",
+        "title": "圖書館的新紀錄",
+        "prompt": "週一到週四分別借出 20、25、15、30 本書。幫小光把四個點放到正確高度，連成折線圖。",
+        "game": {
+          "kind": "chart",
+          "labels": [
+            "週一",
+            "週二",
+            "週三",
+            "週四"
+          ],
+          "values": [
+            20,
+            25,
+            15,
+            30
+          ],
+          "step": 5,
+          "max": 30,
+          "unit": "本"
+        },
+        "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
+      },
+      {
+        "id": "charts-game-2",
+        "type": "game",
+        "title": "小光的跳繩紀錄",
+        "prompt": "週一到週四分別跳了 15、20、30、25 下。幫小光把四個點放到正確高度，連成折線圖。",
+        "game": {
+          "kind": "chart",
+          "labels": [
+            "週一",
+            "週二",
+            "週三",
+            "週四"
+          ],
+          "values": [
+            15,
+            20,
+            30,
+            25
+          ],
+          "step": 5,
+          "max": 30,
+          "unit": "下"
+        },
+        "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
+      },
+      {
+        "id": "charts-game-3",
+        "type": "game",
+        "title": "種子觀察日記",
+        "prompt": "第 1～4 天的小苗高度是 10、20、20、30 毫米。幫小光把四個點放到正確高度，連成折線圖。",
+        "game": {
+          "kind": "chart",
+          "labels": [
+            "第1天",
+            "第2天",
+            "第3天",
+            "第4天"
+          ],
+          "values": [
+            10,
+            20,
+            20,
+            30
+          ],
+          "step": 5,
+          "max": 30,
+          "unit": "毫米"
+        },
+        "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
       }
     ],
     "duration": 15,
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "小小資料記錄員"
   },
   {
     "id": "factors",
@@ -565,7 +645,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說「5是18的因數」。算出18÷5的餘數，檢查他的說法。",
+        "prompt": "小光說「5是18的因數」。算出18÷5的餘數，檢查他的說法。",
         "answer": "3",
         "unit": "",
         "hint": "因數必須整除，不能有餘數。",
@@ -580,6 +660,42 @@ const lessons = Object.freeze([
         },
         "work": "18÷5＝3，所以5是18的因數。",
         "id": "factors-14"
+      },
+      {
+        "id": "factors-game-1",
+        "type": "game",
+        "title": "分裝餅乾",
+        "prompt": "有 12 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+        "game": {
+          "kind": "groups",
+          "total": 12
+        },
+        "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "explain": "12 的因數，就是所有能把 12 個物品剛好分完的每袋個數。"
+      },
+      {
+        "id": "factors-game-2",
+        "type": "game",
+        "title": "串珠小工坊",
+        "prompt": "有 18 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+        "game": {
+          "kind": "groups",
+          "total": 18
+        },
+        "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "explain": "18 的因數，就是所有能把 18 個物品剛好分完的每袋個數。"
+      },
+      {
+        "id": "factors-game-3",
+        "type": "game",
+        "title": "積木收納員",
+        "prompt": "有 24 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+        "game": {
+          "kind": "groups",
+          "total": 24
+        },
+        "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "explain": "24 的因數，就是所有能把 24 個物品剛好分完的每袋個數。"
       }
     ],
     "unit": 2,
@@ -604,7 +720,8 @@ const lessons = Object.freeze([
       "cols": 3,
       "solutionCols": 3
     },
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "點心分袋工坊"
   },
   {
     "id": "angles",
@@ -932,7 +1049,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說三角形已知50°和60°，第三角是110°。改成正確答案。",
+        "prompt": "小光說三角形已知50°和60°，第三角是110°。改成正確答案。",
         "answer": "70",
         "unit": "度",
         "hint": "110是兩個已知角的合計。",
@@ -982,7 +1099,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "choice",
-        "prompt": "哪一個條件足以判斷圖形是正多邊形？",
+        "prompt": "怎樣才能確定一個圖形是「正多邊形」？",
         "choices": [
           "每條邊等長，且每個內角相等",
           "只有每條邊等長",
@@ -1067,7 +1184,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說3、4、8公分能圍成三角形。他漏算的較短兩邊合計是多少？",
+        "prompt": "小光說3、4、8公分能圍成三角形。他漏算的較短兩邊合計是多少？",
         "answer": "7",
         "hint": "還要檢查3＋4是否大於8。",
         "explain": "3＋4＝7，小於8，不能圍成；不能只檢查其中一組。",
@@ -1264,7 +1381,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小美計算等腰三角形的底角。正確的每個底角是多少？",
+        "prompt": "小光計算等腰三角形的底角。正確的每個底角是多少？",
         "answer": "50",
         "hint": "100°是兩個底角的總和，還要平分。",
         "explain": "(180−80)÷2＝50°。",
@@ -1424,7 +1541,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明求四邊形的第四角，應改成多少度？",
+        "prompt": "小光求四邊形的第四角，應改成多少度？",
         "answer": "110",
         "hint": "小明用錯了哪種圖形的內角和？",
         "explain": "應用四邊形的360°：360−70−80−100＝110°。",
@@ -1466,7 +1583,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "steps",
-        "prompt": "三角形風箏架的角是40°、60°、未知角；旁邊四邊形的角是80°、90°、100°、未知角。分別求出未知角。",
+        "prompt": "兩個風箏都少了角度標籤！三角形已知 40°、60°；四邊形已知 80°、90°、100°。各補上缺少的角度。",
         "fields": [
           {
             "label": "三角形未知角",
@@ -1490,6 +1607,63 @@ const lessons = Object.freeze([
           "description": "三角形：40°、60°、？；四邊形：80°、90°、100°、？"
         },
         "id": "angles-40"
+      },
+      {
+        "id": "angles-game-1",
+        "type": "game",
+        "title": "拼出平角",
+        "prompt": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+        "game": {
+          "kind": "angles",
+          "pieces": [
+            50,
+            60,
+            70,
+            90
+          ],
+          "count": 3,
+          "target": 180
+        },
+        "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
+      },
+      {
+        "id": "angles-game-2",
+        "type": "game",
+        "title": "直角三角形工坊",
+        "prompt": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+        "game": {
+          "kind": "angles",
+          "pieces": [
+            45,
+            45,
+            90,
+            60
+          ],
+          "count": 3,
+          "target": 180
+        },
+        "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
+      },
+      {
+        "id": "angles-game-3",
+        "type": "game",
+        "title": "角度偵探",
+        "prompt": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+        "game": {
+          "kind": "angles",
+          "pieces": [
+            40,
+            60,
+            80,
+            100
+          ],
+          "count": 3,
+          "target": 180
+        },
+        "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
       }
     ],
     "unit": 3,
@@ -1529,7 +1703,8 @@ const lessons = Object.freeze([
       ],
       "unknown": 2
     },
-    "revision": 3
+    "revision": 3,
+    "gameTitle": "角度拼拼樂"
   },
   {
     "id": "fractions",
@@ -1553,7 +1728,7 @@ const lessons = Object.freeze([
           "2/3"
         ],
         "answer": "2/4",
-        "hint": "把分子 1 和分母 2 都乘上 2。",
+        "hint": "把每一份再切成相同的小份，總份量會變嗎？",
         "explain": "1 × 2 = 2，2 × 2 = 4，所以 1/2 = 2/4。",
         "diagram": {
           "kind": "fraction",
@@ -1584,7 +1759,7 @@ const lessons = Object.freeze([
       {
         "prompt": "6/8 的分子和分母都除以 2，得到哪一個分數？",
         "answer": "3/4",
-        "hint": "分子算 6 ÷ 2，分母算 8 ÷ 2。",
+        "hint": "分子、分母都除以 2，兩個位置都要改。",
         "explain": "6 ÷ 2 = 3，8 ÷ 2 = 4，所以 6/8 = 3/4，大小不變。",
         "diagram": {
           "kind": "fraction",
@@ -1801,7 +1976,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明把2/3擴分成4/3。若分子變4，正確分母是多少？",
+        "prompt": "小光把2/3擴分成4/3。若分子變4，正確分母是多少？",
         "answer": "6",
         "unit": "",
         "hint": "分子乘2，分母也要乘2。",
@@ -1892,7 +2067,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明的擴分錯了。若要變成分母12，正確分子是多少？",
+        "prompt": "小光的擴分錯了。若要變成分母12，正確分子是多少？",
         "answer": "9",
         "hint": "擴分應該乘同一個數，不能同加。",
         "explain": "4×3＝12，3×3＝9，正確是9/12。",
@@ -1969,7 +2144,7 @@ const lessons = Object.freeze([
             "unit": ""
           }
         ],
-        "hint": "20和30的最大公因數是10。",
+        "hint": "找一個能同時整除 20 和 30 的數，再檢查能不能繼續約分。",
         "explain": "20÷10＝2，30÷10＝3，得到2/3。",
         "diagram": {
           "kind": "fraction",
@@ -2005,7 +2180,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明只改分子。若分子約成3，正確分母是多少？",
+        "prompt": "小光只改分子。若分子約成3，正確分母是多少？",
         "answer": "4",
         "hint": "分子除以3，分母也要除以3。",
         "explain": "12÷3＝4，正確為3/4。",
@@ -2114,7 +2289,7 @@ const lessons = Object.freeze([
             "unit": ""
           }
         ],
-        "hint": "24÷6＝4；24÷8＝3。",
+        "hint": "先看原本的分母各要乘幾，才會變成 24。",
         "explain": "5/6＝20/24；3/8＝9/24。",
         "diagram": {
           "kind": "fraction-pair",
@@ -2355,7 +2530,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明比較分數時出錯了。把3/4通分成分母20，分子應是多少？",
+        "prompt": "小光比較分數時出錯了。把3/4通分成分母20，分子應是多少？",
         "answer": "15",
         "hint": "答案碰巧對，也要用相同分母來說明。",
         "explain": "3/4＝15/20，4/5＝16/20；要同分母後才能直接比較分子。",
@@ -2404,6 +2579,60 @@ const lessons = Object.freeze([
           "targetDenominator": 12
         },
         "id": "fractions-40"
+      },
+      {
+        "id": "fractions-game-1",
+        "type": "game",
+        "title": "半條能量棒",
+        "prompt": "上面塗了 1/2，下面是同樣大的整體。請在 8 格裡塗出一樣大的份量。",
+        "game": {
+          "kind": "paint",
+          "cells": 8,
+          "target": 4,
+          "reference": [
+            1,
+            2
+          ],
+          "label": "塗色格"
+        },
+        "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "explain": "1/2 和 4/8 一樣大；只是每一份切得更小。"
+      },
+      {
+        "id": "fractions-game-2",
+        "type": "game",
+        "title": "三分之二的緞帶",
+        "prompt": "上面塗了 2/3，下面是同樣大的整體。請在 12 格裡塗出一樣大的份量。",
+        "game": {
+          "kind": "paint",
+          "cells": 12,
+          "target": 8,
+          "reference": [
+            2,
+            3
+          ],
+          "label": "塗色格"
+        },
+        "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "explain": "2/3 和 8/12 一樣大；只是每一份切得更小。"
+      },
+      {
+        "id": "fractions-game-3",
+        "type": "game",
+        "title": "四分之三的畫布",
+        "prompt": "上面塗了 3/4，下面是同樣大的整體。請在 12 格裡塗出一樣大的份量。",
+        "game": {
+          "kind": "paint",
+          "cells": 12,
+          "target": 9,
+          "reference": [
+            3,
+            4
+          ],
+          "label": "塗色格"
+        },
+        "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "explain": "3/4 和 9/12 一樣大；只是每一份切得更小。"
       }
     ],
     "unit": 4,
@@ -2440,7 +2669,8 @@ const lessons = Object.freeze([
       "denominator": 2,
       "targetDenominator": 4
     },
-    "revision": 3
+    "revision": 3,
+    "gameTitle": "分數調色盤"
   },
   {
     "id": "symmetry",
@@ -2581,7 +2811,7 @@ const lessons = Object.freeze([
         "prompt": "正方形有幾條對稱軸？",
         "answer": "4",
         "unit": "條",
-        "hint": "有水平、垂直，還有兩條對角線。",
+        "hint": "試試橫著、直著和沿斜線對摺，哪些能完全重合？",
         "explain": "共4條。",
         "diagram": {
           "kind": "square",
@@ -2607,7 +2837,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明把距離軸3格的點，畫在另一側5格處。正確應距離軸幾格？",
+        "prompt": "小光把距離軸3格的點，畫在另一側5格處。正確應距離軸幾格？",
         "answer": "3",
         "unit": "格",
         "hint": "兩側的距離必須一樣。",
@@ -2770,7 +3000,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明漏數了正方形的對稱軸。正確共有幾條？",
+        "prompt": "小光漏數了正方形的對稱軸。正確共有幾條？",
         "answer": "4",
         "unit": "條",
         "hint": "兩條對角線對摺後能不能重合？",
@@ -2911,7 +3141,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說對稱角是原角的兩倍。原角48°，正確對稱角是多少？",
+        "prompt": "小光說對稱角是原角的兩倍。原角48°，正確對稱角是多少？",
         "answer": "48",
         "unit": "度",
         "hint": "對摺能重合的角，大小應該相同。",
@@ -2959,7 +3189,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "choice",
-        "prompt": "對稱點距軸相同，就一定找對了嗎？",
+        "prompt": "對稱點只要離虛線一樣遠，就一定畫對了嗎？",
         "choices": [
           "一定",
           "不一定，還要在同一條垂線的另一側"
@@ -2990,7 +3220,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "steps",
-        "prompt": "對稱軸是第4欄。A在第1欄第2列，補畫A′應在哪一欄、哪一列？",
+        "prompt": "把 A 照鏡子：虛線在第 4 欄，A 在第 1 欄、第 2 列。A′ 應在哪裡？",
         "fields": [
           {
             "label": "A′的欄",
@@ -3197,7 +3427,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "以第4欄為軸，A在第1欄第3列。小明畫錯了，A′正確的列數是多少？",
+        "prompt": "以第4欄為軸，A在第1欄第3列。小光畫錯了，A′正確的列數是多少？",
         "answer": "3",
         "unit": "列",
         "hint": "垂直對稱軸兩側的對稱點要同高。",
@@ -3359,7 +3589,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說對摺一次、在離摺線2公分處打一個孔，展開只有一個孔。實際共有幾個？",
+        "prompt": "小光說對摺一次、在離摺線2公分處打一個孔，展開只有一個孔。實際共有幾個？",
         "answer": "2",
         "unit": "個",
         "hint": "展開後，兩層各自的孔會分到軸的兩側。",
@@ -3422,10 +3652,65 @@ const lessons = Object.freeze([
         },
         "id": "symmetry-40",
         "section": "5-4"
+      },
+      {
+        "id": "symmetry-game-1",
+        "type": "game",
+        "title": "找回另一半",
+        "prompt": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+        "game": {
+          "kind": "mirror",
+          "size": 7,
+          "axis": "vertical",
+          "points": [
+            8,
+            16,
+            29
+          ]
+        },
+        "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
+      },
+      {
+        "id": "symmetry-game-2",
+        "type": "game",
+        "title": "星座鏡像",
+        "prompt": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+        "game": {
+          "kind": "mirror",
+          "size": 7,
+          "axis": "vertical",
+          "points": [
+            9,
+            15,
+            36
+          ]
+        },
+        "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
+      },
+      {
+        "id": "symmetry-game-3",
+        "type": "game",
+        "title": "上下翻翻看",
+        "prompt": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+        "game": {
+          "kind": "mirror",
+          "size": 7,
+          "axis": "horizontal",
+          "points": [
+            9,
+            17,
+            12
+          ]
+        },
+        "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
       }
     ],
     "duration": 45,
-    "revision": 3
+    "revision": 3,
+    "gameTitle": "鏡子畫家"
   },
   {
     "id": "fraction-sums",
@@ -3564,7 +3849,7 @@ const lessons = Object.freeze([
             "unit": ""
           }
         ],
-        "hint": "1/2＝2/4。",
+        "hint": "半個整體，在分成四份時占幾份？",
         "explain": "2/4＋1/4＝3/4。",
         "diagram": {
           "kind": "fraction-pair",
@@ -3582,7 +3867,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明算1/2＋1/3＝2/5，請填正確答案。",
+        "prompt": "小光算1/2＋1/3＝2/5，請填正確答案。",
         "answer": "5/6",
         "unit": "",
         "hint": "分母是份的大小，不能直接相加。",
@@ -3639,10 +3924,86 @@ const lessons = Object.freeze([
           ]
         },
         "id": "fraction-sums-8"
+      },
+      {
+        "id": "fraction-sums-game-1",
+        "type": "game",
+        "title": "點心合起來",
+        "prompt": "把 1/2 + 1/3 的結果塗在下方。整條分成 6 格，每格一樣大。",
+        "game": {
+          "kind": "paint",
+          "cells": 6,
+          "target": 5,
+          "operands": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "operator": "+",
+          "label": "結果格"
+        },
+        "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "explain": "1/2 + 1/3 ＝ 5/6。每格大小一致，才可以直接數格子。"
+      },
+      {
+        "id": "fraction-sums-game-2",
+        "type": "game",
+        "title": "吃掉一些點心",
+        "prompt": "把 3/4 − 1/2 的結果塗在下方。整條分成 8 格，每格一樣大。",
+        "game": {
+          "kind": "paint",
+          "cells": 8,
+          "target": 2,
+          "operands": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "operator": "−",
+          "label": "結果格"
+        },
+        "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "explain": "3/4 − 1/2 ＝ 2/8。每格大小一致，才可以直接數格子。"
+      },
+      {
+        "id": "fraction-sums-game-3",
+        "type": "game",
+        "title": "補充能量",
+        "prompt": "把 2/3 + 1/6 的結果塗在下方。整條分成 12 格，每格一樣大。",
+        "game": {
+          "kind": "paint",
+          "cells": 12,
+          "target": 10,
+          "operands": [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "operator": "+",
+          "label": "結果格"
+        },
+        "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "explain": "2/3 + 1/6 ＝ 10/12。每格大小一致，才可以直接數格子。"
       }
     ],
     "duration": 15,
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "分數點心店"
   },
   {
     "id": "operations",
@@ -3739,7 +4100,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明計算48÷4×2＝6，請改正。",
+        "prompt": "小光計算48÷4×2＝6，請改正。",
         "answer": "24",
         "unit": "",
         "hint": "乘除同級，要從左算。",
@@ -3835,10 +4196,71 @@ const lessons = Object.freeze([
           ]
         },
         "id": "operations-8"
+      },
+      {
+        "id": "operations-game-1",
+        "type": "game",
+        "title": "算式修理員",
+        "prompt": "24 ＋ 6 × 3，應該先做哪一步？把步驟排好。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "6 × 3 ＝ 18",
+            "24 ＋ 18 ＝ 42"
+          ],
+          "tiles": [
+            "24 ＋ 18 ＝ 42",
+            "6 × 3 ＝ 18"
+          ],
+          "illustration": null
+        },
+        "hint": "先找乘法，再做加法。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？6 × 3 ＝ 18 → 24 ＋ 18 ＝ 42"
+      },
+      {
+        "id": "operations-game-2",
+        "type": "game",
+        "title": "括號優先通行",
+        "prompt": "(24 ＋ 6) × 3 的步驟亂掉了。幫它排回來。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "24 ＋ 6 ＝ 30",
+            "30 × 3 ＝ 90"
+          ],
+          "tiles": [
+            "30 × 3 ＝ 90",
+            "24 ＋ 6 ＝ 30"
+          ],
+          "illustration": null
+        },
+        "hint": "括號像一間小房間，先把裡面的計算完成。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？24 ＋ 6 ＝ 30 → 30 × 3 ＝ 90"
+      },
+      {
+        "id": "operations-game-3",
+        "type": "game",
+        "title": "園遊會找零",
+        "prompt": "每本筆記本 25 元，買 4 本，付 200 元。排出找零步驟。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "25 × 4 ＝ 100",
+            "200 − 100 ＝ 100"
+          ],
+          "tiles": [
+            "200 − 100 ＝ 100",
+            "25 × 4 ＝ 100"
+          ],
+          "illustration": null
+        },
+        "hint": "先知道要付多少錢，才能算找回多少。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？25 × 4 ＝ 100 → 200 − 100 ＝ 100"
       }
     ],
     "duration": 15,
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "算式修理站"
   },
   {
     "id": "area",
@@ -4093,7 +4515,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明算梯形面積時忘記除以2。請填正確面積。",
+        "prompt": "小光算梯形面積時忘記除以2。請填正確面積。",
         "answer": "20",
         "unit": "平方公分",
         "hint": "梯形公式最後還要÷2。",
@@ -4108,6 +4530,70 @@ const lessons = Object.freeze([
         },
         "work": "(上底3＋下底7)×高4＝40平方公分",
         "id": "area-14"
+      },
+      {
+        "id": "area-game-1",
+        "type": "game",
+        "title": "三角形變身",
+        "prompt": "兩片相同三角形，底 8、高 5 公分。排出拼圖求面積的步驟。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "兩片拼成平行四邊形",
+            "8 × 5 ＝ 40 平方公分",
+            "40 ÷ 2 ＝ 20 平方公分"
+          ],
+          "tiles": [
+            "40 ÷ 2 ＝ 20 平方公分",
+            "8 × 5 ＝ 40 平方公分",
+            "兩片拼成平行四邊形"
+          ],
+          "illustration": "triangle"
+        },
+        "hint": "先求兩片合起來的面積，再分回一片。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → 8 × 5 ＝ 40 平方公分 → 40 ÷ 2 ＝ 20 平方公分"
+      },
+      {
+        "id": "area-game-2",
+        "type": "game",
+        "title": "平行四邊形搬家",
+        "prompt": "底 6、高 4 公分。剪下左邊的三角形，搬到右邊。排出求面積的步驟。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "剪開再平移，拼成長方形",
+            "6 × 4 ＝ 24 平方公分"
+          ],
+          "tiles": [
+            "6 × 4 ＝ 24 平方公分",
+            "剪開再平移，拼成長方形"
+          ],
+          "illustration": "parallelogram"
+        },
+        "hint": "搬家後面積沒有增加，也沒有減少。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？剪開再平移，拼成長方形 → 6 × 4 ＝ 24 平方公分"
+      },
+      {
+        "id": "area-game-3",
+        "type": "game",
+        "title": "梯形雙胞胎",
+        "prompt": "兩個相同梯形，上底 4、下底 8、高 5 公分。排好拼圖步驟。",
+        "game": {
+          "kind": "order",
+          "sequence": [
+            "兩片拼成平行四邊形",
+            "(4 ＋ 8) × 5 ＝ 60 平方公分",
+            "60 ÷ 2 ＝ 30 平方公分"
+          ],
+          "tiles": [
+            "60 ÷ 2 ＝ 30 平方公分",
+            "(4 ＋ 8) × 5 ＝ 60 平方公分",
+            "兩片拼成平行四邊形"
+          ],
+          "illustration": "trapezoid"
+        },
+        "hint": "拼起來的底，是原本上底加下底。",
+        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → (4 ＋ 8) × 5 ＝ 60 平方公分 → 60 ÷ 2 ＝ 30 平方公分"
       }
     ],
     "unit": 8,
@@ -4132,7 +4618,8 @@ const lessons = Object.freeze([
       "height": 4,
       "rectangle": true
     },
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "面積拼圖隊"
   },
   {
     "id": "time",
@@ -4249,7 +4736,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明說1分鐘40秒等於140秒，正確是多少秒？",
+        "prompt": "小光說1分鐘40秒等於140秒，正確是多少秒？",
         "answer": "100",
         "unit": "秒",
         "hint": "1分鐘是60秒。",
@@ -4326,10 +4813,56 @@ const lessons = Object.freeze([
           ]
         },
         "id": "time-8"
+      },
+      {
+        "id": "time-game-1",
+        "type": "game",
+        "title": "三場表演",
+        "prompt": "每場表演 45 分鐘，共 3 場。調整時間盒，裝出總共花的時間。",
+        "game": {
+          "kind": "time",
+          "minutes": 45,
+          "n": 3,
+          "total": 135,
+          "operation": "multiply"
+        },
+        "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "explain": "45 × 3 ＝ 135 分鐘，也就是 2 小時 15 分鐘。"
+      },
+      {
+        "id": "time-game-2",
+        "type": "game",
+        "title": "四段閱讀時間",
+        "prompt": "每段閱讀 30 分鐘，共 4 段。調整時間盒，裝出總共花的時間。",
+        "game": {
+          "kind": "time",
+          "minutes": 30,
+          "n": 4,
+          "total": 120,
+          "operation": "multiply"
+        },
+        "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "explain": "30 × 4 ＝ 120 分鐘，也就是 2 小時 0 分鐘。"
+      },
+      {
+        "id": "time-game-3",
+        "type": "game",
+        "title": "活動平均分",
+        "prompt": "活動共 2 小時 30 分鐘，平均分成 5 段。每段多久？調整時間盒，裝出一段的時間。",
+        "game": {
+          "kind": "time",
+          "minutes": 150,
+          "n": 5,
+          "total": 30,
+          "operation": "divide"
+        },
+        "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "explain": "150 ÷ 5 ＝ 30 分鐘，也就是 0 小時 30 分鐘。"
       }
     ],
     "duration": 15,
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "時間任務站"
   },
   {
     "id": "solids",
@@ -4466,7 +4999,7 @@ const lessons = Object.freeze([
       },
       {
         "type": "error",
-        "prompt": "小明只數出圖上可見的3個面，就說長方體有3個面。實際有幾個？",
+        "prompt": "小光只數出圖上可見的3個面，就說長方體有3個面。實際有幾個？",
         "answer": "6",
         "unit": "個",
         "hint": "背面還有被遮住的面。",
@@ -4496,9 +5029,49 @@ const lessons = Object.freeze([
           "shape": "cube"
         },
         "id": "solids-8"
+      },
+      {
+        "id": "solids-game-1",
+        "type": "game",
+        "title": "找出對面的紙片",
+        "prompt": "這是正方體的展開圖。摺成盒子後，選出與 A 面相對的那一面。",
+        "game": {
+          "kind": "net",
+          "face": "A",
+          "relation": "opposite"
+        },
+        "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
+      },
+      {
+        "id": "solids-game-2",
+        "type": "game",
+        "title": "紙盒的鄰居",
+        "prompt": "這是正方體的展開圖。摺成盒子後，選出與 C 面相鄰的所有面。",
+        "game": {
+          "kind": "net",
+          "face": "C",
+          "relation": "adjacent"
+        },
+        "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
+      },
+      {
+        "id": "solids-game-3",
+        "type": "game",
+        "title": "再找一組對面",
+        "prompt": "這是正方體的展開圖。摺成盒子後，選出與 B 面相對的那一面。",
+        "game": {
+          "kind": "net",
+          "face": "B",
+          "relation": "opposite"
+        },
+        "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
       }
     ],
     "duration": 15,
-    "revision": 2
+    "revision": 2,
+    "gameTitle": "紙盒探險家"
   }
 ]);

@@ -8,6 +8,7 @@ const LearningCore = Object.freeze({
   return d!==0 && Number.isFinite(result)?result:null;
  },
  grade(question,answers){
+  if(question.type==='game')return [GameCore.grade(question.game,answers[0])];
   if(question.type==='choice')return [answers[0]===question.answer];
   const expected=question.type==='steps'?question.fields.map(f=>f.answer):[question.answer];
   return expected.map((answer,i)=>{
@@ -18,7 +19,7 @@ const LearningCore = Object.freeze({
  },
  context(lesson,index,state={}){
   const q=index===null?null:lesson.questions[index];
-  const answers=Array.isArray(state.answers)?state.answers.slice(0,4).map(v=>String(v).slice(0,80)):[];
+  const answers=Array.isArray(state.answers)?state.answers.slice(0,4).map(v=>String(v).slice(0,q?.type==='game'?512:80)):[];
   const checks=q?this.grade(q,answers):[];
   const submitted=state.submitted===true;
   return {
@@ -28,11 +29,12 @@ const LearningCore = Object.freeze({
     questionId:q.id,questionNumber:index+1,type:q.type,prompt:q.prompt,choices:q.choices,
     fields:q.fields?.map(f=>({label:f.label,unit:f.unit})),unit:q.unit,incorrectWorkedExample:q.work,
     diagram:this.diagramContext(q.diagram,submitted&&checks.every(Boolean)),
+    interactive:q.game?{...GameCore.publicSpec(q.game),current:GameCore.describe(q.game,answers[0]),comparisonVisible:state.gameView?.fold===true,packetSize:Number.isInteger(state.gameView?.packetSize)&&state.gameView.packetSize>0&&state.gameView.packetSize<=24?state.gameView.packetSize:undefined}:undefined,
     student:{answers,submitted,fieldCorrect:submitted?checks:undefined,attempts:Number.isInteger(state.attempts)?Math.min(Math.max(state.attempts,0),100):0,hintVisible:state.hint===true},
     visibleHint:state.hint===true?q.hint:undefined,
     visibleSolution:submitted&&checks.every(Boolean)?q.explain:undefined
    }:{explanation:lesson.explanation,example:lesson.example,notes:lesson.notes,diagram:this.diagramContext(lesson.introDiagram,true)},
-   teacherOnly:q?{answer:q.answer,steps:q.fields,explanation:q.explain,hint:q.hint}:undefined
+   teacherOnly:q?{game:q.game,answer:q.answer,steps:q.fields,explanation:q.explain,hint:q.hint}:undefined
   };
  },
  diagramContext(d,reveal){
