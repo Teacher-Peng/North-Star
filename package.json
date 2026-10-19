@@ -1,0 +1,12 @@
+{
+  "name": "north-star-local",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test public/learning-core.test.mjs"
+  },
+  "dependencies": {
+    "jose": "^6.1.0"
+  }
+}
