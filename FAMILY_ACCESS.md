@@ -1,6 +1,6 @@
 # Private family access
 
-Status: implemented and tested locally on 2026-10-20. Not deployed to GoDaddy. No database or Google account is required.
+Status: deployed and browser-tested on the private GoDaddy preview on 2026-10-20. Not published to the live domain. No database or Google account is required for the family login; the hosting provider separately requires the owner to sign in to access its private preview.
 
 ## How it works
 
@@ -65,3 +65,25 @@ Before publication, verify HTTPS cookies, proxy headers, unauthenticated API rej
 The user chose private family codes after the child-directed-app restriction was identified in Google's policy. Google login code and settings have been removed. The personal Google Cloud project North Star Education (clear-tooling-512215-g2) remains unused; branding was not submitted and no OAuth client was created. No Google consent, client, billing change or database is needed for this replacement.
 
 Policy reference: [Google API Services User Data Policy — Child-directed apps](https://developers.google.com/terms/api-services-user-data-policy#child-directed-apps). Historical decisions remain in DECISIONS.md.
+
+## GoDaddy setup checkpoint (2026-10-20)
+
+North-Star app `5efv50aj72` is attached to the existing Economy plan and connected to `Teacher-Peng/North-Star`, branch `main`. Its preview environment lists five deployed settings: PUBLIC_ORIGIN, FAMILY_AUTH_MODE, FAMILY_ACCESS_CODES, CHATGPT_LOGIN_ENABLED and OPENAI_API_KEY. Credential transfer was explicitly approved by the owner. Published-environment secrets remain empty and the app has not been published.
+
+Latest protected source was pushed as commit `15650f1`. The dashboard had previously deployed `63a4eab` (old loopback-only code) and showed Gateway error. A fresh preview pull must be verified against the new commit. The platform reported Node.js 22 for the old deployment; the new package requests Node.js 24.x.
+
+Preview URL shown by GoDaddy: https://5efv50aj72.preview.c24.airoapp.ai (requires GoDaddy account sign-in). PUBLIC_ORIGIN was initially set to https://ailearning.com.tw during onboarding. Replacing it with the preview URL hit a GoDaddy reauthentication dialog that stayed blank, including after refresh; the replacement is **not confirmed saved**. The owner was asked to sign back in. Resume by checking that setting, then update preview and test login/route guards. Do not publish the old build or assume that saving setup secrets proves the preview is healthy.
+
+## Preview verified after reauthentication (2026-10-20)
+
+The owner signed back in. PUBLIC_ORIGIN was successfully saved as https://5efv50aj72.preview.c24.airoapp.ai, confirmed by GoDaddy’s “Your secrets have been saved” dialog. Update Preview pulled commit 15650f1. The dashboard reports Build status Healthy, Infra status OK, and Site status Auth required. Its root health probe cannot assess the protected homepage; this is separate from a build failure. The dashboard still labels the runtime Node.js 22 despite package engines requesting 24.x; the deployed application starts and the flows below work, but do not claim the runtime is 24 without platform verification.
+
+Browser checks on HTTPS passed: wrong code rejected, existing family code logs in, all ten units/234 questions render on home, logout returns to login, anonymous /api/voice returns loginRequired, and direct /lessons.js redirects to login. No live microphone or paid OpenAI request was made. Source credential values were not shown in logs/screenshots.
+
+Open the private preview through https://host.godaddy.com/nodejs/projects/5efv50aj72/preview while signed into the owner’s GoDaddy account. This link is not yet suitable for ordinary family invitations because GoDaddy adds its own preview-access gate. Published secrets remain unconfigured. Publication and custom-domain connection are still pending; use the live HTTPS origin in the Published environment, verify its login/API protection, and retain the curriculum’s pending review status.
+
+## Hosting health probe (2026-10-21)
+
+The exact GET/HEAD /healthz endpoint is public and returns only {"status":"ok"}; it creates no cookie and exposes no configuration or content. It deliberately accepts the platform's internal Host before domain attachment. All other routes retain strict Host and family-access checks. GoDaddy General > Root path is /healthz for monitoring; dashboard-generated links may therefore open the status response. Learners should use the ordinary domain root /login or /#home, not the dashboard's health URL.
+
+A production-mode HTTP smoke check confirmed liveness succeeds with an internal Host, POST/subpaths do not bypass the Host guard, the correct domain's anonymous home redirects to login and anonymous voice requests remain denied. The first smoke client's fetch did not send the intended Host override; switching to node:http fixed the test setup without changing assertions or relaxing the application guard. The 90-test suite and 859 grading fixtures still pass.

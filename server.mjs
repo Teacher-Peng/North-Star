@@ -73,8 +73,14 @@ const server=http.createServer(async(req,res)=>{
  res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','same-origin');
  res.setHeader('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; img-src 'self' data:; media-src 'self' blob:; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
  try {
-  if(req.headers.host!==hosting.host)throw fail('不允許的主機。',403);
   const url=new URL(req.url,origin);
+  // Hosting probes use an internal Host before the custom domain is connected.
+  // This exact read-only route returns no session, configuration or lesson data.
+  if(url.pathname==='/healthz' && ['GET','HEAD'].includes(req.method)){
+   res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});
+   res.end(req.method==='HEAD'?'':JSON.stringify({status:'ok'}));return;
+  }
+  if(req.headers.host!==hosting.host)throw fail('不允許的主機。',403);
   if(hosting.secure)res.setHeader('Strict-Transport-Security','max-age=31536000');
   const access=await familyAccess.handle(req,res,url);
   if(access.handled)return;

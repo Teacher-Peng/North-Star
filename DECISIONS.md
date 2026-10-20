@@ -432,3 +432,24 @@ GoDaddy 設定頁在第一次 Continue 明示會同意 Universal Terms 及 AI Te
 使用者自行繼續 GoDaddy 設定並連接 GitHub，瀏覽器進入 Secrets 頁。使用者明確同意把現有 OPENAI_API_KEY 與 FAMILY_ACCESS_CODES（只有雜湊）儲存到該 North Star GoDaddy app 的私有 Secrets。已透過設定表單輸入，沒有在輸出或版本庫揭露值。一般設定為 PUBLIC_ORIGIN=https://ailearning.com.tw、FAMILY_AUTH_MODE=family、CHATGPT_LOGIN_ENABLED=false；NODE_ENV=production 在匯入後未出現在 UI（需確認平台管理方式）。
 
 GoDaddy 已進入 GitHub import 流程（app ID 5efv50aj72）。尚待確認匯入結果和實際程式版本；本機新的家庭登入與部署修正尚未推送，不能把舊 GitHub 版本直接當作可公開版本。尚未點選 Publish 或修改 DNS。
+
+## 2026-10-20 — GoDaddy app 已建立，預覽尚未通過
+
+GoDaddy North-Star app 5efv50aj72 已掛到既有 Economy 方案（1/1 slot），連接 Teacher-Peng/North-Star main。Secrets UI 確認 Preview 有五個 DEPLOYED 設定，Publish 為零，值保持遮蔽。既有部署 commit 63a4eab 為舊版本並顯示 Gateway error；已檢查 staged 檔不含本機 API key、原始家庭碼或私人雜湊，將已授權且測試通過的程式與題庫品質修改 commit/push 為 15650f1。
+
+初次匯入採正式網域 PUBLIC_ORIGIN；因先做預覽，需改為 GoDaddy 顯示的 https://5efv50aj72.preview.c24.airoapp.ai。該變更在 Save Secrets 時要求重新登入且視窗空白，重新整理後重試仍相同，未宣稱更新成功。已請使用者在 Chrome 重新登入，沒有索取密碼或 OTP。尚未發布、未改 DNS、未執行付費語音測試。恢復後須更新預覽至最新 commit，確認 origin/runtime/登入與路由防護。
+
+
+## 2026-10-20 — GoDaddy 私人預覽驗證完成
+
+使用者完成重新登入後，PUBLIC_ORIGIN 成功存為 https://5efv50aj72.preview.c24.airoapp.ai，GoDaddy 顯示儲存成功。Update Preview 已抓取 15650f1，平台為 Build Healthy／Infra OK／Site Auth required。首頁需登入，平台因此無法用首頁作完整健康監測；沒有因此移除家庭登入保護。平台 runtime 標籤仍為 Node.js 22，雖 package 指定 24.x，不宣稱已升級 runtime。
+
+HTTPS 瀏覽器實測：錯誤碼拒絕、正確家庭碼登入、首頁十單元與 234 題載入、登出、匿名語音路由要求登入、直接題庫資源導向登入，全部通過。未測付費語音或開啟麥克風。預覽需另外登入擁有者 GoDaddy 帳號，尚不能直接把預覽網址當成一般家人入口。尚未 Publish to Live、未改 DNS／綁正式域名，Published Secrets 尚未同步。題庫真人審查仍待完成。
+
+## 2026-10-21 — 正式網址發布處理中
+
+使用者明確指出正式入口應為 ailearning.com.tw，繼續完成正式發布與域名連接。瀏覽器顯示先前另一次 Publish 失敗：正式環境缺 PUBLIC_ORIGIN，與題目程式錯誤無關。已在 Publish Secrets 補五項既有已授權設定（正式 origin、family mode、家庭碼雜湊、既有 API key、停用未驗證的 ChatGPT 訂閱授權），GoDaddy 明確回報 secrets 已儲存並要求 Publish。未建立新 key 或資料庫。
+
+域名設定必須先完成發布才能啟用。已開始 Publish，結果待確認。切換前 DNS 記錄：ailearning.com.tw A = 184.168.119.128；www CNAME = ailearning.com.tw。現行網頁標題 Spelling Bee；此次目標是以 North Star 取代根網址入口，保留舊主機檔案以便回復，沒有刪除舊站。
+
+正式環境補好設定後可啟動，但發布仍被 health check 擋下。新增唯一公開 GET/HEAD /healthz，僅回傳 status ok、無 session／設定／題目資料，讓未連接正式網域前的內部 Host 能做健康檢查。其他路由 Host 與家庭登入檢查保留；GoDaddy General Root path 設為 /healthz，訪客仍走根網址。90 tests／859 fixtures 與 production-mode HTTP guard smoke 通過。原 fetch smoke 的 Host override 未按預期送出，改用 node:http 傳送真實 Host 後同一組斷言通過，未放寬安全條件。
