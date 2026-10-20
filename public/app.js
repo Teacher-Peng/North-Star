@@ -34,7 +34,7 @@ function answerInputs(question){
  if(question.type==='choice')return `<div class="choices">${question.choices.map((choice,i)=>`<button class="choice" data-choice="${i}" aria-pressed="false">${choice}</button>`).join('')}</div>`;
  if(question.type==='game')return gameInput(question);
  const fields=question.type==='steps'?question.fields:[{label:question.type==='error'?'改正後的答案':'我的答案',unit:question.unit}];
- return `${question.work?`<div class="incorrect-work"><strong>找出這個解法的錯誤</strong><p>${question.work}</p></div>`:''}<div class="answer-fields">${fields.map((field,i)=>`<label class="answer-field"><span>${question.type==='steps'?'第 '+(i+1)+' 步 · ':''}${field.label}</span><div><input data-answer="${i}" aria-label="${field.label}" type="text" inputmode="${question.answer?.includes('/')?'text':'decimal'}" maxlength="40" autocomplete="off" placeholder="${question.answer?.includes('/')?'例如 3/4':'填入數字'}"><span>${field.unit||''}</span></div><small data-field-feedback="${i}"></small></label>`).join('')}</div>${question.exactFraction?'<p class="note">請依指定方式填分數，例如 3/4。</p>':''}`;
+ return `${question.work?`<div class="incorrect-work"><strong>找出這個解法的錯誤</strong><p>${question.work}</p></div>`:''}<div class="answer-fields">${fields.map((field,i)=>`<label class="answer-field"><span>${question.type==='steps'?'第 '+(i+1)+' 步 · ':''}${field.label}</span><div><input data-answer="${i}" aria-label="${field.label}" type="text" inputmode="${question.answer?.includes('/')?'text':'decimal'}" maxlength="40" autocomplete="off" placeholder="${question.answer?.includes('/')?(question.exactFraction?'分子/分母':'分子/分母 或 整數又分子/分母'):'填入數字'}"><span>${field.unit||''}</span></div><small data-field-feedback="${i}"></small></label>`).join('')}</div>${question.exactFraction?'<p class="note">請依題目指定的分母或最簡形式，輸入「分子/分母」。</p>':''}`;
 }
 function currentAnswers(){return session?.answers||[];}
 function updateTutorLearningState(){
@@ -43,7 +43,7 @@ function updateTutorLearningState(){
  syncRealtimeContext();
 }
 function questionPicker(lesson,index=null) {
- return `<div class="question-picker"><label for="questionPicker">選擇題目</label><select id="questionPicker"><option value="">${index===null?'直接選一題開始練習':'目前第 '+(index+1)+' 題 · 可切換'}</option>${lesson.questions.map((q,i)=>`<option value="${i}">${i+1}. ${q.type==='game'?'🎮 '+q.title+'：':''}${q.prompt.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')}</option>`).join('')}</select><small>這是網站練習題號，並非習作頁碼或題號。</small></div>`;
+ return `<div class="question-picker"><label for="questionPicker">選擇題目</label><select id="questionPicker"><option value="">${index===null?'直接選一題開始練習':'目前第 '+(index+1)+' 題 · 可切換'}</option>${lesson.questions.map((q,i)=>`<option value="${i}">${i+1}. ${q.practiceRole==='reinforcement'?'[加強練習] ':''}${q.type==='game'?'🎮 '+q.title+'：':''}${q.prompt.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')}</option>`).join('')}</select><small>這是網站練習題號，並非習作頁碼或題號。</small></div>`;
 }
 function newPracticeSession(lesson){return {lesson,gameMode:false,gameView:{},index:0,firstCorrect:0,attempts:0,answered:false,selected:null,hint:false,answers:[],submitted:false,questionStates:{},completed:new Set()};}
 function moveToQuestion(lesson,index){
@@ -61,7 +61,7 @@ function renderLesson(lesson) {
 function renderPractice() {
   const {lesson,index} = session;
   const question = lesson.questions[index];
-  app.innerHTML = `<button class="back" data-home>← 暫停，回到我的學習</button><section class="study"><div class="steps"><span>✓ 學觀念</span><i></i><b>02 動手練習</b><i></i><span>03 看見成長</span></div><span class="eyebrow">${lesson.concept} · ${session.gameMode?'互動任務：'+question.title:'第 '+(index+1)+' / '+lesson.questions.length+' 題'}</span><div class="bar" ${session.gameMode?'hidden':''}><span id="practiceProgress" style="width:${session.completed.size / lesson.questions.length * 100}%"></span></div><p class="note" ${session.gameMode?'hidden':''} id="practiceCompleted" aria-live="polite">本次已完成 ${session.completed.size} / ${lesson.questions.length} 題</p>${session.gameMode?`<a class="back" href="#games/${lesson.id}">← 換一個任務</a>`:questionPicker(lesson,index)}${companionNote('慢慢想就好，卡住時我們一起找提示。')}<article class="panel"><h1>${question.prompt}</h1><p><span class="question-type">${({choice:"觀念選擇",number:"自己填答案",steps:"分步填空",error:"幫小光抓錯",game:"動手闖關"})[question.type]}</span> 慢慢想，也可以請 AI 給提示。</p>${questionDiagram(question)}${answerInputs(question)}<div id="feedback" aria-live="polite"></div><div id="hintContent" aria-live="polite"></div><div class="actions"><button class="secondary" id="hint">✧ 給我一點提示</button><button class="primary" id="check" disabled>確認答案 →</button></div></article><p class="note">這裡不計時。提示和重試，都是學習的一部分。</p>${tutorPanel(lesson,question)}</section>`;
+  app.innerHTML = `<button class="back" data-home>← 暫停，回到我的學習</button><section class="study"><div class="steps"><span>✓ 學觀念</span><i></i><b>02 動手練習</b><i></i><span>03 看見成長</span></div><span class="eyebrow">${lesson.concept} · ${session.gameMode?'互動任務：'+question.title:'第 '+(index+1)+' / '+lesson.questions.length+' 題'}</span><div class="bar" ${session.gameMode?'hidden':''}><span id="practiceProgress" style="width:${session.completed.size / lesson.questions.length * 100}%"></span></div><p class="note" ${session.gameMode?'hidden':''} id="practiceCompleted" aria-live="polite">本次已完成 ${session.completed.size} / ${lesson.questions.length} 題</p>${session.gameMode?`<a class="back" href="#games/${lesson.id}">← 換一個任務</a>`:questionPicker(lesson,index)}${companionNote('慢慢想就好，卡住時我們一起找提示。')}<article class="panel"><h1>${question.prompt}</h1><p><span class="question-type">${({choice:"觀念選擇",number:"自己填答案",steps:"分步填空",error:"幫小光抓錯",game:"動手闖關"})[question.type]}</span> 慢慢想，也可以請 AI 給提示。</p>${questionDiagram(question)}${answerInputs(question)}<div id="feedback" aria-live="polite"></div><div id="hintContent" aria-live="polite"></div><div class="actions"><button class="secondary" id="hint">✧ 給我一點提示</button><button class="primary" id="check" disabled>確認答案 →</button></div></article><p class="note">這裡不計時，也不必一次做完。可用上方選單挑題，標示「加強練習」的是同類型練熟題。</p>${tutorPanel(lesson,question)}</section>`;
   for (const button of document.querySelectorAll('[data-choice]')) button.addEventListener('click', function () {
     if (session.answered) return;
     session.selected = question.choices[Number(button.dataset.choice)];session.answers=[session.selected];session.submitted=false;updateTutorLearningState();
@@ -84,7 +84,7 @@ function renderPractice() {
   document.querySelector('#check').disabled=!session.answered&&(!session.answers.length||!session.answers.every(value=>String(value).trim()));
   if(session.submitted){
    const checks=LearningCore.grade(question,session.answers);
-   for(const [i,ok] of checks.entries()){const label=document.querySelector(`[data-field-feedback="${i}"]`);if(label){label.textContent=ok?'✓ 這一步正確':'再檢查這一步';label.className=ok?'field-ok':'field-retry';}}
+   for(const [i,ok] of checks.entries()){const label=document.querySelector(`[data-field-feedback="${i}"]`);if(label){label.textContent=question.constraint?(ok?'✓ 這組底和高符合條件':'請一起檢查底和高的配對'):(ok?'✓ 這一步正確':'再檢查這一步');label.className=ok?'field-ok':'field-retry';}}
    document.querySelector('#feedback').innerHTML=session.answered?`<div class="feedback good"><strong>✓ 這題已完成</strong><p>${question.explain}</p>${questionDiagram(question,true)}</div>`:`<div class="feedback"><strong>我們一起再看一遍。</strong><p>${question.hint}</p></div>`;
   }
   if(session.answered){document.querySelector('#check').textContent=nextPracticeLabel();bindMissionReplay();}
@@ -106,7 +106,7 @@ function checkAnswer() {
   session.submitted=true;
   for(const [index,ok] of checks.entries()){
    const label=document.querySelector(`[data-field-feedback="${index}"]`);
-   if(label){label.textContent=ok?'✓ 這一步正確':'再檢查這一步';label.className=ok?'field-ok':'field-retry';}
+   if(label){label.textContent=question.constraint?(ok?'✓ 這組底和高符合條件':'請一起檢查底和高的配對'):(ok?'✓ 這一步正確':'再檢查這一步');label.className=ok?'field-ok':'field-retry';}
   }
   if (correct && session.attempts === 0) session.firstCorrect++;
   session.attempts++;updateTutorLearningState();

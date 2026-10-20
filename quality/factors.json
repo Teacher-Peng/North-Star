@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": 1,
+  "unit": "factors",
+  "coverage": [
+    "2-1",
+    "2-2",
+    "2-3",
+    "2-4",
+    "2-5",
+    "2-6"
+  ],
+  "questions": [
+    {
+      "id": "factors-1",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "哪一個數是 18 的因數？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：18÷6=3",
+      "scaffolding": [
+        "試試看用 18 除以每個選項，哪一個沒有餘數？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "18÷6=3",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "18÷6=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：5"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：7"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "3c1993127fbba3e8f678582445a7eec032c955b29a870dfa420c748e0ef5c23a"
+    },
+    {
+      "id": "factors-2",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "20 的因數共有幾個？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1,2,4,5,10,20共6個",
+      "scaffolding": [
+        "成對找找看：1 × 20、2 × 10，還有哪一對？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1,2,4,5,10,20共6個",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "1,2,4,5,10,20共6個"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cc856b19d15eea6b5f400f49f5aa1c41b4062725878693ada755bed3fc64517f"
+    },
+    {
+      "id": "factors-3",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "有 24 顆珠子，每串要一樣多且沒有剩下。每串可以有幾顆？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：24÷8=3",
+      "scaffolding": [
+        "把「每串的顆數 × 串數 = 24」想成一個乘法問題。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "24÷8=3",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "8 顆"
+          ],
+          "accept": true,
+          "reason": "24÷8=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5 顆"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：5 顆"
+        },
+        {
+          "answers": [
+            "7 顆"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：7 顆"
+        },
+        {
+          "answers": [
+            "9 顆"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：9 顆"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "6dc23761484e83ef811c156fd5ade01f9548aca4206c57e5537845a98b96108c"
+    },
+    {
+      "id": "factors-4",
+      "revision": 1,
+      "curriculum": "2-1",
+      "objective": "15 顆糖果，每袋裝 3 顆，可以剛好裝成幾袋？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：15÷3=5",
+      "scaffolding": [
+        "把 15 個圓點，每 3 個圈成一組。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "15÷3=5",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "5 袋"
+          ],
+          "accept": true,
+          "reason": "15÷3=5"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3 袋"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3 袋"
+        },
+        {
+          "answers": [
+            "4 袋"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4 袋"
+        },
+        {
+          "answers": [
+            "6 袋"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：6 袋"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b1869113bf02dc601526523ec32078befb1b47335322f61d3a6eef98d6973578"
+    },
+    {
+      "id": "factors-5",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "16 的因數共有幾個？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1,2,4,8,16共5個",
+      "scaffolding": [
+        "成對找：1 × 16、2 × 8，再找找正方形的排法。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1,2,4,8,16共5個",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": true,
+          "reason": "1,2,4,8,16共5個"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "dc549e69b5e33506cfb273407281a5cab5cdf36072b62371b3be9dda9b6d9afb"
+    },
+    {
+      "id": "factors-6",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "哪一個數不是 12 的因數？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：12÷5有餘數",
+      "scaffolding": [
+        "留意最後一排有沒有排滿。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "12÷5有餘數",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": true,
+          "reason": "12÷5有餘數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3"
+        },
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：6"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "圖中每排5個直接提示哪個選項不是因數。",
+          "resolution": "改成中性資料卡，學生自行檢查選項能否整除。"
+        }
+      ],
+      "fingerprint": "11e2013ae3bf7235da01c992290dff85c8cfa74d35322cb515edea215c9970f2"
+    },
+    {
+      "id": "factors-7",
+      "revision": 1,
+      "curriculum": "2-1",
+      "objective": "30 顆珠子，每串 6 顆，可以剛好串成幾串？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：30÷6=5",
+      "scaffolding": [
+        "每排放 6 顆，數數看排了幾排。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "30÷6=5",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "5 串"
+          ],
+          "accept": true,
+          "reason": "30÷6=5"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4 串"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4 串"
+        },
+        {
+          "answers": [
+            "6 串"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：6 串"
+        },
+        {
+          "answers": [
+            "7 串"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：7 串"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "14d610998d6b2c5ee316055f8afaa913aa59c6b85bbc366812e1fae406d46b41"
+    },
+    {
+      "id": "factors-8",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "哪一個數是 28 的因數？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：28÷7=4",
+      "scaffolding": [
+        "把每個選項當成每串顆數，用除法檢查會不會剩下。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "28÷7=4",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": true,
+          "reason": "28÷7=4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：5"
+        },
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：9"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        },
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "提示要求調整每排個數，但該題只有靜態圖。",
+          "resolution": "改為用除法檢查，分袋互動另有遊戲。"
+        }
+      ],
+      "fingerprint": "aee14305361f2519118245a61088ba2a00e56b950cc2dd3057751d9d3b77f01f"
+    },
+    {
+      "id": "factors-9",
+      "revision": 1,
+      "curriculum": "2-1",
+      "objective": "18 顆珠子，每串 4 顆，最多做成幾串完整的手鍊？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：18÷4=4餘2",
+      "scaffolding": [
+        "最後不滿 4 顆的一排，不能算成一串完整的手鍊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "18÷4=4餘2",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": true,
+          "reason": "18÷4=4餘2"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "1f714ff394a2b483033f279867f14367dc410577024be9af5ae5621771d9e0d2"
+    },
+    {
+      "id": "factors-10",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "哪一組完整列出了 10 的所有因數？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1×10、2×5",
+      "scaffolding": [
+        "從 1 × 10 開始，再找另一組乘積是 10 的數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1×10、2×5",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "1、2、5、10"
+          ],
+          "accept": true,
+          "reason": "1×10、2×5"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2、5、10"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2、5、10"
+        },
+        {
+          "answers": [
+            "1、2、3、5、10"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：1、2、3、5、10"
+        },
+        {
+          "answers": [
+            "1、5、10"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：1、5、10"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "f09b236ab76d023e53d1a70eefe8aa17406f304ac67c20a125cfdfb07818be82"
+    },
+    {
+      "id": "factors-11",
+      "revision": 1,
+      "curriculum": "2-3",
+      "objective": "18和24的最大公因數是多少？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：18與24的公因數1,2,3,6",
+      "scaffolding": [
+        "列出兩個數的因數，找共同且最大的。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "18與24的公因數1,2,3,6",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "18與24的公因數1,2,3,6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c953c4724cc80bf32d9b1a73453422249317330f52cc6cc60cc1590b0c5c087e"
+    },
+    {
+      "id": "factors-12",
+      "revision": 1,
+      "curriculum": "2-4 / 2-5",
+      "objective": "4和6的最小公倍數是多少？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：4與6下一個共同倍數12",
+      "scaffolding": [
+        "列出4與6的正倍數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "4與6下一個共同倍數12",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "12"
+          ],
+          "accept": true,
+          "reason": "4與6下一個共同倍數12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "13"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "e1c211ca48cf1c4580be4cd88d0c21a41d90ffd390fbdd90766908bac13d24e6"
+    },
+    {
+      "id": "factors-13",
+      "revision": 1,
+      "curriculum": "2-1",
+      "objective": "24個積木，每排6個。",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：24÷6=4餘0",
+      "scaffolding": [
+        "用24÷6。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "24÷6=4餘0",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "4",
+            "0"
+          ],
+          "accept": true,
+          "reason": "24÷6=4餘0"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "0"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "1"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c868c0305302e379959cb027e73b17ac89a489cba358bada6cf467e40f5f0bc5"
+    },
+    {
+      "id": "factors-14",
+      "revision": 1,
+      "curriculum": "2-1",
+      "objective": "小光說「5是18的因數」。算出18÷5的餘數，檢查他的說法。",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "18÷5＝3，所以5是18的因數。",
+      "scaffolding": [
+        "因數必須整除，不能有餘數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "18−5×3=3",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "18−5×3=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "d51352fb1f86500bac544d72d6f45f0cecad877d619407706dedbede38ea69a5"
+    },
+    {
+      "id": "factors-game-1",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "有 12 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "因數探索",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：列出所有正因數，成對相乘等於總數",
+      "scaffolding": [
+        "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "列出所有正因數，成對相乘等於總數",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "[1,2,3,4,6,12]"
+          ],
+          "accept": true,
+          "reason": "列出所有正因數，成對相乘等於總數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[2,3,4,6,12]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[12,6,4,3,2,1]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[2,3,4,6,12,2]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2b26fea4698764fceca8d43bce0d8dd6e7753692decb856e0b6575d2c440c8ce"
+    },
+    {
+      "id": "factors-game-2",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "有 18 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "因數探索",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：列出所有正因數，成對相乘等於總數",
+      "scaffolding": [
+        "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "列出所有正因數，成對相乘等於總數",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "[1,2,3,6,9,18]"
+          ],
+          "accept": true,
+          "reason": "列出所有正因數，成對相乘等於總數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[2,3,6,9,18]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[18,9,6,3,2,1]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[2,3,6,9,18,2]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2fd3ca59e1bc546ab69c8ccb7087e038f3cea928d07868656155a6fcb6a42817"
+    },
+    {
+      "id": "factors-game-3",
+      "revision": 1,
+      "curriculum": "2-2",
+      "objective": "有 24 個小物，每袋要一樣多，而且不能剩下。試試分袋機，收集所有能剛好分完的「每袋個數」。",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "因數探索",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：列出所有正因數，成對相乘等於總數",
+      "scaffolding": [
+        "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "列出所有正因數，成對相乘等於總數",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "[1,2,3,4,6,8,12,24]"
+          ],
+          "accept": true,
+          "reason": "列出所有正因數，成對相乘等於總數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[2,3,4,6,8,12,24]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[24,12,8,6,4,3,2,1]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[2,3,4,6,8,12,24,2]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "410b4b772de9beff0b15b8e521a28dfe2f7626ae737da8749c19bdd4a6ec49cd"
+    },
+    {
+      "id": "factors-review-1",
+      "revision": 1,
+      "curriculum": "2-4 / 2-6",
+      "objective": "145、230、312，哪個數同時是 2、5 和 10 的倍數？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：個位0，同時為2、5、10倍數",
+      "scaffolding": [
+        "看看個位數，先想什麼數可以被 10 整除。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "個位0，同時為2、5、10倍數",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "230"
+          ],
+          "accept": true,
+          "reason": "個位0，同時為2、5、10倍數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "145"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：145"
+        },
+        {
+          "answers": [
+            "312"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：312"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "e07a13a9cf8381296c4b85ec5080685b9c85016ed35d00ce432c4b5c2ca669e4"
+    },
+    {
+      "id": "factors-review-2",
+      "revision": 1,
+      "curriculum": "2-5",
+      "objective": "紅燈每 4 秒閃一次，綠燈每 6 秒閃一次。現在一起閃，至少再過幾秒會一起閃？",
+      "prerequisites": [
+        "乘法表",
+        "整數除法與餘數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：lcm(4,6)=12",
+      "scaffolding": [
+        "列出兩盞燈接下來閃亮的秒數，找最早相同的一次。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "lcm(4,6)=12",
+      "reviewNote": "基本因數練習搭配生活餘數與公因倍數；同策略題標成加強練習。",
+      "cases": [
+        {
+          "answers": [
+            "12"
+          ],
+          "accept": true,
+          "reason": "lcm(4,6)=12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "13"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "4b7c2dfdb9c2339fe83ad74d8c48fb7374655defd731966fb1243c6cb0b736a9"
+    }
+  ]
+}

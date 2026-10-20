@@ -1,0 +1,2989 @@
+{
+  "schemaVersion": 1,
+  "unit": "angles",
+  "coverage": [
+    "3-1",
+    "3-2",
+    "3-3",
+    "3-4",
+    "3-5"
+  ],
+  "questions": [
+    {
+      "id": "angles-1",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "圖中兩個角是 50° 和 60°，神祕角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−50−60=70",
+      "scaffolding": [
+        "先把已知的兩個角相加，再從 180° 扣掉。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−50−60=70",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "70°"
+          ],
+          "accept": true,
+          "reason": "180−50−60=70"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "60°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：60°"
+        },
+        {
+          "answers": [
+            "80°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：80°"
+        },
+        {
+          "answers": [
+            "90°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：90°"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2d4f9dc5c3172693aaca3cb1d8692d2ef7e8f07eb0919610f7fb3b0a2aab700b"
+    },
+    {
+      "id": "angles-2",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "兩個內角是 40° 和 80°，剩下的角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−40−80=60",
+      "scaffolding": [
+        "三個內角合起來是 180°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−40−80=60",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "60"
+          ],
+          "accept": true,
+          "reason": "180−40−80=60"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "61"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "63f628baccb9a9ace0b178e9e7183c94d79e765db4fbd501591cc704f8516f12"
+    },
+    {
+      "id": "angles-3",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "這個直角三角形有一個角是 35°，另一個銳角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：90−35=55",
+      "scaffolding": [
+        "小方框代表 90°。另外兩個角合起來是 90°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "90−35=55",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "55"
+          ],
+          "accept": true,
+          "reason": "90−35=55"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "56"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "653fb4e2760dfe2a28047ec49b1b5d01142eae431812082f0cdf92acd49eca84"
+    },
+    {
+      "id": "angles-4",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "兩個內角分別是 25° 和 45°，未知角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−25−45=110",
+      "scaffolding": [
+        "未知角可以比 90° 大。先算已知角的總和。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−25−45=110",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "110°"
+          ],
+          "accept": true,
+          "reason": "180−25−45=110"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "70°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：70°"
+        },
+        {
+          "answers": [
+            "90°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：90°"
+        },
+        {
+          "answers": [
+            "100°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：100°"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "8a6675cbb9781593eefb1f070e32b998a5382a1c77105fd8e21694e76e69f4fb"
+    },
+    {
+      "id": "angles-5",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "等腰三角形的頂角是 40°，每一個底角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：(180−40)÷2=70",
+      "scaffolding": [
+        "兩條同樣長的邊，對面的兩個底角也相等。扣掉頂角後，平均分成兩份。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "(180−40)÷2=70",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "70"
+          ],
+          "accept": true,
+          "reason": "(180−40)÷2=70"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "71"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "fcaa476d49f61d6818a60d8a1700ab9f091755f4637fc1ea3bd055fcfc9a5358"
+    },
+    {
+      "id": "angles-6",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "等腰三角形的一個底角是 50°，頂角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−2×50=80",
+      "scaffolding": [
+        "另一個底角也等於 50°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−2×50=80",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "80"
+          ],
+          "accept": true,
+          "reason": "180−2×50=80"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "81"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "6c532c6af4446b49f25344401e25c5d191a9e81120142542d897b6d23f314c3f"
+    },
+    {
+      "id": "angles-7",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "正三角形的三個角相等，每一個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180÷3=60",
+      "scaffolding": [
+        "把 180° 平均分給三個角。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180÷3=60",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "60°"
+          ],
+          "accept": true,
+          "reason": "180÷3=60"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "45°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：45°"
+        },
+        {
+          "answers": [
+            "90°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：90°"
+        },
+        {
+          "answers": [
+            "180°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：180°"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "d207aec4c11b3c253002e69cea1261ef2d9aca33f25b8ecf41e0de7310610ab9"
+    },
+    {
+      "id": "angles-8",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "兩個角是 65° 和 55°，神祕角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−65−55=60",
+      "scaffolding": [
+        "先算 65° + 55°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−65−55=60",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "60"
+          ],
+          "accept": true,
+          "reason": "180−65−55=60"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "61"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "7fdb42ae8395b0442baec27fcb2db41edbb213a0aec467940f2c12a6e25f024c"
+    },
+    {
+      "id": "angles-9",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "等腰直角三角形的兩個銳角相等，每個銳角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：90÷2=45",
+      "scaffolding": [
+        "扣掉 90° 後，剩下的角度平均分成兩份。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "90÷2=45",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "45"
+          ],
+          "accept": true,
+          "reason": "90÷2=45"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "46"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "4a96cbee885ff369c46a2b5ec88e9c19c159b6a17f5893e7e7f5b058b12219de"
+    },
+    {
+      "id": "angles-10",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "三角形的一個角是 100°，另一個是 30°，最後一個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−100−30=50",
+      "scaffolding": [
+        "即使有一個鈍角，三個內角的總和仍是 180°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−100−30=50",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "50°"
+          ],
+          "accept": true,
+          "reason": "180−100−30=50"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "30°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：30°"
+        },
+        {
+          "answers": [
+            "40°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：40°"
+        },
+        {
+          "answers": [
+            "60°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：60°"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "b4d550b20f949dea7827b02d179b49ea6ec717264097dbd8a55846fc0ee9368f"
+    },
+    {
+      "id": "angles-11",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "四邊形的三個內角是80°、90°、100°，第四個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：360−80−90−100=90",
+      "scaffolding": [
+        "四邊形內角和是360°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "360−80−90−100=90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "90"
+          ],
+          "accept": true,
+          "reason": "360−80−90−100=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "91"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "49715238a6fac28cc43726ad518e0a52ea1b383c75faed782a3b7251f52f2240"
+    },
+    {
+      "id": "angles-12",
+      "revision": 1,
+      "curriculum": "3-3",
+      "objective": "哪組邊長可以圍成三角形？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3+4>5；2+3不大於5或6",
+      "scaffolding": [
+        "最短兩邊相加，必須大於最長邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3+4>5；2+3不大於5或6",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "3、4、5公分"
+          ],
+          "accept": true,
+          "reason": "3+4>5；2+3不大於5或6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2、3、6公分"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2、3、6公分"
+        },
+        {
+          "answers": [
+            "2、3、5公分"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2、3、5公分"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "dab1f403507c5137225ecc2d2bc789a9cd8e3acaa087172b23c96adc9eed4f74"
+    },
+    {
+      "id": "angles-13",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "正三角形每個內角都相等。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180；180÷3=60",
+      "scaffolding": [
+        "把180平均分成3份。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180；180÷3=60",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "180",
+            "60"
+          ],
+          "accept": true,
+          "reason": "180；180÷3=60"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "181",
+            "60"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "180",
+            "61"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "80449c79a874fd234856339fdb6683ddc651ace167aa5e6a583e04ff3fec09d9"
+    },
+    {
+      "id": "angles-14",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "小光說三角形已知50°和60°，第三角是110°。改成正確答案。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "50＋60＝110，所以第三角是110°。",
+      "scaffolding": [
+        "110是兩個已知角的合計。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−110=70",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "70"
+          ],
+          "accept": true,
+          "reason": "180−110=70"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "71"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "7fa402757c5d10bc5872e3a81dbdd87f3291096b8a2ce5aaf2721c45440dbcd0"
+    },
+    {
+      "id": "angles-15",
+      "revision": 1,
+      "curriculum": "3-1",
+      "objective": "圖中的多邊形有幾條邊？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：沿外框5段",
+      "scaffolding": [
+        "沿著外框走一圈，每條直線段只數一次。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "沿外框5段",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": true,
+          "reason": "沿外框5段"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "數邊題圖說直接寫出5條邊。",
+          "resolution": "圖說改為沿外框觀察線段與頂點。"
+        }
+      ],
+      "fingerprint": "561598d8c00df63c1d5626dea6bf91caba6644e4d1da28eb9520efdd20dd93ae"
+    },
+    {
+      "id": "angles-16",
+      "revision": 1,
+      "curriculum": "3-1",
+      "objective": "圖中的多邊形有幾個頂點？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：六個相鄰邊交點",
+      "scaffolding": [
+        "兩條相鄰邊相接的地方就是頂點。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "六個相鄰邊交點",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "六個相鄰邊交點"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "數頂點題直接稱六邊形。",
+          "resolution": "改稱多邊形，圖說不直接給數量。"
+        }
+      ],
+      "fingerprint": "f85a3e644f80fac41688505554c68c26dc14cea4cd66192d32f81751e292e3a4"
+    },
+    {
+      "id": "angles-17",
+      "revision": 1,
+      "curriculum": "3-2",
+      "objective": "怎樣才能確定一個圖形是「正多邊形」？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：正多邊形需同時等邊等角",
+      "scaffolding": [
+        "「正」多邊形同時要求邊與角。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "正多邊形需同時等邊等角",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "每條邊等長，且每個內角相等"
+          ],
+          "accept": true,
+          "reason": "正多邊形需同時等邊等角"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "只有每條邊等長"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有每條邊等長"
+        },
+        {
+          "answers": [
+            "只有每個內角相等"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有每個內角相等"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "db1b2d631a15c9cc35adda437f96068a16acf24a30f915f279b9ea4dd1695557"
+    },
+    {
+      "id": "angles-18",
+      "revision": 1,
+      "curriculum": "3-2",
+      "objective": "長6公分、寬3公分的長方形，是正多邊形嗎？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6≠3，未等邊",
+      "scaffolding": [
+        "檢查邊長與內角兩個條件。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6≠3，未等邊",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "不是，四條邊並非全等長"
+          ],
+          "accept": true,
+          "reason": "6≠3，未等邊"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "是，四個角相等就可以"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：是，四個角相等就可以"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "53d83475b2f3428ee880c3cc22ef6aae9089aea51cdf0fadfda618c3f78040bb"
+    },
+    {
+      "id": "angles-19",
+      "revision": 1,
+      "curriculum": "3-3",
+      "objective": "三根棒子長2、3、5公分，能圍成三角形嗎？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2+3=5不能圍成",
+      "scaffolding": [
+        "較短兩邊的和，必須大於最長邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2+3=5不能圍成",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "不能"
+          ],
+          "accept": true,
+          "reason": "2+3=5不能圍成"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "能"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：能"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c88116bbe74782cd06d4886c46acebea3a29b870fa1e09d7c5ece214bda83c72"
+    },
+    {
+      "id": "angles-20",
+      "revision": 1,
+      "curriculum": "3-3",
+      "objective": "兩邊長4、7公分，第三邊選哪個長度才能圍成三角形？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3<第三邊<11，選8",
+      "scaffolding": [
+        "把每個選項當第三邊，檢查任意兩邊和是否大於另一邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3<第三邊<11，選8",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "8公分"
+          ],
+          "accept": true,
+          "reason": "3<第三邊<11，選8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3公分"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3公分"
+        },
+        {
+          "answers": [
+            "11公分"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：11公分"
+        },
+        {
+          "answers": [
+            "12公分"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：12公分"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "f35b8381db2867ce2983bc84d246e599d4ca439a1ea37b64dc58b6f35db791c6"
+    },
+    {
+      "id": "angles-21",
+      "revision": 1,
+      "curriculum": "3-3",
+      "objective": "小光說3、4、8公分能圍成三角形。他漏算的較短兩邊合計是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "只檢查4＋8＞3，所以能圍成。",
+      "scaffolding": [
+        "還要檢查3＋4是否大於8。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3+4=7<8",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": true,
+          "reason": "3+4=7<8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "5b6229cfd25d2af93d90345c3d584919f5ba1194e7686c9752b605eb5ffc5a5b"
+    },
+    {
+      "id": "angles-22",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "直角三角形的另外兩個內角合計是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−90=90",
+      "scaffolding": [
+        "先從內角和扣掉直角。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−90=90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "90°"
+          ],
+          "accept": true,
+          "reason": "180−90=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "45°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：45°"
+        },
+        {
+          "answers": [
+            "180°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：180°"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "dfe2161b32ac306b8a3da6121aada5e93b114efe26b35aacbfcadfbb4b2b13db"
+    },
+    {
+      "id": "angles-23",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "兩個角是48°和67°，第三個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−48−67=65",
+      "scaffolding": [
+        "先加已知角，再用180°減掉它們。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−48−67=65",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "65"
+          ],
+          "accept": true,
+          "reason": "180−48−67=65"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "66"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "4d5b8a399c77d2e3ef89d9e8b0c6b361ded6c360f3fa12725b11f4fba3b738b5"
+    },
+    {
+      "id": "angles-24",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "三角形兩個角是72°和38°，分兩步求第三個角。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：72+38=110；180−110=70",
+      "scaffolding": [
+        "先求72＋38，再求180減掉這個和。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "72+38=110；180−110=70",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "110",
+            "70"
+          ],
+          "accept": true,
+          "reason": "72+38=110；180−110=70"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "111",
+            "70"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "110",
+            "71"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "aafa4f2abdeb2bbc9b9f769f237a38786ec4c61269fef6649c71dcc0191bd77e"
+    },
+    {
+      "id": "angles-25",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "三角形可以有兩個直角嗎？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：90+90=180，無第三個正角",
+      "scaffolding": [
+        "兩個直角相加後，還能留下第三個角嗎？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "90+90=180，無第三個正角",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "不可以"
+          ],
+          "accept": true,
+          "reason": "90+90=180，無第三個正角"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "可以"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：可以"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cf8c74350edd4fc5bfd43faed610b025f706d9c94e2e7bcd768a1d28034c1e17"
+    },
+    {
+      "id": "angles-26",
+      "revision": 1,
+      "curriculum": "3-1",
+      "objective": "某三角形的角是30°、40°、110°，按角來分是哪一種？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：最大角110>90",
+      "scaffolding": [
+        "看最大的角與90°相比如何。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "最大角110>90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "鈍角三角形"
+          ],
+          "accept": true,
+          "reason": "最大角110>90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "銳角三角形"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：銳角三角形"
+        },
+        {
+          "answers": [
+            "直角三角形"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：直角三角形"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "44a42a965f241686fb438ff777b13ef625513aa18303ccfa0a9b8b284e524184"
+    },
+    {
+      "id": "angles-27",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "等腰三角形的頂角是100°，每個底角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：(180−100)÷2=40",
+      "scaffolding": [
+        "先扣掉頂角，再把剩餘角度平分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "(180−100)÷2=40",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "40"
+          ],
+          "accept": true,
+          "reason": "(180−100)÷2=40"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "41"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "7adaddd026e4b12d3300195abb768f42703bad9d42a2907511f73e3a512e3255"
+    },
+    {
+      "id": "angles-28",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "等腰三角形頂角是36°，求每一個底角。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−36=144；144÷2=72",
+      "scaffolding": [
+        "兩個底角一樣大，最後要除以2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−36=144；144÷2=72",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "144",
+            "72"
+          ],
+          "accept": true,
+          "reason": "180−36=144；144÷2=72"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "145",
+            "72"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "144",
+            "73"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "7b948c0200e8717b34511f252103c2bdc0a512aedc38ba7aa6b7d8f6a653aff8"
+    },
+    {
+      "id": "angles-29",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "等腰三角形的一個底角是65°，頂角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−65×2=50",
+      "scaffolding": [
+        "另一個底角也是65°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−65×2=50",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "50"
+          ],
+          "accept": true,
+          "reason": "180−65×2=50"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "51"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "0c21f6ede676eed9656c47228c9510b8df8e051801437486aaf4c1cd0ac22970"
+    },
+    {
+      "id": "angles-30",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "小光計算等腰三角形的底角。正確的每個底角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "頂角80°，所以每個底角是180−80＝100°。",
+      "scaffolding": [
+        "100°是兩個底角的總和，還要平分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "(180−80)÷2=50",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "50"
+          ],
+          "accept": true,
+          "reason": "(180−80)÷2=50"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "51"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "9df2d8a1068cefc06e1d4238af9f5a26c10cd40780862edf2d2a4ea0b446bd6e"
+    },
+    {
+      "id": "angles-31",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "等腰三角形有一個 100° 的角。為什麼它不可能是底角？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：兩底角若均100，和200超過180",
+      "scaffolding": [
+        "如果底角是100°，另一個底角也會是100°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "兩底角若均100，和200超過180",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "另一個底角也會是 100°，兩角已超過 180°"
+          ],
+          "accept": true,
+          "reason": "兩底角若均100，和200超過180"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "所有三角形的底角都必須是 60°"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：所有三角形的底角都必須是 60°"
+        },
+        {
+          "answers": [
+            "底角一定比頂角小"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：底角一定比頂角小"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "問頂角位置的圖已將100度畫在頂部。",
+          "resolution": "改問為什麼100度不能是底角，並移除暗示位置的圖。"
+        }
+      ],
+      "fingerprint": "84cc14bcc987a6810dc6f67312b12d73638480c7ce476d4372957b6bd4d708e1"
+    },
+    {
+      "id": "angles-32",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "直角三角形的一個銳角是28°，另一個銳角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：90−28=62",
+      "scaffolding": [
+        "兩個銳角合計90°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "90−28=62",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "62"
+          ],
+          "accept": true,
+          "reason": "90−28=62"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "63"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "dd86614ebd85903d7d58efed1ff996b5b7caba788b4011bf1a672f185f82ecf3"
+    },
+    {
+      "id": "angles-33",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "三角形彩旗有兩個角各為55°，第三個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−55−55=70",
+      "scaffolding": [
+        "相等的兩個角都要扣掉。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−55−55=70",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "70"
+          ],
+          "accept": true,
+          "reason": "180−55−55=70"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "71"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "fd7e3c4bd1ab10b01113910a7556735e906def77b2a0855de7afd3ea3eb452cd"
+    },
+    {
+      "id": "angles-34",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "沿圖中的對角線，四邊形被分成幾個三角形？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：四邊形從一頂點可分2三角形",
+      "scaffolding": [
+        "數一數對角線兩側的區塊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "四邊形從一頂點可分2三角形",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": true,
+          "reason": "四邊形從一頂點可分2三角形"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "173aaa2eff627767cbb8838640e1050e6e1b2c3f584a6224577b92cb2e76b153"
+    },
+    {
+      "id": "angles-35",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "用切成三角形的方法，求四邊形的內角和。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×180=360",
+      "scaffolding": [
+        "每個三角形的內角和都是180°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×180=360",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "360"
+          ],
+          "accept": true,
+          "reason": "2×180=360"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "360"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "361"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "405b702fca40918593e3902aa78aa7befffe42a1ea9188a95ec4b3d58fe67c31"
+    },
+    {
+      "id": "angles-36",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "四邊形的三個內角是75°、85°、110°，第四個是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：360−75−85−110=90",
+      "scaffolding": [
+        "四邊形內角和是360°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "360−75−85−110=90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "90"
+          ],
+          "accept": true,
+          "reason": "360−75−85−110=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "91"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "40b7fda233e247707a0e4f515e7b89ef37f9310ddaff92cbc49a1fb1a4ebf00b"
+    },
+    {
+      "id": "angles-37",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "四邊形有三個直角，第四個角是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：360−3×90=90",
+      "scaffolding": [
+        "先算三個直角一共幾度。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "360−3×90=90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "90"
+          ],
+          "accept": true,
+          "reason": "360−3×90=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "91"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "d130483ccd6d037a0d8529c3b9b816ec72fcfa9a3a5063cdb793e2dad3459ea6"
+    },
+    {
+      "id": "angles-38",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "小光求四邊形的第四角，應改成多少度？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "已知70°、80°、100°，用180−70−80−100計算。",
+      "scaffolding": [
+        "小光用錯了哪種圖形的內角和？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "360−70−80−100=110",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "110"
+          ],
+          "accept": true,
+          "reason": "360−70−80−100=110"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "111"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "提示仍使用另一個角色名字。",
+          "resolution": "統一為小光。"
+        }
+      ],
+      "fingerprint": "e42e2211ecb444a9e9022ab3c8a5ea641e31f27ab5a7d6be7c6955bfe6dc2eec"
+    },
+    {
+      "id": "angles-39",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "把三角形旋轉方向或放大，內角和會改變嗎？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：旋轉、同比例放大不改角度",
+      "scaffolding": [
+        "邊的方向和長短改變，不會改變三角形的內角和。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "旋轉、同比例放大不改角度",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "不會，仍然是180°"
+          ],
+          "accept": true,
+          "reason": "旋轉、同比例放大不改角度"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "會，圖形越大內角和越大"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：會，圖形越大內角和越大"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "1597bee491d4acee042e9c73510e412b1e03457d770a1faed99a24e44f30a731"
+    },
+    {
+      "id": "angles-40",
+      "revision": 1,
+      "curriculum": "3-5",
+      "objective": "兩個風箏都少了角度標籤！三角形已知 40°、60°；四邊形已知 80°、90°、100°。各補上缺少的角度。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：180−40−60=80；360−80−90−100=90",
+      "scaffolding": [
+        "先辨認圖形，再選180°或360°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "180−40−60=80；360−80−90−100=90",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "80",
+            "90"
+          ],
+          "accept": true,
+          "reason": "180−40−60=80；360−80−90−100=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "81",
+            "90"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "80",
+            "91"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "735566a91565415811e3ea16e610278d8e6a41b6fd733cf38576532fb6f12df7"
+    },
+    {
+      "id": "angles-game-1",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "角度組合",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：50+60+70；45+45+90；40+60+80皆為180",
+      "scaffolding": [
+        "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "50+60+70；45+45+90；40+60+80皆為180",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2]"
+          ],
+          "accept": true,
+          "reason": "50+60+70；45+45+90；40+60+80皆為180"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[1,2,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "caab94eeaf2ce2f393043c201086c53a29b3fc5a9aac745aa891df79c30f3c9c"
+    },
+    {
+      "id": "angles-game-2",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "角度組合",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：50+60+70；45+45+90；40+60+80皆為180",
+      "scaffolding": [
+        "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "50+60+70；45+45+90；40+60+80皆為180",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2]"
+          ],
+          "accept": true,
+          "reason": "50+60+70；45+45+90；40+60+80皆為180"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[1,2,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b5ca337932a3611a18dc9be26610affa7b321419e88c5924143dd3798b11dfff"
+    },
+    {
+      "id": "angles-game-3",
+      "revision": 1,
+      "curriculum": "3-4",
+      "objective": "選出三片角度拼圖，放進三個空位。讓它們剛好拼成 180° 的平角。",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "角度組合",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：50+60+70；45+45+90；40+60+80皆為180",
+      "scaffolding": [
+        "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "50+60+70；45+45+90；40+60+80皆為180",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2]"
+          ],
+          "accept": true,
+          "reason": "50+60+70；45+45+90；40+60+80皆為180"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[1,2,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "8ac025d43cb6b29456d3a4a74ed8d0e0c6b55716c09d9f3a8c7f53d9258d208d"
+    },
+    {
+      "id": "angles-review-1",
+      "revision": 1,
+      "curriculum": "3-4 / 3-5",
+      "objective": "從同一頂點畫對角線，把這個5邊形分成三角形。內角和是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：5−2=3；3×180=540",
+      "scaffolding": [
+        "數出分成幾個三角形，每個三角形內角和是 180°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "5−2=3；3×180=540",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "3",
+            "540"
+          ],
+          "accept": true,
+          "reason": "5−2=3；3×180=540"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "540"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "541"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "90e777c1aec78634aa0c8598010bea8e5afd9e8bd125c33c2acb9de7fdb9c259"
+    },
+    {
+      "id": "angles-review-2",
+      "revision": 1,
+      "curriculum": "3-4 / 3-5",
+      "objective": "從同一頂點畫對角線，把這個6邊形分成三角形。內角和是多少？",
+      "prerequisites": [
+        "直角90度、平角180度",
+        "三角形與四邊形"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6−2=4；4×180=720",
+      "scaffolding": [
+        "數出分成幾個三角形，每個三角形內角和是 180°。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6−2=4；4×180=720",
+      "reviewNote": "簡單內角計算屬基本練習；等腰、逆推、五六邊形內角和應在理解分割後進行。",
+      "cases": [
+        {
+          "answers": [
+            "4",
+            "720"
+          ],
+          "accept": true,
+          "reason": "6−2=4；4×180=720"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "720"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "721"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "43292c654bfd9f649b1db6fd5e7cdabaa53dc2e87266ab543c039c436341d8b5"
+    }
+  ]
+}

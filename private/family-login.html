@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>家庭登入｜北極星</title>
+  <link rel="stylesheet" href="/family-auth.css">
+  <script src="/family-login.js" defer></script>
+</head>
+<body class="family-login-page">
+  <main class="family-login-card">
+    <img class="family-brand" src="/north-star-logo.png" alt="北極星教育平台">
+    <img class="family-mascot" src="/mascot-xiaoguang.png" alt="小光陪你一起學">
+    <p class="family-eyebrow">北極星 · 家庭學習空間</p>
+    <h1>歡迎回來，一起學一點！</h1>
+    <p id="familyLoginMessage" role="status">{{MESSAGE}}</p>
+    <form id="familyLoginForm" method="post" action="/auth/family/login">
+      <input type="hidden" name="csrf" value="{{CSRF}}">
+      <input type="hidden" name="challenge" value="{{CHALLENGE}}">
+      <fieldset {{DISABLED}}>
+        <label for="familyAccessCode">家庭存取碼</label>
+        <input id="familyAccessCode" name="accessCode" type="password" required maxlength="128"
+          autocomplete="current-password" autocapitalize="none" spellcheck="false"
+          placeholder="貼上家人提供的完整存取碼" aria-describedby="codeHelp">
+        <button id="toggleFamilyCode" type="button" aria-pressed="false" hidden>顯示存取碼</button>
+        <p id="codeHelp" class="family-note">存取碼可以重複使用，請像密碼一樣保管，不要公開分享。</p>
+        <button id="familyLoginSubmit" type="submit">進入學習空間 →</button>
+      </fieldset>
+    </form>
+    <p class="family-note">這裡目前只開放受邀家庭。不需要 Google 帳號，也不需要孩子的電子郵件。</p>
+    <p class="family-note">孩子可以請家長先登入這台裝置，再開始練習。練習進度仍保存在這個瀏覽器。</p>
+    <noscript><p>可以直接使用存取碼登入；進入後的互動練習需要開啟 JavaScript。</p></noscript>
+  </main>
+</body>
+</html>

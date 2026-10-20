@@ -1,4 +1,4 @@
-// WebRTC streams audio directly; the permanent API key stays on the local server.
+// WebRTC streams audio directly; the permanent API key stays on the server.
 let realtimeVoice=null;
 let mascotCelebrationTimer;
 function animatedMascot(size){return `<span class="xiaoguang-actor ${size}" aria-hidden="true"><span class="xiaoguang-sprite"></span></span>`;}
@@ -28,7 +28,7 @@ function syncRealtimeContext(){
 function bindRealtimeVoice({panel,csrf,context,available,append}){
  const start=panel.querySelector('#voiceStart'),mute=panel.querySelector('#voiceMute'),stop=panel.querySelector('#voiceStop'),notice=panel.querySelector('#voiceNotice');
  start.disabled=!available||!window.RTCPeerConnection||!navigator.mediaDevices?.getUserMedia;
- if(!available)notice.textContent='尚未設定語音 API 金鑰。文字對話仍可使用。';
+ if(!available)notice.textContent='此網站目前尚未啟用語音對話。';
  function update(message,active){if(!panel.isConnected)return;notice.textContent=message;start.disabled=active;mute.hidden=!active;stop.hidden=!active;mute.disabled=!realtimeVoice?.stream;}
  stop.onclick=function(){stopRealtimeVoice();};
  mute.onclick=function(){const voice=realtimeVoice;if(!voice?.stream)return;voice.muted=!voice.muted;setMascotVoiceState(voice.muted?'idle':'listening');voice.stream.getAudioTracks().forEach(t=>{t.enabled=!voice.muted;});mute.textContent=voice.muted?'解除靜音':'靜音';notice.textContent=voice.muted?'麥克風已靜音，AI 仍可播放回覆。':'正在聆聽，可以直接說話。';};
@@ -64,7 +64,7 @@ function bindRealtimeVoice({panel,csrf,context,available,append}){
    if(!active())return;update('正在連接語音老師……',true);
    const state=context.question!==null&&session?.lesson.id===context.lesson&&session.index===context.question?session.learningState:{};
    const response=await fetch('/api/voice',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({...context,learningState:state,sdp:offer.sdp}),signal:voice.controller.signal});
-   const result=await response.json();if(!response.ok)throw new Error(result.error||'語音連線失敗。');
+   const result=await response.json();if(result.loginRequired){stopRealtimeVoice('請重新登入家庭帳號。');location.assign('/login');return;}if(!response.ok)throw new Error(result.error||'語音連線失敗。');
    if(!active())return;await peer.setRemoteDescription({type:'answer',sdp:result.sdp});
   }catch(error){if(active())stopRealtimeVoice(error.name==='NotAllowedError'?'未取得麥克風權限，請允許後再試。':error.name==='NotFoundError'?'找不到麥克風，請接上裝置後重試。':error.message||'無法啟動語音。');}
  };

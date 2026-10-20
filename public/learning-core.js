@@ -2,12 +2,25 @@
 const LearningCore = Object.freeze({
  normalize(value){return String(value??'').normalize('NFKC').replace(/\s+/g,'').replace(/⁄/g,'/');},
  value(value){
+  const input=String(value??'').normalize('NFKC').trim().replace(/⁄/g,'/');
+  const mixed=input.match(/^(\d+)(?:\s*又\s*|\s+)(\d+)\s*\/\s*(\d+)$/);
+  if(mixed){
+   const [,whole,n,d]=mixed.map(Number);
+   return d>0 && n<d?whole+n/d:null;
+  }
+  // Spaces separate a mixed number; never silently turn "1 1/4" into "11/4".
+  if(/\d\s+\d/.test(input))return null;
   const text=this.normalize(value);
   if(!/^[+-]?(?:\d+(?:\.\d+)?|\.\d+)(?:\/[+]?(?:\d+(?:\.\d+)?|\.\d+))?$/.test(text))return null;
   const [n,d='1']=text.split('/').map(Number);const result=n/d;
   return d!==0 && Number.isFinite(result)?result:null;
  },
  grade(question,answers){
+  if(question.constraint?.kind==='triangle-design'){
+   const rule=question.constraint,base=this.value(answers[0]),height=this.value(answers[1]);
+   const valid=[base,height].every(v=>Number.isInteger(v)&&v>=rule.min&&v<=rule.max)&&base*height/2===rule.area;
+   return [valid,valid];
+  }
   if(question.type==='game')return [GameCore.grade(question.game,answers[0])];
   if(question.type==='choice')return [answers[0]===question.answer];
   const expected=question.type==='steps'?question.fields.map(f=>f.answer):[question.answer];
@@ -26,7 +39,7 @@ const LearningCore = Object.freeze({
    page:q?'練習題':'觀念頁',unit:lesson.unit,topic:lesson.concept,title:lesson.title,
    goal:lesson.goal,
    visibleContent:q?{
-    questionId:q.id,questionNumber:index+1,type:q.type,prompt:q.prompt,choices:q.choices,
+    questionId:q.id,questionNumber:index+1,type:q.type,prompt:q.prompt,choices:q.choices,constraint:q.constraint,focus:q.focus,
     fields:q.fields?.map(f=>({label:f.label,unit:f.unit})),unit:q.unit,incorrectWorkedExample:q.work,
     diagram:this.diagramContext(q.diagram,submitted&&checks.every(Boolean)),
     interactive:q.game?{...GameCore.publicSpec(q.game),current:GameCore.describe(q.game,answers[0]),comparisonVisible:state.gameView?.fold===true,packetSize:Number.isInteger(state.gameView?.packetSize)&&state.gameView.packetSize>0&&state.gameView.packetSize<=24?state.gameView.packetSize:undefined}:undefined,
@@ -34,7 +47,7 @@ const LearningCore = Object.freeze({
     visibleHint:state.hint===true?q.hint:undefined,
     visibleSolution:submitted&&checks.every(Boolean)?q.explain:undefined
    }:{explanation:lesson.explanation,example:lesson.example,notes:lesson.notes,diagram:this.diagramContext(lesson.introDiagram,true)},
-   teacherOnly:q?{game:q.game,answer:q.answer,steps:q.fields,explanation:q.explain,hint:q.hint}:undefined
+   teacherOnly:q?{game:q.game,constraint:q.constraint,answer:q.answer,steps:q.fields,explanation:q.explain,hint:q.hint}:undefined
   };
  },
  diagramContext(d,reveal){
@@ -44,6 +57,7 @@ const LearningCore = Object.freeze({
    result.labels=d.values.map((v,i)=>({position:['左下','右下','頂部'][i],color:['橘色','綠色','紫色'][i],text:!reveal&&(i===d.unknown||d.equilateral||(d.isosceles&&d.unknown===0&&i===1))?'?':v+'°'}));
    delete result.values;result.sumBarVisible=reveal;
   }
+  if(d.kind==='fraction'&&!reveal)delete result.targetDenominator;
   return result;
  }
 });

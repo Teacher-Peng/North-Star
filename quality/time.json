@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "unit": "time",
+  "coverage": [
+    "9-1",
+    "9-2",
+    "9-3"
+  ],
+  "questions": [
+    {
+      "id": "time-1",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "1小時20分鐘共幾分鐘？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：60+20=80",
+      "scaffolding": [
+        "1小時是60分鐘。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "60+20=80",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "80"
+          ],
+          "accept": true,
+          "reason": "60+20=80"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "81"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "3fc9e5480d90aa90d4469a28c2b61a9a97d6fb71f3af1be4dbf0a34abc44cce5"
+    },
+    {
+      "id": "time-2",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "45分鐘×3，合計幾分鐘？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：45×3=135",
+      "scaffolding": [
+        "先算45乘3。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "45×3=135",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "135"
+          ],
+          "accept": true,
+          "reason": "45×3=135"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "136"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "d25a2af2ab740a5aa2ef5a507baae15615e0d5515a3d501f7165d70228aa5247"
+    },
+    {
+      "id": "time-3",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "把135分鐘換成幾小時幾分鐘。",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：135=2×60+15",
+      "scaffolding": [
+        "每60分鐘換成1小時。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "135=2×60+15",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "15"
+          ],
+          "accept": true,
+          "reason": "135=2×60+15"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "15"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "16"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "32ed95e7fac1ba303e1c3638d2e59fca8a90a40b88afbc83378296d9e8937f09"
+    },
+    {
+      "id": "time-4",
+      "revision": 1,
+      "curriculum": "9-2",
+      "objective": "2小時30分鐘平均分成5段，每段幾分鐘？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：150÷5=30",
+      "scaffolding": [
+        "先全部換成分鐘。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "150÷5=30",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "30"
+          ],
+          "accept": true,
+          "reason": "150÷5=30"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "31"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c532c0d39ffad2f6aadd43402edda9e28b8c818a0681dc95fb97c3c7d69eb561"
+    },
+    {
+      "id": "time-5",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "小光說1分鐘40秒等於140秒，正確是多少秒？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "1分鐘＝100秒，所以合計140秒。",
+      "scaffolding": [
+        "1分鐘是60秒。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "60+40=100",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "100"
+          ],
+          "accept": true,
+          "reason": "60+40=100"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "101"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "f15a98500fe6d9bbb6dab13a2040cd4009fda8e028219aa72ccca7b2dac1689e"
+    },
+    {
+      "id": "time-6",
+      "revision": 1,
+      "curriculum": "9-3",
+      "objective": "從9:40到10:15，經過幾分鐘？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：20+15=35",
+      "scaffolding": [
+        "先算到10:00，再算後面15分鐘。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "20+15=35",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "35"
+          ],
+          "accept": true,
+          "reason": "20+15=35"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "36"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "3a6d1b955b984ecdea642fb384f3b43ef58644347b5ba35d039d4a0cd5e057b5"
+    },
+    {
+      "id": "time-7",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "2分鐘15秒×2。",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：120+15=135；135×2=270",
+      "scaffolding": [
+        "2分鐘是120秒。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "120+15=135；135×2=270",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "135",
+            "270"
+          ],
+          "accept": true,
+          "reason": "120+15=135；135×2=270"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "136",
+            "270"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "135",
+            "271"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "ee98703857d8009c5ecb63660c4afd27398420b7ec898e06f25bdb4cf2b0bf7b"
+    },
+    {
+      "id": "time-8",
+      "revision": 1,
+      "curriculum": "9-2",
+      "objective": "360秒平均分成3段，每段幾分鐘？",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：360÷3÷60=2",
+      "scaffolding": [
+        "先除以3，再除以60。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "360÷3÷60=2",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": true,
+          "reason": "360÷3÷60=2"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "ef060b16f7ad623964324d2d966051717e3b621cc297401a20a0823383913931"
+    },
+    {
+      "id": "time-game-1",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "每場表演 45 分鐘，共 3 場。調整時間盒，裝出總共花的時間。",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "時間換算",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "scaffolding": [
+        "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "[2,15]"
+          ],
+          "accept": true,
+          "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[2,20]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "4c443f5b2e6d583060cbd280def412d824aca4731a0ac50815401c2162212da0"
+    },
+    {
+      "id": "time-game-2",
+      "revision": 1,
+      "curriculum": "9-1",
+      "objective": "每段閱讀 30 分鐘，共 4 段。調整時間盒，裝出總共花的時間。",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "時間換算",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "scaffolding": [
+        "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "[2,0]"
+          ],
+          "accept": true,
+          "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[2,5]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "346895e4460307f36711c5f47b30fb691664ff35e132be46c74251403be5f1f7"
+    },
+    {
+      "id": "time-game-3",
+      "revision": 1,
+      "curriculum": "9-2",
+      "objective": "活動共 2 小時 30 分鐘，平均分成 5 段。每段多久？調整時間盒，裝出一段的時間。",
+      "prerequisites": [
+        "1小時60分、1分60秒",
+        "整數乘除"
+      ],
+      "thinking": "時間換算",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "scaffolding": [
+        "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "45×3=135；30×4=120；150÷5=30，轉小時和餘分",
+      "reviewNote": "以60進位，欄位明確要求分鐘或秒；跨時段情境標為應用。",
+      "cases": [
+        {
+          "answers": [
+            "[0,30]"
+          ],
+          "accept": true,
+          "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,35]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "d247323257efd7d782e4cf193e0e0ce2818ea1a5cefa06759f4d8ceb00daaa21"
+    }
+  ]
+}

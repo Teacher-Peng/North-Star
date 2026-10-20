@@ -1,12 +1,39 @@
 # Decision Log
 
-This file records important product and engineering decisions for the Spelling Bee app.
+This file records important product, teaching, and engineering decisions for North Star. Earlier Spelling Bee entries are retained as project history; later decisions supersede earlier ones where stated.
 
 ## Working Agreement
 
 - Ask before making decisions that affect architecture, data shape, UX behavior, naming, or long-term maintainability.
 - Make small, reversible implementation choices directly when they are necessary to complete an already-approved decision.
 - Record important decisions here with date, context, decision, and rationale.
+- Before development, read the relevant decisions and curriculum review. Separate agreed direction, implemented behavior, and verified outcomes; do not report a proposal as shipped.
+- When a decision changes, append a dated entry explaining what it supersedes. Record meaningful limitations and follow-up work so future sessions can continue from evidence.
+
+## 2026-10-20 — 題目多樣性以思考方式為核心
+
+**狀態：已確認的出題方向；題庫重整尚未實作。**
+
+背景：使用者在面積練習指出題目太相似。先前擴充題數與互動機制，仍有多題只替換數字、情境或操作形式，沒有帶來不同的思考。使用者要求參考教育資源、以教育者角度避免重複，並明確要求記錄這次共識。
+
+決定與理由：
+
+- 先定義學習目標與「孩子需要想什麼」，再選擇輸入方式。選擇、拖拉、手寫本身不代表不同題型。
+- 主線涵蓋辨認、操作探索、比較、推理、找錯、逆推、應用與創作；依單元需要選用，不硬湊種類。
+- 同解法的換數字題歸為「再練一次」的練熟變體，不當成新的主線關卡。保留必要的基本運算練習。
+- 教學順序採操作理解 → 獨立作答 → 解釋或應用。探索可提供輔助線、比對等支援；獨立挑戰需區分提示使用，不能把完成當成精熟。
+- 題幹與操作適合小五，圖解承載數學資訊；不以增加閱讀負擔或裝飾性遊戲製造表面差異。
+- 開放題允許多種正確答案；實作前定義可驗證的數學條件，避免只接受預設圖形或固定文字。
+- 參考外部資源的教學方法，創作自己的題目與圖片；不宣稱這些資源等同南一課程或已經孩子驗證。
+
+面積單元優先候選任務：找對應的高、剪拼平行四邊形、比較同底同高的三角形、構造指定面積、辨認斜邊當高或漏除以二的錯誤、由面積逆推高度、設計不同形狀但相同面積的花園、判斷草皮是否足夠。這些是設計候選，並非已完成的功能清單。
+
+開發前的題庫檢查：每題標示學習目標、思考方式、作答互動、難度／先備概念、常見誤解、提示與判分條件。比較相鄰題目的解題策略；僅換數字、故事或外觀者列為變體。先重整面積，再用同一標準檢查其他單元。完成後同步更新 CURRICULUM_REVIEW.md 的實作與驗證狀態。
+
+參考來源（2026-10-20 查閱）：
+- NRICH，Area and Perimeter: Age 7–11：https://nrich.maths.org/curriculum/area-and-perimeter-age-7-11
+- The Math Learning Center，Geoboard：https://www.mathlearningcenter.org/apps/geoboard
+- The Math Learning Center，Area of Polygons 教學活動：https://www.mathlearningcenter.org/sites/default/files/pdfs/SecB4SUP-D9_AreaPoly-201304.pdf
 
 ## Decisions
 
@@ -335,3 +362,73 @@ User requested cloning Teacher-Peng/North-Star and importing the current website
 ## 2026-10-20 — Grade-five interactive mission library
 
 Reviewed all 188 existing prompts/answers/hints; made 12 targeted wording/hint revisions and reframed correction questions as helping Xiaoguang. Added 30 original missions (three per unit), 218 questions total. Eight reusable mechanisms: chart plotting, factor grouping, angle-piece assembly, fractional painting, symmetry points/reflection, ordered step cards with area visuals, time boxes, and cube-net selection. Separate mission gallery and persistent completion badges avoid requiring an entire 40-question chapter before feedback. No timer, lives, or leaderboard. Drag uses Pointer Events and has click/keyboard alternatives. Shared GameCore is used by grading and server tutor context, including current drawing/selection and comparison/grouping view. Full review and limitations recorded in CURRICULUM_REVIEW.md. Browser verified all eight mechanisms; actual iPad/child usability and live AI interpretation remain untested. Development server now runs from North-Star repository; ignored local runtime configuration was retained locally, not committed.
+
+
+## 2026-10-20 — 面積多樣性第一版落地
+
+使用者授權開始改題目。本次將面積 14 題主線重寫為辨認、比較、守恆、基本計算、找錯、逆推、規律、資料判斷、組合圖形、創作及生活應用；保留原 3 個拼圖任務。新增原創圖解與可接受多種正確底／高的三角旗設計題，共用數學條件判分並傳給 AI。採新題目 ID，不把舊題視為相同內容。32 個測試通過，瀏覽器驗證作答與圖解。仍待完成：其他單元重整、再練一次變體入口、直接操作幾何圖形、真實兒童／iPad 使用驗證。沒有宣稱全部候選任務已實作。詳見 CURRICULUM_REVIEW.md。
+
+
+## 2026-10-20 — 題庫品質關卡第一版
+
+使用者確認建立題目履歷、自動檢查與面積審查報告。以 quality/area.json 管理 17 題的課綱、目標、先備、思考方式、互動、難度、誤解、提示、判分案例與審查歷程。版本指紋綁定題目、教學／檢查履歷及共用畫面、判分與 AI context 程式；改動使舊證據失效。npm run verify 執行回歸與品質檢查；quality:release 要求目前版本的教學、視覺與真人確認，不能只靠程式通過或 AI 自評放行。
+
+第一輪：面積 56 個正反案例通過；修正高度題圖說洩題、右側直角標記、剪角圖硬編碼尺寸與自主設計聯合判分回饋。三個排序遊戲同質、卡片含答案仍列為待改善事項。17 題均維持待審，沒有宣稱真人教育者或孩子驗證，也沒有執行獨立 AI 審查；提供 review packet 供下一位審查者使用。既有原型仍可開啟，此為本機開發關卡，尚未強制接入發布流程。其他單元僅檢查 ID 唯一性。
+
+驗證方式與限制在 quality/README.md；程式產出的報告在 quality/AREA_REPORT.md。保留先前未提交的改題工作，本次未發布或更換帳號／API 設定。
+
+
+## 2026-10-20 — 全五上題庫檢查與修補
+
+使用者要求目前題目全數檢查，至少五年級可用。沿用已確定的五上範圍：檢查原218題，補16題原先薄弱的課綱代表題，總234題。全部十單元建立版本化履歷及獨立算式／幾何依據，quality 預設全題庫，可用 --unit 篩選；不把五上結果延伸宣稱五下也完整。
+
+重要修正：讀圖與目標分母不提前洩題、指定分母／最簡形式必須符合形式、帶分數輸入優先辨識而不把空格刪成另一個數、正方體圖依shape繪製、紙剪題前提明確、同策略題標加強練習。補複雜長條圖、倍數應用、五六邊形角和、分配律／簡算、帶分數加減、立體邊關係與表面積。
+
+54個測試與859個判分案例通過；瀏覽器逐頁檢查234題初始載入，並實測分數格式拒絕／通過與帶分數作答。自動檢查無阻擋問題，但嚴格試用關卡仍要求真人／教育審查證據，不偽造批准。現有遊戲同質性、兒童與iPad使用驗證仍明列限制。總報告 quality/GRADE5_REPORT.md，操作證據 quality/BROWSER_CHECK.json。
+
+## 2026-10-20 — 無資料庫的受邀家庭登入
+
+使用者同意先做 Google 登入加私人允許名單，並提供第一個受邀 Gmail。地址只寫入被 Git 忽略的 `.env.local`，沒有放進題庫、前端或版本庫。使用者尚未建立 Google web client ID，要求先完成程式並提供設定指引。
+
+新增 `family-auth.mjs`、獨立家庭登入頁及私有伺服器設定。驗證 Google 簽章、issuer、audience、期限、nonce、azp；Gmail 必須通過 email_verified，或由管理者事先核准確切 Google sub。成功登入更換 session ID 與 CSRF token；八小時記憶體 session、HTTPS Secure/HttpOnly/SameSite cookie、逐請求檢查名單，登出刪除 session。沒有帳號密碼資料庫、自動寄邀請、管理後台或新增學童個別進度。
+
+公開模式預設需家庭登入，首頁／教材資源／文字圖片 API／語音 API／ChatGPT 授權均在伺服器檢查後才開放。未設定 client ID 或名單時維持封鎖。保留原本純本機模式，禁止在公開 origin、公開 listener 或 production 使用免登入模式。家庭 Google 登入與文字 ChatGPT 訂閱授權分開；後者預設只在本機開啟，公開網域資格尚未驗證，沒有偷偷改走付費文字 API。
+
+GoDaddy 帳號檢視已確認 Web Hosting 方案包含一個未使用的 Node.js app slot；本次未新增 GoDaddy app、未部署、未改 DNS。新增 PUBLIC_ORIGIN/PORT 設定為後續部署準備；完整指南在 FAMILY_ACCESS.md。
+
+驗證：89 個測試通過，其中 35 個新增家庭登入測試，以本機簽署 JWT 與注入的測試身份驗證器檢查正常與拒絕流程；原 859 個題目判分案例通過。實際 HTTP 驗證匿名 session 即使持有 CSRF 仍無法呼叫語音／文字／ChatGPT 授權，直接 index 無法繞過，偽造 Host 拒絕；瀏覽器確認登入準備頁與既有本機數學頁正常。尚未執行真實 Google 帳號登入或 iPad popup 測試；不能宣稱已啟用。Google client ID、正式 hosting 設定與真實登入測試仍需完成。
+
+限制：重啟會清空 session，適用單一 instance；使用上限不是持久化金額限制，已建立的跨分頁直連 WebRTC 不會因本機 session 被撤銷而由伺服器強制中止。正式公開前仍需處理用量控管與既有內容審查關卡。原型服務保留 5175；家庭登入準備頁另在 localhost:5176 預覽。
+
+## 2026-10-20 — Google 登入建議更正，尚未啟用
+
+使用者授權代為建立 Google sign-in client，並完成個人帳號驗證。已在個人帳號建立 North Star Education 專案（clear-tooling-512215-g2），準備 app name／support email／External testing audience／contact 欄位，尚未送出 OAuth branding 設定。
+
+在必須同意 User Data Policy 的步驟實際閱讀官方條文後，發現「主要面向兒童的應用不應使用 Google Sign-In」限制。North Star 明確面向小五；不能推定家長先登入就符合例外。先前推薦 Google 作為必需入口未考慮此條件，已主動向使用者更正。未勾選同意、未建立 OAuth client、未新增付款或啟用公開服務。既有 Google 登入程式保留未啟用。
+
+已提出改用每家庭長隨機存取碼、伺服器只存雜湊、仍不需資料庫的替代方案，等待使用者選擇；尚未宣稱替代方案已實作。來源：https://developers.google.com/terms/api-services-user-data-policy#child-directed-apps
+
+
+## 2026-10-20 — 改用私人家庭存取碼，取代 Google 登入
+
+使用者明確選擇私人家庭存取碼。已移除 Google 登入程式及本機 Google 名單設定；既有個人 Cloud 專案保留未使用，沒有建立 OAuth client 或部署到 GoDaddy。每家庭使用 192-bit 隨機存取碼，伺服器設定只保留 SHA-256 雜湊、家庭 ID 與名稱，不需要資料庫或孩子的 email。這是可重複使用的持有者憑證，不能當成一次性邀請或身份證明。
+
+新增 family:invite 指令，私有交付檔與設定使用 owner-only 權限並排除 Git；第一組已產生於 .local/family-invites/main-family.txt，未在對話或 log 印出。--rotate 換碼及刪除設定後需重啟／部署，舊碼失效；所有 session 隨重啟清除。登入沿用 CSRF、同源、一次性短期 challenge、session rotation、八小時有效期、HTTPS cookie、API 與教材路由檢查；每 process 每分鐘最多 30 次登入嘗試。
+
+36 個認證測試及全套 90 個測試通過，859 個題目判分案例通過。瀏覽器實測錯碼拒絕、正確碼進首頁、家庭名稱及登出成功；發現原 no-referrer 使原生表單 Origin 不符，改為 same-origin referrer policy，仍嚴格檢查 Origin 與 CSRF。沒有呼叫付費 AI 測試。
+
+完整操作與限制在 FAMILY_ACCESS.md：目前只在本機驗證，尚未公開部署；正式環境 HTTPS／proxy／iPad 尚待驗證。文字 ChatGPT 訂閱授權仍只預設本機可用，語音使用原本伺服器 API key，沒有自動改用付費文字 API。進度仍在瀏覽器、未按家庭隔離或跨裝置同步；持久化 AI 額度限制與真人題目審查仍是發布前工作。
+
+## 2026-10-20 — GoDaddy Node.js 預覽部署準備
+
+使用者要求先設定 GoDaddy。帳號頁再次確認現有 Web Hosting 包含 Node.js Apps，0/1 slots used。先採 ZIP 匯入，包含目前尚未提交的原型修正，不需先授權 GitHub app。已補 package version 0.1.0、Node 24.x、main 與 build script；build 是語法檢查，前端無編譯步驟。90 個測試及 859 個題目判分案例通過。
+
+部署 ZIP 僅含執行程式、package manifests、public 資產及 private 登入模板／教學提示，排除 .env、.local、node_modules、Git 與測試。此為家庭預覽準備，不代表題庫已通過真人發布審查。
+
+GoDaddy 設定頁在第一次 Continue 明示會同意 Universal Terms 及 AI Terms；停在該步等使用者明確確認條款。尚未點選同意、建立 app、上傳程式、傳送金鑰、修改 DNS 或發布網站。後續完成狀態需另記錄。
+
+## 2026-10-20 — GoDaddy Secrets 設定獲准
+
+使用者自行繼續 GoDaddy 設定並連接 GitHub，瀏覽器進入 Secrets 頁。使用者明確同意把現有 OPENAI_API_KEY 與 FAMILY_ACCESS_CODES（只有雜湊）儲存到該 North Star GoDaddy app 的私有 Secrets。已透過設定表單輸入，沒有在輸出或版本庫揭露值。一般設定為 PUBLIC_ORIGIN=https://ailearning.com.tw、FAMILY_AUTH_MODE=family、CHATGPT_LOGIN_ENABLED=false；NODE_ENV=production 在匯入後未出現在 UI（需確認平台管理方式）。
+
+GoDaddy 已進入 GitHub import 流程（app ID 5efv50aj72）。尚待確認匯入結果和實際程式版本；本機新的家庭登入與部署修正尚未推送，不能把舊 GitHub 版本直接當作可公開版本。尚未點選 Publish 或修改 DNS。

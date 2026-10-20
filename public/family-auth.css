@@ -1,0 +1,22 @@
+.family-login-page{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f5eb;color:#244b3b;font:16px/1.65 system-ui,-apple-system,"Noto Sans TC",sans-serif}
+.family-login-card{box-sizing:border-box;width:min(92vw,520px);margin:32px auto;padding:32px;text-align:center;border:1px solid #d5dfcc;border-radius:28px;background:#fffef8;box-shadow:0 12px 40px #244b3b12}
+.family-brand{display:block;width:min(100%,280px);height:auto;margin:0 auto}
+.family-mascot{display:block;width:120px;height:140px;object-fit:contain;margin:20px auto 8px}
+.family-eyebrow{font-size:.85rem;letter-spacing:.1em}
+.family-login-card h1{font-size:clamp(1.35rem,4vw,1.75rem);line-height:1.4}
+.family-note{color:#626f62;font-size:.85rem}
+#familyLoginMessage{min-height:3.3em}
+#familyLoginForm fieldset{border:0;padding:0;margin:20px 0;text-align:left}
+#familyLoginForm label{display:block;font-weight:700;margin-bottom:8px}
+#familyAccessCode{box-sizing:border-box;width:100%;padding:14px;border:1px solid #a9bda4;border-radius:12px;font:16px/1.4 system-ui,sans-serif;background:white;color:#244b3b}
+#familyAccessCode:focus-visible{outline:3px solid #d99a36;outline-offset:2px}
+#toggleFamilyCode{margin-top:8px;font-size:.85rem}
+#familyLoginForm #familyLoginSubmit{width:100%;background:#244b3b;color:white;font-weight:700}
+#familyLoginForm fieldset:disabled{opacity:.55}
+.family-login-card button,.family-account button{border:1px solid #a9bda4;border-radius:20px;background:#edf2e6;color:#244b3b;padding:10px 16px;font:inherit;cursor:pointer}
+.family-login-card button:focus-visible,.family-account button:focus-visible{outline:3px solid #d99a36;outline-offset:3px}
+.family-account{display:flex;justify-content:flex-end;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 5%;background:#edf2e6;color:#244b3b;font:14px/1.5 system-ui,sans-serif}
+.family-account span{overflow-wrap:anywhere}
+.family-account form{margin:0}
+.family-account button{padding:6px 12px;background:#fffef8}
+@media(max-width:480px){.family-login-card{padding:24px 16px}.family-account{justify-content:center}}

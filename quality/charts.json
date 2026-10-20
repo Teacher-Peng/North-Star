@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "unit": "charts",
+  "coverage": [
+    "1-1",
+    "1-2"
+  ],
+  "questions": [
+    {
+      "id": "charts-1",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "週二借出幾本書？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "讀圖計算",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：週二刻度25",
+      "scaffolding": [
+        "找週二上方的點，再讀縱軸。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "週二刻度25",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "25"
+          ],
+          "accept": true,
+          "reason": "週二刻度25"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "26"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "圖說與圖上標籤可直接抄答案，沒有練到讀刻度。",
+          "resolution": "取消逐日數值圖說及點旁數字，保留刻度與日期。"
+        }
+      ],
+      "fingerprint": "77799098bbd7dc59599dd08f01c8e8217a140c615b26c502feb4a41130018af5"
+    },
+    {
+      "id": "charts-2",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "週三到週四增加幾本？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "讀圖計算",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：30−15=15",
+      "scaffolding": [
+        "用週四的數量減掉週三。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "30−15=15",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "15"
+          ],
+          "accept": true,
+          "reason": "30−15=15"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "16"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "19fab9c6cb8374106e40d4ff86230dd71a3e397a9c7cc4409998b2b6b6582a0e"
+    },
+    {
+      "id": "charts-3",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "週一和週二共借出幾本？先讀圖再相加。",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：20，20+25=45",
+      "scaffolding": [
+        "先沿著週一的點讀出本數，再加上週二的本數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "20，20+25=45",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "20",
+            "45"
+          ],
+          "accept": true,
+          "reason": "20，20+25=45"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "21",
+            "45"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "20",
+            "46"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c36d1de0dc3063f5e289bb6749f684b20111fa9ada07c0448f9eb3ce1ddffd1b"
+    },
+    {
+      "id": "charts-4",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "哪一段時間的借閱量下降？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：25降至15",
+      "scaffolding": [
+        "看哪一段線往下走。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "25降至15",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "週二到週三"
+          ],
+          "accept": true,
+          "reason": "25降至15"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "週一到週二"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：週一到週二"
+        },
+        {
+          "answers": [
+            "週三到週四"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：週三到週四"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "abd46a5f5319b7bd3ae7d6484de0bfaffef3615da0ee87ffc9852300409e78d9"
+    },
+    {
+      "id": "charts-5",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "小光把縱軸每格5本看成1本，說週二是5本。正確是多少？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "週二在第5格，所以是5本。",
+      "scaffolding": [
+        "格數還要乘每格代表的量。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "5格×5=25",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "25"
+          ],
+          "accept": true,
+          "reason": "5格×5=25"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "26"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "1fa3f600111fce8a4005a9af00fb0bae5426187e20bb2c89163eed10458dc0d6"
+    },
+    {
+      "id": "charts-6",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "四天中最多與最少相差幾本？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "讀圖計算",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：30−15=15",
+      "scaffolding": [
+        "先找最高點與最低點。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "30−15=15",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "15"
+          ],
+          "accept": true,
+          "reason": "30−15=15"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "16"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "0a20df7e8edb3fec4e4e22d8049e0bef35b44f05aa650876b862cdfd7e715dbd"
+    },
+    {
+      "id": "charts-7",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "想看一週每天氣溫的變化，哪種圖最適合？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：隨時間變化適合折線",
+      "scaffolding": [
+        "需要依時間順序看增減。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "隨時間變化適合折線",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "折線圖"
+          ],
+          "accept": true,
+          "reason": "隨時間變化適合折線"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "圓餅圖"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：圓餅圖"
+        },
+        {
+          "answers": [
+            "只有一個總數"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有一個總數"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "題目問氣溫變化，卻附借閱量圖。",
+          "resolution": "移除不相關的借閱量圖。"
+        }
+      ],
+      "fingerprint": "52f7e7fe0a5cbebb0fdf12b36b076c5e05e262eec89eab652ca25c7851ed9c1e"
+    },
+    {
+      "id": "charts-8",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "四天一共借出幾本？週五再借出幾本，五天合計就到 100 本？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：20+25+15+30=90；100−90=10",
+      "scaffolding": [
+        "先加總四天，再和目標 100 本比較。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "20+25+15+30=90；100−90=10",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "90",
+            "10"
+          ],
+          "accept": true,
+          "reason": "20+25+15+30=90；100−90=10"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "91",
+            "10"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "90",
+            "11"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "第一單元直接要求90÷4的小數平均，且平均位於後面的四則單元。",
+          "resolution": "改成加總後求距離100本還差多少；平均練習保留於第7單元。"
+        }
+      ],
+      "fingerprint": "7a92eda87028037a36227f9c81ee6305900de6c7db8fadcbb8551a5d898e2617"
+    },
+    {
+      "id": "charts-game-1",
+      "revision": 1,
+      "curriculum": "1-2",
+      "objective": "週一到週四分別借出 20、25、15、30 本書。幫小光把四個點放到正確高度，連成折線圖。",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "描點繪圖",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：按題幹資料逐日描點；不是重新計算總量",
+      "scaffolding": [
+        "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "按題幹資料逐日描點；不是重新計算總量",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "[20,25,15,30]"
+          ],
+          "accept": true,
+          "reason": "按題幹資料逐日描點；不是重新計算總量"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,25,15,30]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "35e922ae3b4f63a612ed97c695621bb9b8d7aaff8e80ea3a9a3a7e03336d19d3"
+    },
+    {
+      "id": "charts-game-2",
+      "revision": 1,
+      "curriculum": "1-2",
+      "objective": "週一到週四分別跳了 15、20、30、25 下。幫小光把四個點放到正確高度，連成折線圖。",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "描點繪圖",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：按題幹資料逐日描點；不是重新計算總量",
+      "scaffolding": [
+        "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "按題幹資料逐日描點；不是重新計算總量",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "[15,20,30,25]"
+          ],
+          "accept": true,
+          "reason": "按題幹資料逐日描點；不是重新計算總量"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,20,30,25]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a9cb839a45e385f76b95b1af8025113c51f68a78173f897b80313874f8222cb8"
+    },
+    {
+      "id": "charts-game-3",
+      "revision": 1,
+      "curriculum": "1-2",
+      "objective": "第 1～4 天的小苗高度是 10、20、20、30 毫米。幫小光把四個點放到正確高度，連成折線圖。",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "描點繪圖",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：按題幹資料逐日描點；不是重新計算總量",
+      "scaffolding": [
+        "先選一天，沿著刻度找它的數量。每一格代表 5。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "按題幹資料逐日描點；不是重新計算總量",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "[10,20,20,30]"
+          ],
+          "accept": true,
+          "reason": "按題幹資料逐日描點；不是重新計算總量"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,20,20,30]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "16b01116332cba867c9c34bfc8e71f50557e2b3892f0775f24005bc3dfa3ff61"
+    },
+    {
+      "id": "charts-review-1",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "看圖例找五乙：哪一天五乙比五甲少借書？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：週二五乙10小於五甲20",
+      "scaffolding": [
+        "同一天的兩根長條是一組，再比高度。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "週二五乙10小於五甲20",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "週二"
+          ],
+          "accept": true,
+          "reason": "週二五乙10小於五甲20"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "週一"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：週一"
+        },
+        {
+          "answers": [
+            "週三"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：週三"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [
+        "五甲",
+        "五乙",
+        "週一",
+        "週二",
+        "週三"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "45d875ad25e4b5d2e7d79b4a831a0c8dce25ebca2dae18f2f3a7a6989cb370f0"
+    },
+    {
+      "id": "charts-review-2",
+      "revision": 1,
+      "curriculum": "1-1",
+      "objective": "週三兩班共借出幾本書？",
+      "prerequisites": [
+        "認識橫軸、縱軸與每格刻度",
+        "整數加減"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：15+20=35",
+      "scaffolding": [
+        "先按圖例讀出兩班的數量，再相加。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "15+20=35",
+      "reviewNote": "讀圖題取消圖說逐日答案及點旁數字，需沿刻度讀值；複雜長條圖補上圖例。",
+      "cases": [
+        {
+          "answers": [
+            "35"
+          ],
+          "accept": true,
+          "reason": "15+20=35"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "36"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [
+        "五甲",
+        "五乙",
+        "週一",
+        "週二",
+        "週三"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "41240538fe293377faefd48cff7ae5bd0a5e009148198362e168596e2b9981b2"
+    }
+  ]
+}

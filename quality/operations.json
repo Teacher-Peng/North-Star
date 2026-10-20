@@ -1,0 +1,935 @@
+{
+  "schemaVersion": 1,
+  "unit": "operations",
+  "coverage": [
+    "7-1",
+    "7-2",
+    "7-3",
+    "7-4",
+    "7-5"
+  ],
+  "questions": [
+    {
+      "id": "operations-1",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "24＋6×3＝？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：24+18=42",
+      "scaffolding": [
+        "先算乘法。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "24+18=42",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "42"
+          ],
+          "accept": true,
+          "reason": "24+18=42"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "43"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "356bfd26b4ba74d6cb043a740764e634835b8d49111c80875503453e526ed5b4"
+    },
+    {
+      "id": "operations-2",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "(24＋6)×3＝？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：30×3=90",
+      "scaffolding": [
+        "先算括號。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "30×3=90",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "90"
+          ],
+          "accept": true,
+          "reason": "30×3=90"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "91"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "549268ed326517ed5b7395243624f2f6333f62aff2366cf76c910e10804f8b6a"
+    },
+    {
+      "id": "operations-3",
+      "revision": 1,
+      "curriculum": "7-1",
+      "objective": "算出120÷3÷4。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：120÷3=40；40÷4=10",
+      "scaffolding": [
+        "連除由左往右算。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "120÷3=40；40÷4=10",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "40",
+            "10"
+          ],
+          "accept": true,
+          "reason": "120÷3=40；40÷4=10"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "41",
+            "10"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "40",
+            "11"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "789ea05c07571a64fb14bf235be5ca6093be0b90b6f61fb8abe06675b3581289"
+    },
+    {
+      "id": "operations-4",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "小光計算48÷4×2＝6，請改正。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "48÷(4×2)＝6",
+      "scaffolding": [
+        "乘除同級，要從左算。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "12×2=24",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "24"
+          ],
+          "accept": true,
+          "reason": "12×2=24"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "25"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "09bc9930dfbc9e0e3498a6663a33bd0fdc95337fa6cce1388ea318b36ef6f92c"
+    },
+    {
+      "id": "operations-5",
+      "revision": 1,
+      "curriculum": "7-3",
+      "objective": "三次跳繩次數為40、50、60，平均每次幾下？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：150÷3=50",
+      "scaffolding": [
+        "總次數除以3。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "150÷3=50",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "50"
+          ],
+          "accept": true,
+          "reason": "150÷3=50"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "51"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "bc427432b6cb3334068b0786159d59a79f8dc11e47e6d4fcfff600846d825d3c"
+    },
+    {
+      "id": "operations-6",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "每本筆記本25元，買4本，付200元。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：25×4=100；200−100=100",
+      "scaffolding": [
+        "先算買4本的錢，再算找零。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "25×4=100；200−100=100",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "100",
+            "100"
+          ],
+          "accept": true,
+          "reason": "25×4=100；200−100=100"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "101",
+            "100"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "100",
+            "101"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "9af3490ff34bd66865e4bf925a7e32c00f8764e8c5406d6f9724a03b16cc54e1"
+    },
+    {
+      "id": "operations-7",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "300−(60＋20)×2＝？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：300−80×2=140",
+      "scaffolding": [
+        "括號、乘法、減法。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "300−80×2=140",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "140"
+          ],
+          "accept": true,
+          "reason": "300−80×2=140"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "141"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "83c422377c8600e5a0d5953c80f2069cbc92c140ba581caa5159ae9b1a3e22b4"
+    },
+    {
+      "id": "operations-8",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "要把「36與24的和平均分成6份」寫成算式，哪個正確？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：先把36與24相加，再除以6",
+      "scaffolding": [
+        "先求和，再平均分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "先把36與24相加，再除以6",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "(36＋24)÷6"
+          ],
+          "accept": true,
+          "reason": "先把36與24相加，再除以6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "36＋24÷6"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：36＋24÷6"
+        },
+        {
+          "answers": [
+            "36×24÷6"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：36×24÷6"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "9e59122106244c7ab182b98b0c9cccd689ae8d9bb772e5e63ff18a7e21c142eb"
+    },
+    {
+      "id": "operations-game-1",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "24 ＋ 6 × 3，應該先做哪一步？把步驟排好。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：先乘除或括號，買東西先總價再找零",
+      "scaffolding": [
+        "先找乘法，再做加法。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "先乘除或括號，買東西先總價再找零",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "[1,0]"
+          ],
+          "accept": true,
+          "reason": "先乘除或括號，買東西先總價再找零"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,1]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-answer-cards",
+          "severity": "warning",
+          "status": "open",
+          "reason": "卡片含計算結果，只能視為排序引導，不是獨立計算測驗。"
+        }
+      ],
+      "fingerprint": "4fa722047f4afcae30c3d5d7259461de84001330c99a749aba6e7de75849a3a3"
+    },
+    {
+      "id": "operations-game-2",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "(24 ＋ 6) × 3 的步驟亂掉了。幫它排回來。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：先乘除或括號，買東西先總價再找零",
+      "scaffolding": [
+        "括號像一間小房間，先把裡面的計算完成。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "先乘除或括號，買東西先總價再找零",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "[1,0]"
+          ],
+          "accept": true,
+          "reason": "先乘除或括號，買東西先總價再找零"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,1]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-answer-cards",
+          "severity": "warning",
+          "status": "open",
+          "reason": "卡片含計算結果，只能視為排序引導，不是獨立計算測驗。"
+        }
+      ],
+      "fingerprint": "5e6213a6cda6c050e0d4382292fb98af8ff5742c0e394369881f74e08fa86e8f"
+    },
+    {
+      "id": "operations-game-3",
+      "revision": 1,
+      "curriculum": "7-2",
+      "objective": "每本筆記本 25 元，買 4 本，付 200 元。排出找零步驟。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：先乘除或括號，買東西先總價再找零",
+      "scaffolding": [
+        "先知道要付多少錢，才能算找回多少。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "先乘除或括號，買東西先總價再找零",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "[1,0]"
+          ],
+          "accept": true,
+          "reason": "先乘除或括號，買東西先總價再找零"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[0,1]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-answer-cards",
+          "severity": "warning",
+          "status": "open",
+          "reason": "卡片含計算結果，只能視為排序引導，不是獨立計算測驗。"
+        }
+      ],
+      "fingerprint": "5969763d538b1326cfd68f9ca159577c2a5612e3568be6a823e64b4f45d626da"
+    },
+    {
+      "id": "operations-review-1",
+      "revision": 1,
+      "curriculum": "7-4",
+      "objective": "要算 25 × 12，哪個拆法會得到相同結果？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：25×(10+2)分配為兩個乘積",
+      "scaffolding": [
+        "把 12 分成兩部分，每部分都要乘以 25。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "25×(10+2)分配為兩個乘積",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "25 × 10 ＋ 25 × 2"
+          ],
+          "accept": true,
+          "reason": "25×(10+2)分配為兩個乘積"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "25 × 10 ＋ 2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：25 × 10 ＋ 2"
+        },
+        {
+          "answers": [
+            "25 ＋ 10 ＋ 2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：25 ＋ 10 ＋ 2"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "a5dfeb73710782a44b0430df65131cad1b5dc5d56317f387ff28b14f70497e05"
+    },
+    {
+      "id": "operations-review-2",
+      "revision": 1,
+      "curriculum": "7-5",
+      "objective": "用簡便方法算 99 × 6。先把 99 想成 100 少 1。",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：100×6=600；減6=594",
+      "scaffolding": [
+        "先算 100 個 6，再扣掉多算的那一個 6。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "100×6=600；減6=594",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "600",
+            "594"
+          ],
+          "accept": true,
+          "reason": "100×6=600；減6=594"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "601",
+            "594"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "600",
+            "595"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "1abbb189edb8380040951758b4380eaf31b891c3a8639d0900138ba49d51ce02"
+    },
+    {
+      "id": "operations-review-3",
+      "revision": 1,
+      "curriculum": "7-5",
+      "objective": "32 × 25，先把 32 拆成 8 × 4，怎麼分組比較好算？",
+      "prerequisites": [
+        "整數加減乘除",
+        "括號和運算順序"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：乘法結合律，4×25=100",
+      "scaffolding": [
+        "找找哪兩個數相乘能湊成 100。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "乘法結合律，4×25=100",
+      "reviewNote": "基本運算順序後才進入分配律、結合律與簡便計算。",
+      "cases": [
+        {
+          "answers": [
+            "8 × (4 × 25)"
+          ],
+          "accept": true,
+          "reason": "乘法結合律，4×25=100"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8 ＋ (4 × 25)"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：8 ＋ (4 × 25)"
+        },
+        {
+          "answers": [
+            "(8 ＋ 4) × 25"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：(8 ＋ 4) × 25"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "bacc9b37b1e827b48d2b5722bf7fd4c1084bc230584351f65cc9f318e0896bb8"
+    }
+  ]
+}

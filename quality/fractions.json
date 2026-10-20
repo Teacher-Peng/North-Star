@@ -1,0 +1,3006 @@
+{
+  "schemaVersion": 1,
+  "unit": "fractions",
+  "coverage": [
+    "4-1",
+    "4-2",
+    "4-3"
+  ],
+  "questions": [
+    {
+      "id": "fractions-1",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "哪一個分數和 1/2 一樣大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1/2=2/4",
+      "scaffolding": [
+        "把每一份再切成相同的小份，總份量會變嗎？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1/2=2/4",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "2/4"
+          ],
+          "accept": true,
+          "reason": "1/2=2/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "1/4"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：1/4"
+        },
+        {
+          "answers": [
+            "3/4"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3/4"
+        },
+        {
+          "answers": [
+            "2/3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2/3"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2872ce2e833a5ddf0763d3d41e3e80c07a1a84a024434548cf68f8d89239a34c"
+    },
+    {
+      "id": "fractions-2",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "2/3 擴分成分母是 12 的分數，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×4=8",
+      "scaffolding": [
+        "3 要乘幾才是 12？分子也要乘相同的數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×4=8",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": true,
+          "reason": "2×4=8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "5d14fd78d4340b494216f47a132f42a11a04fb2229dd48518a1accc77150a877"
+    },
+    {
+      "id": "fractions-3",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "6/8 的分子和分母都除以 2，得到哪一個分數？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6÷2/8÷2=3/4",
+      "scaffolding": [
+        "分子、分母都除以 2，兩個位置都要改。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6÷2/8÷2=3/4",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3/4"
+          ],
+          "accept": true,
+          "reason": "6÷2/8÷2=3/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6/8"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "指定除以2，原本只比數值而接受未約分6/8。",
+          "resolution": "指定形式採精確分數比對，另保留無格式限制題的等值判分。"
+        }
+      ],
+      "fingerprint": "61288c8fb932fb815844887ec500caecfce1a7b92c2f8b2f5bb804a4e83dd189",
+      "forbiddenVisibleText": [
+        "改成 4 等份"
+      ]
+    },
+    {
+      "id": "fractions-4",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "哪一個分數與 3/4 一樣大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3/4=6/8",
+      "scaffolding": [
+        "每一格再切成兩份，分子和分母都乘上 2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3/4=6/8",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "6/8"
+          ],
+          "accept": true,
+          "reason": "3/4=6/8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3/8"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3/8"
+        },
+        {
+          "answers": [
+            "4/8"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4/8"
+        },
+        {
+          "answers": [
+            "7/8"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：7/8"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "f25e88e71f94e1ac6413edc8d1ac65b4a8b61c45619db45d9fd2cc163dd89ac2"
+    },
+    {
+      "id": "fractions-5",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "1/3 擴分成分母是 9 的分數，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1×3=3",
+      "scaffolding": [
+        "3 × 幾 = 9？分子也要乘上同樣的數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1×3=3",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "1×3=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "1661480ab98043ddf76a4073285dc27f40c9491d987d338e31bd4e33a52c4b54"
+    },
+    {
+      "id": "fractions-6",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "4/6 約成分母是 3 的分數，會得到什麼？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：4÷2/6÷2=2/3",
+      "scaffolding": [
+        "每兩小格合成一大格，分子和分母都除以 2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "4÷2/6÷2=2/3",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "2/3"
+          ],
+          "accept": true,
+          "reason": "4÷2/6÷2=2/3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3/3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4/6"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "指定分母3，原本可能接受未改分母的4/6。",
+          "resolution": "精確檢查2/3。"
+        }
+      ],
+      "fingerprint": "467789cef6534b4c21d45aba8b72a3757c7fe868528d5a702930aabcab98d47b",
+      "forbiddenVisibleText": [
+        "改成 3 等份"
+      ]
+    },
+    {
+      "id": "fractions-7",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "2/5 擴分成分母是 10 的分數，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×2=4",
+      "scaffolding": [
+        "一個五分之一，可以分成兩個十分之一。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×2=4",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": true,
+          "reason": "2×2=4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：5"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "e24d68ff6351415e156b51fd6cbe86a414363c7b5c09dfca3c48aa2ae155eecb"
+    },
+    {
+      "id": "fractions-8",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "9/12 約成分母是 4 的分數，會得到什麼？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：9÷3/12÷3=3/4",
+      "scaffolding": [
+        "每三小格合成一大格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "9÷3/12÷3=3/4",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3/4"
+          ],
+          "accept": true,
+          "reason": "9÷3/12÷3=3/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6/8"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        },
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "指定分母4，原本可能接受9/12。",
+          "resolution": "精確檢查3/4。"
+        }
+      ],
+      "fingerprint": "ebb7c5eaada7db6fc4977d2ef8481c413311cbd5910d0f4234031005ce074603",
+      "forbiddenVisibleText": [
+        "改成 4 等份"
+      ]
+    },
+    {
+      "id": "fractions-9",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "3/5 擴分成分母是 15 的分數，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3×3=9",
+      "scaffolding": [
+        "5 × 3 = 15，分子也要乘 3。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×3=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": true,
+          "reason": "3×3=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "10"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "51337766937271bfb18772f7371c18c3d514ad055ce1833146c86fd27b9718b4"
+    },
+    {
+      "id": "fractions-10",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "5/10 約成分母是 2 的分數，會得到什麼？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：5÷5/10÷5=1/2",
+      "scaffolding": [
+        "把五個小格合成一大格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "5÷5/10÷5=1/2",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "1/2"
+          ],
+          "accept": true,
+          "reason": "5÷5/10÷5=1/2"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2/2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2/2"
+        },
+        {
+          "answers": [
+            "3/2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3/2"
+        },
+        {
+          "answers": [
+            "5/2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：5/2"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "68e6f4059d3ca964fbf0be0397b296c94697bc1c03961a7c4a3ca0925ce702ec"
+    },
+    {
+      "id": "fractions-11",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "把6/8約分成分母為4的分數，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6÷2=3",
+      "scaffolding": [
+        "分母8÷2＝4，分子也要÷2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6÷2=3",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "6÷2=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "b72ec1b0ea846b5175e6c395105a4e0992ec7ddd143e0f681bb03a7cd03f211c"
+    },
+    {
+      "id": "fractions-12",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "將1/2與1/3通分成分母6。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1/2=3/6；1/3=2/6",
+      "scaffolding": [
+        "分母乘幾，分子也乘幾。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1/2=3/6；1/3=2/6",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3",
+            "2"
+          ],
+          "accept": true,
+          "reason": "1/2=3/6；1/3=2/6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "2"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "3"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "8c26fa48fdcf56ab16ef1163438f7b886d0f9c7697d227a361901e2dc7b2044c"
+    },
+    {
+      "id": "fractions-13",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "3/4與2/3，哪個較大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：9/12>8/12",
+      "scaffolding": [
+        "通分成十二分之幾。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "9/12>8/12",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3/4"
+          ],
+          "accept": true,
+          "reason": "9/12>8/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2/3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2/3"
+        },
+        {
+          "answers": [
+            "一樣大"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一樣大"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "143cd68707480f6543b6243a6fedae0d871122f522dee85786080f2c58ae3563"
+    },
+    {
+      "id": "fractions-14",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "小光把2/3擴分成4/3。若分子變4，正確分母是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "2/3＝4/3",
+      "scaffolding": [
+        "分子乘2，分母也要乘2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×2=6",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "3×2=6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "圖說直接揭露待求分母6。",
+          "resolution": "改成只描述原分數與目標分子；圖解初始狀態不顯示目標分母。"
+        }
+      ],
+      "fingerprint": "b69a8f5b3e9806b2cbf6ee0394762d7d3afa2f22e098e30851b6b3f0d9a26f64"
+    },
+    {
+      "id": "fractions-15",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "3/7擴分成分母21，分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3×3=9",
+      "scaffolding": [
+        "7乘幾會變21？分子也乘同一個數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×3=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": true,
+          "reason": "3×3=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "10"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "5a7d5da778cd409b2c99e04a4ba67f0af95d9a880d21c3c8dbf23794ce1fc489"
+    },
+    {
+      "id": "fractions-16",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "把4/5擴分成分母20。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：20÷5=4；4×4=16",
+      "scaffolding": [
+        "先算20÷5。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "20÷5=4；4×4=16",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "4",
+            "16"
+          ],
+          "accept": true,
+          "reason": "20÷5=4；4×4=16"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "16"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "17"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "fe84c270d9930b11d69da5f291485e35774926ae7f858027aa7399c97205503f"
+    },
+    {
+      "id": "fractions-17",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "5/8擴分後的分子是15，分母是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8×(15÷5)=24",
+      "scaffolding": [
+        "分子從5到15乘了幾倍？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8×(15÷5)=24",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "24"
+          ],
+          "accept": true,
+          "reason": "8×(15÷5)=24"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "25"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        },
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "圖解的改成24等份文字提前揭露答案。",
+          "resolution": "初始狀態不顯示targetDenominator，AI可見資料也同步隱藏。"
+        }
+      ],
+      "fingerprint": "a79885f6c0023ff66aa9a530ff96e6ef9033375c3b1bfdfcb7744171deeac0a0"
+    },
+    {
+      "id": "fractions-18",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "哪一個變化保持2/5的大小不變？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：分子分母同乘3保持比值",
+      "scaffolding": [
+        "擴分需要分子和分母同乘一個非零整數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "分子分母同乘3保持比值",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "分子分母都乘3"
+          ],
+          "accept": true,
+          "reason": "分子分母同乘3保持比值"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "分子分母都加2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：分子分母都加2"
+        },
+        {
+          "answers": [
+            "只有分母乘3"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有分母乘3"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "87c421e9beed05a577864d26eb06e0e3c57c1f813653cb9b3b12e681da22e974"
+    },
+    {
+      "id": "fractions-19",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "小光的擴分錯了。若要變成分母12，正確分子是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "3/4＝(3＋8)/(4＋8)＝11/12。",
+      "scaffolding": [
+        "擴分應該乘同一個數，不能同加。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×(12÷4)=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": true,
+          "reason": "3×(12÷4)=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "10"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "eb343de76c8cfb361475ac180a4f4f0c5f46ab6cf6358b5c3ba6df83a35cec0a"
+    },
+    {
+      "id": "fractions-20",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "把12/18約成最簡分數。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：gcd(12,18)=6",
+      "scaffolding": [
+        "找12與18最大的公因數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "gcd(12,18)=6",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "2/3"
+          ],
+          "accept": true,
+          "reason": "gcd(12,18)=6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3/3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4/6"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "最簡分數題的圖解提前顯示目標分母。",
+          "resolution": "作答前隱藏目標份數，答對才顯示約分圖。"
+        }
+      ],
+      "fingerprint": "43de94b4286431bdcdd988dfd650fa140f5ee9f2676faed31d01327ba508fde5",
+      "forbiddenVisibleText": [
+        "改成 3 等份"
+      ]
+    },
+    {
+      "id": "fractions-21",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "把15/25約成最簡分數。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：gcd(15,25)=5",
+      "scaffolding": [
+        "分子分母都能除以5。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "gcd(15,25)=5",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3/5"
+          ],
+          "accept": true,
+          "reason": "gcd(15,25)=5"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6/10"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "6507d78375dd1a37f35babf6f4e7f2db268219dee64496033d67b9bd9059f082",
+      "forbiddenVisibleText": [
+        "改成 5 等份"
+      ]
+    },
+    {
+      "id": "fractions-22",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "把18/24約成最簡分數。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：gcd(18,24)=6",
+      "scaffolding": [
+        "可以一次除以最大公因數6。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "gcd(18,24)=6",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "3/4"
+          ],
+          "accept": true,
+          "reason": "gcd(18,24)=6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6/8"
+          ],
+          "accept": false,
+          "reason": "指定分母／最簡形式，不接受等值但形式不符"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "d763c9a632cc7d696c1f06572c6a74417abbc4a743c09c75ad965255d1686107",
+      "forbiddenVisibleText": [
+        "改成 4 等份"
+      ]
+    },
+    {
+      "id": "fractions-23",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "把20/30約成最簡分數，分開填分子與分母。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：20與30同除10",
+      "scaffolding": [
+        "找一個能同時整除 20 和 30 的數，再檢查能不能繼續約分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "20與30同除10",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "3"
+          ],
+          "accept": true,
+          "reason": "20與30同除10"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "4"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "407f02c6efca125f254642761050d06f00b5f853e7a4d48a9b094ac02199a6fb"
+    },
+    {
+      "id": "fractions-24",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "哪個分數已經是最簡分數？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：gcd(5,7)=1",
+      "scaffolding": [
+        "檢查分子與分母是否還有大於1的公因數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "gcd(5,7)=1",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "5/7"
+          ],
+          "accept": true,
+          "reason": "gcd(5,7)=1"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/6"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4/6"
+        },
+        {
+          "answers": [
+            "6/9"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：6/9"
+        },
+        {
+          "answers": [
+            "8/12"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：8/12"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "dccfe10e30564b94f9da3ded76e9f91318bb9d526d045b9ebe3dbdbb0dde1fd7"
+    },
+    {
+      "id": "fractions-25",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "小光只改分子。若分子約成3，正確分母是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "9/12＝3/12。",
+      "scaffolding": [
+        "分子除以3，分母也要除以3。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "12÷(9÷3)=4",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": true,
+          "reason": "12÷(9÷3)=4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cc97065788a90575d727077da493cb72256e4937f3596b2ae630f96d958183af"
+    },
+    {
+      "id": "fractions-26",
+      "revision": 1,
+      "curriculum": "4-2",
+      "objective": "8/12先約成4/6，還能再約分嗎？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：gcd(4,6)=2",
+      "scaffolding": [
+        "4和6是否還有共同的因數？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "gcd(4,6)=2",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "能，再約成2/3"
+          ],
+          "accept": true,
+          "reason": "gcd(4,6)=2"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "不能，約分只能做一次"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：不能，約分只能做一次"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "9151c0eae94aaa45573e6d95d85d4f6bd06c14a01d15e193456dfe59128802f0"
+    },
+    {
+      "id": "fractions-27",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "把2/3和3/4通分成分母12。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×4=8；3×3=9",
+      "scaffolding": [
+        "分母3乘4，分母4乘3；分子也跟著乘。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×4=8；3×3=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "8",
+            "9"
+          ],
+          "accept": true,
+          "reason": "2×4=8；3×3=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "9",
+            "9"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "8",
+            "10"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "7a204b7e052eb9fcd3b5ce23d1cbff0bc3827679d6ba7730ab4ee152c7ca1fa3"
+    },
+    {
+      "id": "fractions-28",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "把3/5和7/10通分成分母10。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3×2=6；7不變",
+      "scaffolding": [
+        "第二個分數的分母已經是10，不需要再改。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×2=6；7不變",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "6",
+            "7"
+          ],
+          "accept": true,
+          "reason": "3×2=6；7不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "566952e4d865feafdbfd4560da583be33ebc0413a360eb7bd62d4ca6808bdddc"
+    },
+    {
+      "id": "fractions-29",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "把5/6和3/8通分成最小的共同分母24。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：5×4=20；3×3=9",
+      "scaffolding": [
+        "先看原本的分母各要乘幾，才會變成 24。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "5×4=20；3×3=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "20",
+            "9"
+          ],
+          "accept": true,
+          "reason": "5×4=20；3×3=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "21",
+            "9"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "20",
+            "10"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "ab290a89a92d7eb9551aefe2773aaca8fc4e9e0ef7f01c3f7d3749d3f9c773e9"
+    },
+    {
+      "id": "fractions-30",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "1/4與1/6通分，可以共同使用哪個分母？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：lcm(4,6)=12",
+      "scaffolding": [
+        "共同分母必須是4和6的公倍數。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "lcm(4,6)=12",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "12"
+          ],
+          "accept": true,
+          "reason": "lcm(4,6)=12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：8"
+        },
+        {
+          "answers": [
+            "10"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：10"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "da5dfefc393924d3cc84543dcb51819ff71a21ecda5823f9b2af40d7046701df"
+    },
+    {
+      "id": "fractions-31",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "2/3與1/4通分成分母24，可以嗎？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：24為3和4的公倍數",
+      "scaffolding": [
+        "24是不是3和4的公倍數？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "24為3和4的公倍數",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "可以，共同分母不一定要最小"
+          ],
+          "accept": true,
+          "reason": "24為3和4的公倍數"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "不可以，只能用12"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：不可以，只能用12"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cb717e4acb889a1267b7058d95dfd89850fa66ac75fb8296d086123e29c41dfb"
+    },
+    {
+      "id": "fractions-32",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "3/5和5/8，哪個較大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：24/40<25/40",
+      "scaffolding": [
+        "通分成40後比較分子。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "24/40<25/40",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "5/8"
+          ],
+          "accept": true,
+          "reason": "24/40<25/40"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3/5"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3/5"
+        },
+        {
+          "answers": [
+            "一樣大"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一樣大"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b686000ee6abf26d8e2861e5ca29835496b7fabaf5d53a1259c5b482709e7802"
+    },
+    {
+      "id": "fractions-33",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "5/6和7/9，哪個較大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：15/18>14/18",
+      "scaffolding": [
+        "可以通分成18。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "15/18>14/18",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "5/6"
+          ],
+          "accept": true,
+          "reason": "15/18>14/18"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7/9"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：7/9"
+        },
+        {
+          "answers": [
+            "一樣大"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一樣大"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "8bf5f018f6bd3ff677dc6fbd6a3bd08be3e3a502ab6c4738f6592a68f7a2a157"
+    },
+    {
+      "id": "fractions-34",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "4/6和6/9，哪個較大？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：均等於2/3",
+      "scaffolding": [
+        "試著把兩個分數都約分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "均等於2/3",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "一樣大"
+          ],
+          "accept": true,
+          "reason": "均等於2/3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4/6"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：4/6"
+        },
+        {
+          "answers": [
+            "6/9"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：6/9"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "28b3b15f8c35b514a05bf958547d19ea5636f4bbf9f9cfcd73d51e0c82646eeb"
+    },
+    {
+      "id": "fractions-35",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "兩條一樣長的緞帶，取第一條的3/4、第二條的5/8，哪一段較長？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6/8>5/8",
+      "scaffolding": [
+        "先把3/4變成分母8。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6/8>5/8",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "第一條的3/4"
+          ],
+          "accept": true,
+          "reason": "6/8>5/8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "第二條的5/8"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：第二條的5/8"
+        },
+        {
+          "answers": [
+            "一樣長"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一樣長"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "3d79bd044fa53d6400036116088f007a66203e090e931ea01d48407b07feffdb"
+    },
+    {
+      "id": "fractions-36",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "兩個大小不同的披薩，各取 1/2，實際份量會一樣嗎？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：整體較大，同取一半份量較大",
+      "scaffolding": [
+        "分數相同，也要確認「一個整體」是否一樣大。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "整體較大，同取一半份量較大",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "不一樣，大披薩的一半比較多"
+          ],
+          "accept": true,
+          "reason": "整體較大，同取一半份量較大"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一樣，因為都是 1/2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一樣，因為都是 1/2"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "大小不同的披薩各取一半，答案卻寫不一定。",
+          "resolution": "明確回答大披薩的一半實際份量較多。"
+        }
+      ],
+      "fingerprint": "ab8ec38635e05a2b52f17c59a60df379bf2c21430f675559add59e676748a10e"
+    },
+    {
+      "id": "fractions-37",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "兩個相同容量的水瓶，甲裝2/3、乙裝5/6。通分成分母6再比較。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×2=4；5不變",
+      "scaffolding": [
+        "甲的分子分母同乘2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×2=4；5不變",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "4",
+            "5"
+          ],
+          "accept": true,
+          "reason": "2×2=4；5不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "6"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "5e76760a9ba30d9799caef3ea2213d117cafe937c4a89df0b59da85ef3f2a445"
+    },
+    {
+      "id": "fractions-38",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "把1/2、2/3、3/4由小到大排列，哪個正確？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6/12<8/12<9/12",
+      "scaffolding": [
+        "通分成12，分子分別是多少？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6/12<8/12<9/12",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "1/2 ＜ 2/3 ＜ 3/4"
+          ],
+          "accept": true,
+          "reason": "6/12<8/12<9/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3/4 ＜ 2/3 ＜ 1/2"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：3/4 ＜ 2/3 ＜ 1/2"
+        },
+        {
+          "answers": [
+            "2/3 ＜ 1/2 ＜ 3/4"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：2/3 ＜ 1/2 ＜ 3/4"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "0ef69adb7eb97cb2718823788063a723f6d16c9ff4fa8636f00f657a1e5dbf9b"
+    },
+    {
+      "id": "fractions-39",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "小光比較分數時出錯了。把3/4通分成分母20，分子應是多少？",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "4/5比3/4大，因為分子4比3大；比較分子就夠了。",
+      "scaffolding": [
+        "答案碰巧對，也要用相同分母來說明。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×5=15",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "15"
+          ],
+          "accept": true,
+          "reason": "3×5=15"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "16"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "12ee6f36c3dd857ee7904c147dfde8ba1b1db8b59bb48f2fb7730ddb42b19664"
+    },
+    {
+      "id": "fractions-40",
+      "revision": 1,
+      "curriculum": "4-3",
+      "objective": "24格巧克力吃了16格。先約分，再改成分母12。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：16/24=2/3=8/12",
+      "scaffolding": [
+        "16/24先同除以8，再把分母3乘4。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "16/24=2/3=8/12",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "3",
+            "8"
+          ],
+          "accept": true,
+          "reason": "16/24=2/3=8/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "3",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "4",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "3",
+            "9"
+          ],
+          "accept": false,
+          "reason": "第3欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "4000b783c9605dd6575fea7d8e7aab8191bb93ea56caa33b939c022e7b6e9fd7"
+    },
+    {
+      "id": "fractions-game-1",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "上面塗了 1/2，下面是同樣大的整體。請在 8 格裡塗出一樣大的份量。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1/2×8=4；2/3×12=8；3/4×12=9",
+      "scaffolding": [
+        "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1/2×8=4；2/3×12=8；3/4×12=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2,3]"
+          ],
+          "accept": true,
+          "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2,3]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[3,2,1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,2,3,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "645ddedb7a676ca139fe756c0ca1d5840ad35133191125e61be0024ee44f47e3"
+    },
+    {
+      "id": "fractions-game-2",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "上面塗了 2/3，下面是同樣大的整體。請在 12 格裡塗出一樣大的份量。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1/2×8=4；2/3×12=8；3/4×12=9",
+      "scaffolding": [
+        "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1/2×8=4；2/3×12=8；3/4×12=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2,3,4,5,6,7]"
+          ],
+          "accept": true,
+          "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[7,6,5,4,3,2,1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "f8b00a55b5d621ab022b0ab399a0e75bed736d6464a81c7efecd24e6b96b7956"
+    },
+    {
+      "id": "fractions-game-3",
+      "revision": 1,
+      "curriculum": "4-1",
+      "objective": "上面塗了 3/4，下面是同樣大的整體。請在 12 格裡塗出一樣大的份量。",
+      "prerequisites": [
+        "分子分母與等份",
+        "乘除法和公因數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：1/2×8=4；2/3×12=8；3/4×12=9",
+      "scaffolding": [
+        "上下兩條一樣長。試著讓塗色的總長度一樣。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "1/2×8=4；2/3×12=8；3/4×12=9",
+      "reviewNote": "指明分母或最簡形式時檢查形式；等值數量問題仍接受等值分數。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2,3,4,5,6,7,8]"
+          ],
+          "accept": true,
+          "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7,8]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[8,7,6,5,4,3,2,1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7,8,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a8e56d25a5b9734504b1f58036cf5f3424e318892d8e3b1a03713bf5f2f7fb59"
+    }
+  ]
+}

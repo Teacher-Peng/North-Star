@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": 1,
+  "unit": "area",
+  "questions": [
+    {
+      "id": "area-v2-1",
+      "revision": 2,
+      "fingerprint": "8a9f96922a88bf192d947617e61611753de87ee81debe26236f53f03830bc662",
+      "curriculum": "8-2",
+      "objective": "辨認指定底邊所對應的垂直高",
+      "prerequisites": [
+        "直角與垂直"
+      ],
+      "thinking": "辨認",
+      "interaction": "選擇理由",
+      "difficulty": "入門",
+      "misconception": "把斜邊當成高",
+      "scaffolding": [
+        "找找哪條線和橘色底邊形成直角。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "右角記號表示垂直；斜邊不符合。",
+      "reviewNote": "初始圖說曾直接指出 B 是垂線，已修；仍需孩子確認 A、B 標示可讀。",
+      "cases": [
+        {
+          "answers": [
+            "B 線"
+          ],
+          "accept": true,
+          "reason": "右角記號表示垂直；斜邊不符合。"
+        },
+        {
+          "answers": [
+            "A 線"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：右角記號表示垂直；斜邊不符合。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "?"
+        }
+      ],
+      "renderLabels": [
+        ">A</text>",
+        ">B</text>",
+        "底 8 公分"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "caption-leak",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "初始圖說直接指出 B 垂直，提前給出答案。",
+          "resolution": "改為觀察 A、B 與直角記號；加入初始畫面禁用文字檢查。"
+        }
+      ],
+      "forbiddenVisibleText": [
+        "B 是垂直",
+        "B 線和底邊垂直"
+      ]
+    },
+    {
+      "id": "area-v2-2",
+      "revision": 2,
+      "fingerprint": "7fece0836a489e3625d892af26ef595e0e64142c62bee5c519000e7dfb121e1a",
+      "curriculum": "8-2",
+      "objective": "用同底同高判斷等面積",
+      "prerequisites": [
+        "三角形面積"
+      ],
+      "thinking": "比較",
+      "interaction": "選擇理由",
+      "difficulty": "基礎",
+      "misconception": "依外觀斜度判斷大小",
+      "scaffolding": [
+        "比較兩張圖標示的底和高，不要只看斜邊。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "兩者都是 8×4÷2=16。",
+      "reviewNote": "兩圖同尺度與同高，圖示有助比較；正確選項較長，需留意文字猜題。",
+      "cases": [
+        {
+          "answers": [
+            "一樣大，因為底和高都相同"
+          ],
+          "accept": true,
+          "reason": "兩者都是 8×4÷2=16。"
+        },
+        {
+          "answers": [
+            "乙比較大，因為斜邊比較長"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：兩者都是 8×4÷2=16。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "4"
+        },
+        {
+          "path": "diagram.panels.1.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.1.height",
+          "equals": "4"
+        }
+      ],
+      "renderLabels": [
+        ">甲</text>",
+        ">乙</text>",
+        "高 4"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "right-angle-marker",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "右側頂點的直角符號畫在三角形外側。",
+          "resolution": "直角記號依高度線位置向內繪製；需重看最新視覺。"
+        }
+      ]
+    },
+    {
+      "id": "area-v2-3",
+      "revision": 2,
+      "fingerprint": "e3f659ca435a99e5fc8ecd3ab52b9b5d279611fba087333b6b79ca33462635e1",
+      "curriculum": "8-1",
+      "objective": "理解剪拼不增減面積",
+      "prerequisites": [
+        "面積是覆蓋大小"
+      ],
+      "thinking": "守恆推理",
+      "interaction": "數值輸入",
+      "difficulty": "基礎",
+      "misconception": "移動後面積變大",
+      "scaffolding": [
+        "想想有沒有增加或丟掉任何一片紙。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "無重疊、空隙、增減，仍是24。",
+      "reviewNote": "文字能判斷，但還沒有直接剪拼，後續需補操作驗證。",
+      "cases": [
+        {
+          "answers": [
+            "24"
+          ],
+          "accept": true,
+          "reason": "無重疊、空隙、增減，仍是24。"
+        },
+        {
+          "answers": [
+            "48"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：無重疊、空隙、增減，仍是24。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-4",
+      "revision": 2,
+      "fingerprint": "198fa92c14f0f92396694ec4291cdd6f5bf98dfedda3429d3d375623b6c97fbe",
+      "curriculum": "8-2",
+      "objective": "計算三角旗面積",
+      "prerequisites": [
+        "乘除與三角形公式"
+      ],
+      "thinking": "計算",
+      "interaction": "數值輸入",
+      "difficulty": "基礎",
+      "misconception": "忘記取一半",
+      "scaffolding": [
+        "可以先想兩面一樣的旗子合起來有多大。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "8×5÷2=20。",
+      "reviewNote": "保留一題基本計算，與其他任務搭配。",
+      "cases": [
+        {
+          "answers": [
+            "20"
+          ],
+          "accept": true,
+          "reason": "8×5÷2=20。"
+        },
+        {
+          "answers": [
+            "40"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：8×5÷2=20。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "5"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-5",
+      "revision": 2,
+      "fingerprint": "9507af915c329a01bb7d0cef8e0ab5dd0b9ba682eac5f48e02a6e286d2601cdb",
+      "curriculum": "8-1",
+      "objective": "指出斜邊誤作高度的原因",
+      "prerequisites": [
+        "垂直高和平行四邊形面積"
+      ],
+      "thinking": "找錯",
+      "interaction": "選擇理由",
+      "difficulty": "基礎",
+      "misconception": "底乘斜邊",
+      "scaffolding": [
+        "面積公式裡的兩個長度，有什麼方向關係？",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "應用8×4=32而非8×5。",
+      "reviewNote": "圖題資料一致，仍需真人確認錯誤選項是否太容易排除。",
+      "cases": [
+        {
+          "answers": [
+            "應該用垂直的高 4，不是斜邊 5"
+          ],
+          "accept": true,
+          "reason": "應用8×4=32而非8×5。"
+        },
+        {
+          "answers": [
+            "平行四邊形都要再除以 2"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：應用8×4=32而非8×5。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "4"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-6",
+      "revision": 2,
+      "fingerprint": "0bae76747b146cd0be70d3e976a759dffa4fa8a8083ef49b50c2a5ad51b78d77",
+      "curriculum": "8-2",
+      "objective": "由面積與底逆推高度",
+      "prerequisites": [
+        "三角形公式與除法"
+      ],
+      "thinking": "逆推",
+      "interaction": "數值輸入",
+      "difficulty": "進階",
+      "misconception": "未還原兩倍面積",
+      "scaffolding": [
+        "先想兩個這樣的三角形拼起來，面積會是多少。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "24×2÷8=6。",
+      "reviewNote": "需先理解倍面積；高維持問號不洩答案。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "24×2÷8=6。"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：24×2÷8=6。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "?"
+        }
+      ],
+      "renderLabels": [
+        "高 ?"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-7",
+      "revision": 2,
+      "fingerprint": "f4629ceb6ffaeb9feb6e41156963589e2c5267cc01e7ac70f3256d193167df5d",
+      "curriculum": "8-2",
+      "objective": "預測固定底時高度倍增的影響",
+      "prerequisites": [
+        "乘法倍數與三角形公式"
+      ],
+      "thinking": "規律推理",
+      "interaction": "選擇理由",
+      "difficulty": "進階",
+      "misconception": "高倍增誤當面積四倍",
+      "scaffolding": [
+        "把底 × 高 ÷ 2 中改變的部分找出來。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "6×3÷2=9，6×6÷2=18。",
+      "reviewNote": "圖上高度也倍增，需觀察孩子能否說出原因。",
+      "cases": [
+        {
+          "answers": [
+            "變成原來的 2 倍"
+          ],
+          "accept": true,
+          "reason": "6×3÷2=9，6×6÷2=18。"
+        },
+        {
+          "answers": [
+            "變成原來的 4 倍"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：6×3÷2=9，6×6÷2=18。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "6"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "3"
+        },
+        {
+          "path": "diagram.panels.1.base",
+          "equals": "6"
+        },
+        {
+          "path": "diagram.panels.1.height",
+          "equals": "6"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-8",
+      "revision": 2,
+      "fingerprint": "c843eab14489d40f9010d68c3fef664dbcf7ceccb4528c1d3e40ace9309329ba",
+      "curriculum": "8-3",
+      "objective": "計算梯形面積",
+      "prerequisites": [
+        "梯形上底下底高"
+      ],
+      "thinking": "計算",
+      "interaction": "數值輸入",
+      "difficulty": "基礎",
+      "misconception": "忘記除以二",
+      "scaffolding": [
+        "兩張相同梯形可以拼成一個平行四邊形。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "(4+8)×5÷2=30。",
+      "reviewNote": "保留梯形基本計算。",
+      "cases": [
+        {
+          "answers": [
+            "30"
+          ],
+          "accept": true,
+          "reason": "(4+8)×5÷2=30。"
+        },
+        {
+          "answers": [
+            "60"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：(4+8)×5÷2=30。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "5"
+        },
+        {
+          "path": "diagram.panels.0.top",
+          "equals": "4"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-9",
+      "revision": 2,
+      "fingerprint": "1451c6f9f9f00dbb6d097b2c030f3f2a38c6ce232528c5c3817c6b94d9cbdd6e",
+      "curriculum": "8-2",
+      "objective": "辨認面積問題缺少必要資料",
+      "prerequisites": [
+        "面積依賴底和高"
+      ],
+      "thinking": "資料判斷",
+      "interaction": "選擇理由",
+      "difficulty": "基礎",
+      "misconception": "只有底即可決定面積",
+      "scaffolding": [
+        "同樣的底，頂點可以在不同高度嗎？",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "底8、高2得8；底8、高4得16，無唯一面積。",
+      "reviewNote": "問號支援理解未知量；可加同底不同高的反例操作。",
+      "cases": [
+        {
+          "answers": [
+            "不能，還需要這條底邊對應的高"
+          ],
+          "accept": true,
+          "reason": "底8、高2得8；底8、高4得16，無唯一面積。"
+        },
+        {
+          "answers": [
+            "可以，8 ÷ 2 就好"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：底8、高2得8；底8、高4得16，無唯一面積。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "?"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-10",
+      "revision": 2,
+      "fingerprint": "abe981073f32f8bee92dd2facadaf69345fe582d6ff3d3419dceed887cf9853c",
+      "curriculum": "8-4",
+      "objective": "計算剪去三角形後的剩餘面積",
+      "prerequisites": [
+        "長方形與三角形面積"
+      ],
+      "thinking": "分解相減",
+      "interaction": "數值輸入",
+      "difficulty": "進階",
+      "misconception": "扣掉底乘高未除二",
+      "scaffolding": [
+        "先算整張紙，再扣掉剪走的部分。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "10×6−4×3÷2=54。",
+      "reviewNote": "多步驟題；可搭配白板，不以閱讀速度評分。",
+      "cases": [
+        {
+          "answers": [
+            "54"
+          ],
+          "accept": true,
+          "reason": "10×6−4×3÷2=54。"
+        },
+        {
+          "answers": [
+            "48"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：10×6−4×3÷2=54。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "10"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "6"
+        },
+        {
+          "path": "diagram.panels.0.cutBase",
+          "equals": "4"
+        },
+        {
+          "path": "diagram.panels.0.cutHeight",
+          "equals": "3"
+        }
+      ],
+      "renderLabels": [
+        ">4</text>",
+        ">3</text>",
+        ">6</text>"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "hardcoded-cut-dimensions",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "剪角圖的 4、3、6 寫死於繪圖程式，改題容易圖文不一致。",
+          "resolution": "將剪角尺寸放回題目資料，圖的尺寸標籤與形狀都取用同一資料。"
+        }
+      ]
+    },
+    {
+      "id": "area-v2-11",
+      "revision": 2,
+      "fingerprint": "ec2ff32b5f7e5b3580ddf7857f742ff7594fbd7426795b7589085b6652004b31",
+      "curriculum": "8-4",
+      "objective": "自行構造符合面積條件的底與高",
+      "prerequisites": [
+        "三角形面積與整數因數"
+      ],
+      "thinking": "創作驗證",
+      "interaction": "輸入底和高，可在白板畫圖",
+      "difficulty": "進階",
+      "misconception": "誤將底乘高當面積",
+      "scaffolding": [
+        "試選一個底，想想要配上多高，才會得到指定面積。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "8×3÷2=12，4×3÷2=6。",
+      "reviewNote": "接受多解，但兩欄聯合錯誤仍共用逐步標示，需改善回饋文案。",
+      "cases": [
+        {
+          "answers": [
+            "8",
+            "3"
+          ],
+          "accept": true,
+          "reason": "8×3÷2=12，4×3÷2=6。"
+        },
+        {
+          "answers": [
+            "4",
+            "3"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：8×3÷2=12，4×3÷2=6。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        },
+        {
+          "answers": [
+            "6",
+            "4"
+          ],
+          "accept": true,
+          "reason": "另一組整數解也要接受"
+        },
+        {
+          "answers": [
+            "2",
+            "12"
+          ],
+          "accept": true,
+          "reason": "最大允許高度12可接受"
+        },
+        {
+          "answers": [
+            "1",
+            "24"
+          ],
+          "accept": false,
+          "reason": "雖面積12但超出尺寸範圍"
+        },
+        {
+          "answers": [
+            "2.4",
+            "10"
+          ],
+          "accept": false,
+          "reason": "不符合整數條件"
+        },
+        {
+          "answers": [
+            "0",
+            "12"
+          ],
+          "accept": false,
+          "reason": "零長度不構成三角形"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "joint-feedback",
+          "severity": "warning",
+          "status": "resolved",
+          "reason": "兩欄聯合判分，逐欄顯示「再檢查這一步」可能讓孩子誤認兩個數值都錯；應提示檢查兩者配對。",
+          "resolution": "聯合判分改顯示「請一起檢查底和高的配對」，不把單一數值標成一定錯誤。"
+        }
+      ]
+    },
+    {
+      "id": "area-v2-12",
+      "revision": 2,
+      "fingerprint": "b84d00d2bbf15b256e0cb083d273c1945f6a5cd0a157c076c76a4cc7c6b41cb7",
+      "curriculum": "8-3",
+      "objective": "由梯形面積逆推高",
+      "prerequisites": [
+        "梯形公式與除法"
+      ],
+      "thinking": "逆推",
+      "interaction": "數值輸入",
+      "difficulty": "進階",
+      "misconception": "忘記先將面積加倍",
+      "scaffolding": [
+        "先把兩個相同梯形合起來的面積找出來。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "30×2÷(4+8)=5。",
+      "reviewNote": "先備較多，建議基本題成功後再做。",
+      "cases": [
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": true,
+          "reason": "30×2÷(4+8)=5。"
+        },
+        {
+          "answers": [
+            "2.5"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：30×2÷(4+8)=5。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "8"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "?"
+        },
+        {
+          "path": "diagram.panels.0.top",
+          "equals": "4"
+        }
+      ],
+      "renderLabels": [
+        "高 ?",
+        "上底 4"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-13",
+      "revision": 2,
+      "fingerprint": "3e551394ea18a8f1a9239404a9fad32d2fcfacadadfb012a6e4bf768311c537b",
+      "curriculum": "8-4",
+      "objective": "連結面積與可覆蓋材料張數",
+      "prerequisites": [
+        "平行四邊形面積與等分"
+      ],
+      "thinking": "應用",
+      "interaction": "分步填空",
+      "difficulty": "進階",
+      "misconception": "以周長估算所需材料",
+      "scaffolding": [
+        "先算卡片面積，再想每張色紙能覆蓋多少。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "9×4=36，36÷6=6。",
+      "reviewNote": "可剪拼前提避免材料形狀不足；這題沒有無條件捨入問題。",
+      "cases": [
+        {
+          "answers": [
+            "36",
+            "6"
+          ],
+          "accept": true,
+          "reason": "9×4=36，36÷6=6。"
+        },
+        {
+          "answers": [
+            "36",
+            "5"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：9×4=36，36÷6=6。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [
+        {
+          "path": "diagram.panels.0.base",
+          "equals": "9"
+        },
+        {
+          "path": "diagram.panels.0.height",
+          "equals": "4"
+        }
+      ],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-v2-14",
+      "revision": 2,
+      "fingerprint": "fa683800b9cf79fec0866dfdf677103ce7ff0dceb9efb3cd6f9a2d739b709c75",
+      "curriculum": "8-2",
+      "objective": "解釋三角形公式為何取一半",
+      "prerequisites": [
+        "全等與面積加法"
+      ],
+      "thinking": "說理",
+      "interaction": "選擇理由",
+      "difficulty": "基礎",
+      "misconception": "因邊數或慣例而除二",
+      "scaffolding": [
+        "底乘高得到的是一片，還是兩片的面積？",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "兩片等面積合為40，一片20。",
+      "reviewNote": "目前是選擇理由，不能證明孩子會獨立口頭解釋。",
+      "cases": [
+        {
+          "answers": [
+            "底乘高算的是兩個三角形合起來的面積"
+          ],
+          "accept": true,
+          "reason": "兩片等面積合為40，一片20。"
+        },
+        {
+          "answers": [
+            "因為三角形有兩條斜邊"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：兩片等面積合為40，一片20。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": []
+    },
+    {
+      "id": "area-game-1",
+      "revision": 2,
+      "fingerprint": "960168daf95ea25d3aa5214cb77f68736de5464b960546536bc53cd6abbea1c6",
+      "curriculum": "8-2",
+      "objective": "依拼合過程排序三角形面積推導",
+      "prerequisites": [
+        "全等與平行四邊形面積"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選或拖卡排序",
+      "difficulty": "引導活動",
+      "misconception": "計算順序顛倒",
+      "scaffolding": [
+        "先求兩片合起來的面積，再分回一片。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "先拼合、算兩片40、取一片20。",
+      "reviewNote": "卡片顯示結果，是引導活動，不是獨立計算測驗。",
+      "cases": [
+        {
+          "answers": [
+            "[2,1,0]"
+          ],
+          "accept": true,
+          "reason": "先拼合、算兩片40、取一片20。"
+        },
+        {
+          "answers": [
+            "[0,1,2]"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：先拼合、算兩片40、取一片20。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-not-assessment",
+          "severity": "warning",
+          "status": "open",
+          "reason": "算式答案已在卡片上，僅作引導探索；完成徽章不能當成獨立計算能力證據。"
+        }
+      ]
+    },
+    {
+      "id": "area-game-2",
+      "revision": 2,
+      "fingerprint": "93de8c34e4c21ece9e0f2a7e06cf9d4dab07225e73d7778a39bdbe84dcd918b6",
+      "curriculum": "8-1",
+      "objective": "連結平移剪拼與平行四邊形公式",
+      "prerequisites": [
+        "長方形面積與守恆"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選或拖卡排序",
+      "difficulty": "引導活動",
+      "misconception": "剪拼增加面積",
+      "scaffolding": [
+        "搬家後面積沒有增加，也沒有減少。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "先剪拼，再算6×4=24。",
+      "reviewNote": "僅兩張卡，猜對機率高；後續改為實際移動紙片。",
+      "cases": [
+        {
+          "answers": [
+            "[1,0]"
+          ],
+          "accept": true,
+          "reason": "先剪拼，再算6×4=24。"
+        },
+        {
+          "answers": [
+            "[0,1]"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：先剪拼，再算6×4=24。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-not-assessment",
+          "severity": "warning",
+          "status": "open",
+          "reason": "算式答案已在卡片上，僅作引導探索；完成徽章不能當成獨立計算能力證據。"
+        }
+      ]
+    },
+    {
+      "id": "area-game-3",
+      "revision": 2,
+      "fingerprint": "fc6dcf6b0675210ab0fb6790a92445fddb0f4c97618acab978b654b62055cf19",
+      "curriculum": "8-3",
+      "objective": "由兩梯形拼合連結梯形公式",
+      "prerequisites": [
+        "平行四邊形與等分"
+      ],
+      "thinking": "排序推導",
+      "interaction": "點選或拖卡排序",
+      "difficulty": "引導活動",
+      "misconception": "忘記取一半",
+      "scaffolding": [
+        "拼起來的底，是原本上底加下底。",
+        "卡住時回看底與高的關係，或用不同數字示範。"
+      ],
+      "grading": "拼合底12高5共60，單片30。",
+      "reviewNote": "第三個排序遊戲重複；建議改成找配對或補缺尺寸。",
+      "cases": [
+        {
+          "answers": [
+            "[2,1,0]"
+          ],
+          "accept": true,
+          "reason": "拼合底12高5共60，單片30。"
+        },
+        {
+          "answers": [
+            "[0,1,2]"
+          ],
+          "accept": false,
+          "reason": "排除常見誤解或錯誤順序：拼合底12高5共60，單片30。"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "空白不是完成作答"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "guided-not-assessment",
+          "severity": "warning",
+          "status": "open",
+          "reason": "算式答案已在卡片上，僅作引導探索；完成徽章不能當成獨立計算能力證據。"
+        },
+        {
+          "id": "fixture-index",
+          "severity": "blocker",
+          "status": "resolved",
+          "reason": "首次檢查的正例卡片索引寫錯為 1,2,0。",
+          "resolution": "逐張比對 tiles：2 為拼合、1 為合計面積、0 為單片面積，修正為 2,1,0；保留拒絕倒序的反例，未更改判分器。"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    "8-1",
+    "8-2",
+    "8-3",
+    "8-4"
+  ]
+}

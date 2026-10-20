@@ -1,0 +1,1176 @@
+{
+  "scope": "桌面瀏覽器每題初始畫面的題幹、圖解存在、遊戲按鈕存在；不是每題互動或視覺完整驗證",
+  "date": "2026-10-20",
+  "results": [
+    {
+      "id": "charts-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "charts-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-9",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-10",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-11",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-12",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-13",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-14",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "factors-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-9",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-10",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-11",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-12",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-13",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-14",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-15",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-16",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-17",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-18",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-19",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-20",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-21",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-22",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-23",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-24",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-25",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-26",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-27",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-28",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-29",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-30",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-31",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-32",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-33",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-34",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-35",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-36",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-37",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-38",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-39",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-40",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "angles-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-9",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-10",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-11",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-12",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-13",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-14",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-15",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-16",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-17",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-18",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-19",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-20",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-21",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-22",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-23",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-24",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-25",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-26",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-27",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-28",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-29",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-30",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-31",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-32",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-33",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-34",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-35",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-36",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-37",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-38",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-39",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-40",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fractions-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-9",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-10",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-11",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-12",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-13",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-14",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-15",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-16",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-17",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-18",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-19",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-20",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-21",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-22",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-23",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-24",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-25",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-26",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-27",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-28",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-29",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-30",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-31",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-32",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-33",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-34",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-35",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-36",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-37",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-38",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-39",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-40",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "symmetry-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "fraction-sums-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "operations-review-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-9",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-10",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-11",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-12",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-13",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-v2-14",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "area-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "time-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-5",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-6",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-7",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-8",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-game-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-game-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-game-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-review-1",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-review-2",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-review-3",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-review-4",
+      "ok": true,
+      "invalid": false
+    },
+    {
+      "id": "solids-review-5",
+      "ok": true,
+      "invalid": false
+    }
+  ]
+}

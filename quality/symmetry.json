@@ -1,0 +1,2826 @@
+{
+  "schemaVersion": 1,
+  "unit": "symmetry",
+  "coverage": [
+    "5-1",
+    "5-2",
+    "5-3",
+    "5-4"
+  ],
+  "questions": [
+    {
+      "id": "symmetry-1",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "A距離對稱軸3格，對稱點A′距離軸幾格？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "鏡射定位",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：軸4−欄1=3",
+      "scaffolding": [
+        "對稱點到軸的距離相等。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "軸4−欄1=3",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "軸4−欄1=3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2965f5810cfa85cb4fc30d93ad73e5cb6702d558624f8228a6b827d63935076e"
+    },
+    {
+      "id": "symmetry-2",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "A和A′各距離對稱軸4公分，兩點相距幾公分？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：4+4=8",
+      "scaffolding": [
+        "把軸兩側的距離相加。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "4+4=8",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": true,
+          "reason": "4+4=8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "6eb78970581eb53116b1b11d53bb8b3df766e922769f71341860c8de4a696b5b"
+    },
+    {
+      "id": "symmetry-3",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "點P距離對稱軸2格。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：距離2；合計2×2=4",
+      "scaffolding": [
+        "對稱軸在兩點正中間。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "距離2；合計2×2=4",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "4"
+          ],
+          "accept": true,
+          "reason": "距離2；合計2×2=4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "5"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "2e9e63d46211bf74e30e4a6f4682d6ddb01dbab67ff2fa3b3f34d5c4ecd4827c"
+    },
+    {
+      "id": "symmetry-4",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "哪個條件能確認一條直線是對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：反射需完全重合",
+      "scaffolding": [
+        "線對稱的重點是完全重合。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "反射需完全重合",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "沿線對摺能完全重合"
+          ],
+          "accept": true,
+          "reason": "反射需完全重合"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "兩邊面積相等就好"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：兩邊面積相等就好"
+        },
+        {
+          "answers": [
+            "直線一定要垂直"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：直線一定要垂直"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "e046c1c8fe043f1611be9aa62e6f4b2da177f837b7ed45339d2371caa1a85430"
+    },
+    {
+      "id": "symmetry-5",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "正方形有幾條對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：水平、垂直、兩對角線共4",
+      "scaffolding": [
+        "試試橫著、直著和沿斜線對摺，哪些能完全重合？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "水平、垂直、兩對角線共4",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": true,
+          "reason": "水平、垂直、兩對角線共4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b215cd67cca7079b214c1af9fca8e8de260fbe41c474bdf8e5373b3901961e94"
+    },
+    {
+      "id": "symmetry-6",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "長6公分、寬4公分的長方形有幾條對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：非正方形長方形僅2軸",
+      "scaffolding": [
+        "非正方形的長方形，沿對角線不能完全重合。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "非正方形長方形僅2軸",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": true,
+          "reason": "非正方形長方形僅2軸"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "727fd833dc70ffe40c8350be03e7174d497054e794f3a8c4843f8810b91476e5"
+    },
+    {
+      "id": "symmetry-7",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "小光把距離軸3格的點，畫在另一側5格處。正確應距離軸幾格？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "左側3格 → 右側5格",
+      "scaffolding": [
+        "兩側的距離必須一樣。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "兩側同距為3",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "兩側同距為3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "6eba9510dfd7ccaa8fe7339c76dbb1dec281c736ca150a072130d7a042e81ac7"
+    },
+    {
+      "id": "symmetry-8",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "一條邊長7公分，它的對稱邊長幾公分？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：對稱邊等長7",
+      "scaffolding": [
+        "對稱邊能重合。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "對稱邊等長7",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": true,
+          "reason": "對稱邊等長7"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "62ec43e412a4775b562144c723af13dc2ceaefb170349534ed8a4e6a445b3b40"
+    },
+    {
+      "id": "symmetry-9",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "把圖形分成面積相等的兩半，就一定是對稱軸嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：等面積未必全等可摺合",
+      "scaffolding": [
+        "想想兩半形狀是否也必須相同。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "等面積未必全等可摺合",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "不一定，還要對摺後完全重合"
+          ],
+          "accept": true,
+          "reason": "等面積未必全等可摺合"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一定是"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定是"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "3f89647f3d63fcead162ff94c94f1ce21d2bdae442ab518be2d985d26a176329"
+    },
+    {
+      "id": "symmetry-10",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "正三角形有幾條對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：每頂點到對邊中點共3",
+      "scaffolding": [
+        "試著從每個頂點連向對邊中點。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "每頂點到對邊中點共3",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "每頂點到對邊中點共3"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "0b4dab56e39a045d86668a21dea5ec44d344b3cc53286e47559355970d74148c"
+    },
+    {
+      "id": "symmetry-11",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "圖中等腰三角形的底邊與腰長不同，它有幾條對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：非正三角形等腰僅1軸",
+      "scaffolding": [
+        "沿頂角和底邊中點的連線對摺。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "非正三角形等腰僅1軸",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "1"
+          ],
+          "accept": true,
+          "reason": "非正三角形等腰僅1軸"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "5c4fba838ede467499576638070412c75f73961a512738887f6eb933ef484dd7"
+    },
+    {
+      "id": "symmetry-12",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "長與寬不同的長方形，對角線是對稱軸嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：長短不同沿對角線不能重合",
+      "scaffolding": [
+        "對摺後長邊與短邊能完全重合嗎？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "長短不同沿對角線不能重合",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "不是"
+          ],
+          "accept": true,
+          "reason": "長短不同沿對角線不能重合"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "是"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：是"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a02b919587cb94f143c8b9f7bc49d2f42556c4bfa4c77211ed6b65d78c013b85"
+    },
+    {
+      "id": "symmetry-13",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "一般平行四邊形（不是長方形，也不是菱形）是線對稱圖形嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：一般斜平行四邊形無鏡射軸",
+      "scaffolding": [
+        "試著找一條能對摺後完全重合的直線。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "一般斜平行四邊形無鏡射軸",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "不是"
+          ],
+          "accept": true,
+          "reason": "一般斜平行四邊形無鏡射軸"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "是"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：是"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a8feb03313e00aa4dbc867b9d4d9b7a5d62e3abe76dd3fb90506c07ab0ae0a0a"
+    },
+    {
+      "id": "symmetry-14",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "圓的哪一種直線是對稱軸？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：圓對任一直徑鏡射不變",
+      "scaffolding": [
+        "沿直徑對摺，兩個半圓會怎樣？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "圓對任一直徑鏡射不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "任何通過圓心的直線"
+          ],
+          "accept": true,
+          "reason": "圓對任一直徑鏡射不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "只碰到圓邊的直線"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只碰到圓邊的直線"
+        },
+        {
+          "answers": [
+            "只有垂直通過圓心的一條"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有垂直通過圓心的一條"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "fa202a3317e473b174fcafd952a0673ae9347f912c1303c50b27849616f28f29"
+    },
+    {
+      "id": "symmetry-15",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "把線對稱圖形斜著放，它還是線對稱圖形嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：旋轉不改線對稱性",
+      "scaffolding": [
+        "判斷條件是完全重合，不是擺放方向。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "旋轉不改線對稱性",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "是，對稱軸跟著轉動"
+          ],
+          "accept": true,
+          "reason": "旋轉不改線對稱性"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "不是，對稱軸只能直立"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：不是，對稱軸只能直立"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c54d568c429745a5c7c70e839e57b7802ba7200192a130eecc7941d0d1bfbc7f"
+    },
+    {
+      "id": "symmetry-16",
+      "revision": 1,
+      "curriculum": "5-1",
+      "objective": "小光漏數了正方形的對稱軸。正確共有幾條？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "只有水平和垂直兩條，斜線不算。",
+      "scaffolding": [
+        "兩條對角線對摺後能不能重合？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "四軸",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": true,
+          "reason": "四軸"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "401a37809e8c58f41cf74914a1f64c04347c208d49eb7d812c273d766068dd60"
+    },
+    {
+      "id": "symmetry-17",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "點P恰好在對稱軸上，它的對稱點在哪裡？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：軸上點反射後不變",
+      "scaffolding": [
+        "軸上的點對摺時位置會變嗎？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "軸上點反射後不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "仍在P的位置"
+          ],
+          "accept": true,
+          "reason": "軸上點反射後不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一定在左側"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定在左側"
+        },
+        {
+          "answers": [
+            "一定在右側"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定在右側"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "4a18cd3251941d86d8b1607adc7314684964921a5b654d65ab8c83054cc65dfd"
+    },
+    {
+      "id": "symmetry-18",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "一對對稱點相距10公分，對稱軸在正中間。每點距離軸幾公分？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：10÷2=5",
+      "scaffolding": [
+        "兩側距離相等，把總距離平分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "10÷2=5",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "5"
+          ],
+          "accept": true,
+          "reason": "10÷2=5"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "8123e4bfc7ffc8e60a1d4a977c321def9bbc6f8b2164b408d04e7411ad38c981"
+    },
+    {
+      "id": "symmetry-19",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "一個角是65°，它的對稱角是多少度？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：對稱角相等65",
+      "scaffolding": [
+        "對稱角摺起來會完全重合。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "對稱角相等65",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "65"
+          ],
+          "accept": true,
+          "reason": "對稱角相等65"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "66"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "62b4d16a9d64a40a2f2aa3596374210842e92ef0d9262c3a1cea97b5302bf01e"
+    },
+    {
+      "id": "symmetry-20",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "對稱圖形左側兩段邊長分別為4公分、6公分。右側對應兩段各是多少？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：對應AB4、BC6",
+      "scaffolding": [
+        "對應的是哪一段，就和那一段等長。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "對應AB4、BC6",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "4",
+            "6"
+          ],
+          "accept": true,
+          "reason": "對應AB4、BC6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "875bf9a874e96e50e57e4678ef9867ba522c85aef7f5076a322a22bdfdb3a5ad"
+    },
+    {
+      "id": "symmetry-21",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "連接一對不在軸上的對稱點，連線與對稱軸有什麼關係？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：對稱軸是對稱點連線的垂直平分線",
+      "scaffolding": [
+        "觀察左右對應點到軸的最短距離。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "對稱軸是對稱點連線的垂直平分線",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "互相垂直，而且被軸平分"
+          ],
+          "accept": true,
+          "reason": "對稱軸是對稱點連線的垂直平分線"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "互相平行"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：互相平行"
+        },
+        {
+          "answers": [
+            "可以任意斜交"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：可以任意斜交"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "48a11cc781bc795d6302513f2dc0bb54476ed177c3fb9b39b7b99b23f441f609"
+    },
+    {
+      "id": "symmetry-22",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "小光說對稱角是原角的兩倍。原角48°，正確對稱角是多少？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "48×2＝96°。",
+      "scaffolding": [
+        "對摺能重合的角，大小應該相同。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "鏡射保持角48",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "48"
+          ],
+          "accept": true,
+          "reason": "鏡射保持角48"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "49"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "e885a3d4f6b98bd7016a89c75c582ba8f9129cbf048c77b827461ac2dd853490"
+    },
+    {
+      "id": "symmetry-23",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "A與A′互為對稱點，A距軸6公分。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：距離6、合計12",
+      "scaffolding": [
+        "先找另一側的相等距離，再把兩段相加。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "距離6、合計12",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "6",
+            "12"
+          ],
+          "accept": true,
+          "reason": "距離6、合計12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "12"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "13"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "26c5053582a19a0f3d4b86c7b5a26ef7884cbc4a374c12b48f9ad12c8be4c329"
+    },
+    {
+      "id": "symmetry-24",
+      "revision": 1,
+      "curriculum": "5-2",
+      "objective": "對稱點只要離虛線一樣遠，就一定畫對了嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：同距還要同一垂線另一側",
+      "scaffolding": [
+        "只有距離一樣，但點往上移，摺起來會重合嗎？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "同距還要同一垂線另一側",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "不一定，還要在同一條垂線的另一側"
+          ],
+          "accept": true,
+          "reason": "同距還要同一垂線另一側"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一定"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a849bfa0342191b5915fccd9dfdce7cd656b08badd841d083ef2a7b8df2da6c2"
+    },
+    {
+      "id": "symmetry-25",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "把 A 照鏡子：虛線在第 4 欄，A 在第 1 欄、第 2 列。A′ 應在哪裡？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8−1=7，列2不變",
+      "scaffolding": [
+        "A在軸左側3格，另一點要在右側3格且同高。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8−1=7，列2不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "7",
+            "2"
+          ],
+          "accept": true,
+          "reason": "8−1=7，列2不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8",
+            "2"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "3"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "469b8e3336e3071a7dc77ab8cda553638f3818f866fa161e46b04f5d33090c0d"
+    },
+    {
+      "id": "symmetry-26",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "B在第3欄第6列，以第4欄為對稱軸，B′的位置是？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8−3=5，列6不變",
+      "scaffolding": [
+        "B在軸左側1格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8−3=5，列6不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "5",
+            "6"
+          ],
+          "accept": true,
+          "reason": "8−3=5，列6不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "5",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "34de559537491fae6c86b15cc9e18644790db4e0431e6f492604201208107305"
+    },
+    {
+      "id": "symmetry-27",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "C在第6欄第3列，以第4欄為對稱軸，C′的位置是？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8−6=2，列3不變",
+      "scaffolding": [
+        "這次從右側反射到左側。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8−6=2，列3不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "3"
+          ],
+          "accept": true,
+          "reason": "8−6=2，列3不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "4"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "ae780cec57dab04e956eea95e49dc539c2bd48d18ef6c46201ef556a0b2c4edc"
+    },
+    {
+      "id": "symmetry-28",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "對稱軸改成水平的第4列。D在第2欄第1列，D′的位置是？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：欄2不變，8−1=7",
+      "scaffolding": [
+        "水平對稱時左右位置不變，上下距離相等。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "欄2不變，8−1=7",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "7"
+          ],
+          "accept": true,
+          "reason": "欄2不變，8−1=7"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "22c18b92965d5d03e02ee0c5c97a63cd2ae8ad364ae1c6efdb7f791d71637681"
+    },
+    {
+      "id": "symmetry-29",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "以第4欄為軸，A在第2欄第2列，B在第1欄第5列。先找對稱點所在的欄。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8−2=6；8−1=7",
+      "scaffolding": [
+        "每個點分別數到軸的距離，不要一起平移。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8−2=6；8−1=7",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "6",
+            "7"
+          ],
+          "accept": true,
+          "reason": "8−2=6；8−1=7"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a7b3f6752a156cbed7f2b9c921f06119e86657b091683eed17372780425cabcd"
+    },
+    {
+      "id": "symmetry-30",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "補畫圖形時，找好A′、B′、C′後，應該怎麼連線？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：反射保持頂點相鄰關係",
+      "scaffolding": [
+        "對稱後相鄰的頂點仍然互相對應。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "反射保持頂點相鄰關係",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "按照原圖A、B、C的連接順序"
+          ],
+          "accept": true,
+          "reason": "反射保持頂點相鄰關係"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "照距離遠近隨便連"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：照距離遠近隨便連"
+        },
+        {
+          "answers": [
+            "只連到對稱軸就好"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只連到對稱軸就好"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "fba3983c6e8fcd319cdfef604a3a79126939223aecd8c8c96fc4fc9282dfcadf"
+    },
+    {
+      "id": "symmetry-31",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "以第4欄為軸，A在第1欄第3列。小光畫錯了，A′正確的列數是多少？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "畫在第7欄第5列：左右距離對了，高度往上移了。",
+      "scaffolding": [
+        "垂直對稱軸兩側的對稱點要同高。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "列3不變",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": true,
+          "reason": "列3不變"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b1e9e7fe150268e335f5c61f80ee0f84240b7ff68085aa8b9e06198f051a28b2"
+    },
+    {
+      "id": "symmetry-32",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "線段A到B都在第2欄，A在第2列、B在第6列。以第4欄為軸補畫。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：欄8−2=6，長6−2=4",
+      "scaffolding": [
+        "先找第2欄的鏡射位置，再算6−2。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "欄8−2=6，長6−2=4",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "6",
+            "4"
+          ],
+          "accept": true,
+          "reason": "欄8−2=6，長6−2=4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "5"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "7290e0f51438fc152b5b8d2a4535935e2fef9216d3a25210ee220260dabc62dc"
+    },
+    {
+      "id": "symmetry-33",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "紙對摺一次，兩層重合一起剪出圖形。展開後，原來的摺線有什麼作用？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：重合兩層剪出鏡像",
+      "scaffolding": [
+        "剪刀同時剪過兩層，兩側的剪線會怎樣？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "重合兩層剪出鏡像",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "剪出圖形的一條對稱軸"
+          ],
+          "accept": true,
+          "reason": "重合兩層剪出鏡像"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一定是圖形的一條外邊"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定是圖形的一條外邊"
+        },
+        {
+          "answers": [
+            "一定不是對稱軸"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定不是對稱軸"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "只摺一次並不足以保證任意剪法形成對稱，前提不完整。",
+          "resolution": "題幹明寫兩層重合一起剪出圖形。"
+        }
+      ],
+      "fingerprint": "749c1adfdf79a1fd1191f02f0545f2afcf0416fa2b6b443bb5669e4ed0f6b647"
+    },
+    {
+      "id": "symmetry-34",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "依圖對摺後，保留靠摺線的三角形紙片，展開會得到什麼？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：等腰三角形兩側反射組成四等邊菱形",
+      "scaffolding": [
+        "把右半的三角形在左側畫出鏡像。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "等腰三角形兩側反射組成四等邊菱形",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "菱形"
+          ],
+          "accept": true,
+          "reason": "等腰三角形兩側反射組成四等邊菱形"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "圓形"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：圓形"
+        },
+        {
+          "answers": [
+            "只有原來的一個三角形"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有原來的一個三角形"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "1553897bbf5bc809b2901e74ebcc88ff80b218e33192c1985136250845205f60"
+    },
+    {
+      "id": "symmetry-35",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "在對摺紙的摺線邊剪去圖示三角形缺口，展開後中間洞口是什麼形狀？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：同一缺口兩層展開組成菱形孔",
+      "scaffolding": [
+        "缺口跨過摺線後，另一半會對稱出現。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "同一缺口兩層展開組成菱形孔",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "菱形洞"
+          ],
+          "accept": true,
+          "reason": "同一缺口兩層展開組成菱形孔"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "圓洞"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：圓洞"
+        },
+        {
+          "answers": [
+            "只有單側的三角形洞"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有單側的三角形洞"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "圖說直接說半個菱形，提前揭露洞口形狀。",
+          "resolution": "只描述等腰三角形缺口和摺線位置。"
+        }
+      ],
+      "fingerprint": "c6ca2d237870a1a4b585c4ea37c3aa0a287dfdf1046e30246ed27fbdc5dccf17"
+    },
+    {
+      "id": "symmetry-36",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "對摺一次，兩層紙重合。在不碰摺線的位置打一個孔，展開後有幾個孔？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：兩層各穿一次，共2孔",
+      "scaffolding": [
+        "每一層各被穿過一次。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "兩層各穿一次，共2孔",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": true,
+          "reason": "兩層各穿一次，共2孔"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "9d14f11a7d348153b75be965457008e5e8f8538dcbc418b4185e16961358653c"
+    },
+    {
+      "id": "symmetry-37",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "想剪出左右連在一起的對稱圖形，為什麼不能把整條摺線剪斷？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：連接摺線完全剪斷會分離",
+      "scaffolding": [
+        "摺線上的保留部分是兩半連接的地方。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "連接摺線完全剪斷會分離",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "可能把左右兩半分開"
+          ],
+          "accept": true,
+          "reason": "連接摺線完全剪斷會分離"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "會讓兩邊長度變成不同"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：會讓兩邊長度變成不同"
+        },
+        {
+          "answers": [
+            "剪刀會失去對稱性"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：剪刀會失去對稱性"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cd2907e59505245f6e73f0ca07933d92fb1b2466fa95fdd828769d46af4171cb"
+    },
+    {
+      "id": "symmetry-38",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "小光說對摺一次、在離摺線2公分處打一個孔，展開只有一個孔。實際共有幾個？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "兩層重合，打一孔，展開也只有1孔。",
+      "scaffolding": [
+        "展開後，兩層各自的孔會分到軸的兩側。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "兩層兩孔",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "2"
+          ],
+          "accept": true,
+          "reason": "兩層兩孔"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "02447888a75d06cb0ae5df24fc05539348b034100b15a8afa05c4cfc9bf962fd"
+    },
+    {
+      "id": "symmetry-39",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "對摺一次，在離摺線3公分處打一個孔，展開後兩孔互相對稱。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：距離3、合計6",
+      "scaffolding": [
+        "兩孔到摺線距離相同，合計要加兩次。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "距離3、合計6",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "3",
+            "6"
+          ],
+          "accept": true,
+          "reason": "距離3、合計6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "4",
+            "6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "7"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "f1c08cb93b8c5d6c1bb2fac403b360c8377a3b8a11521c753bd85c1c4e292489"
+    },
+    {
+      "id": "symmetry-40",
+      "revision": 1,
+      "curriculum": "5-4",
+      "objective": "只摺一次剪出的圖形，一定只有一條對稱軸嗎？",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：正方形為多軸反例",
+      "scaffolding": [
+        "想想對摺後剪出正方形的情況。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "正方形為多軸反例",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "不一定，某些圖形有更多條"
+          ],
+          "accept": true,
+          "reason": "正方形為多軸反例"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "一定只有一條"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定只有一條"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "cec8a16b237a99f953bf6c468f08a72f73580288f389914b8eba7d3cdfc76e5b"
+    },
+    {
+      "id": "symmetry-game-1",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "鏡射定位",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：7×7格，以第4欄或第4列反射，軸兩側等距",
+      "scaffolding": [
+        "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "7×7格，以第4欄或第4列反射，軸兩側等距",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "[12,18,33]"
+          ],
+          "accept": true,
+          "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[18,33]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[33,18,12]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[18,33,18]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "ee57c2785f34bf3d21acffaca6d615b66516814e4c0e93c3de3bd64d38181537"
+    },
+    {
+      "id": "symmetry-game-2",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "鏡射定位",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：7×7格，以第4欄或第4列反射，軸兩側等距",
+      "scaffolding": [
+        "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "7×7格，以第4欄或第4列反射，軸兩側等距",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "[11,19,40]"
+          ],
+          "accept": true,
+          "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[19,40]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[40,19,11]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[19,40,19]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "a59ea101f248b5049ed2098273a63539a73b48098fa519ef473c65bb893721cb"
+    },
+    {
+      "id": "symmetry-game-3",
+      "revision": 1,
+      "curriculum": "5-3",
+      "objective": "藍色點是原圖。請點出虛線另一側的三個對稱點，再按「摺一摺」比對。",
+      "prerequisites": [
+        "對摺重合",
+        "格線的欄與列及距離"
+      ],
+      "thinking": "鏡射定位",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：7×7格，以第4欄或第4列反射，軸兩側等距",
+      "scaffolding": [
+        "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "7×7格，以第4欄或第4列反射，軸兩側等距",
+      "reviewNote": "使用欄列描述避免要求笛卡兒坐標；紙剪題是示意推理，尚非自由剪紙。",
+      "cases": [
+        {
+          "answers": [
+            "[37,31,40]"
+          ],
+          "accept": true,
+          "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[31,40]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[40,31,37]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[31,40,31]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "db443f9ad93bd857e7558467ada862ba13a4768f3469c16cc0c7022044ccd05c"
+    }
+  ]
+}

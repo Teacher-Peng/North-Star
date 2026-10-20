@@ -5,11 +5,13 @@ import {randomBytes, randomUUID, createHash} from 'node:crypto';
 import {createRemoteJWKSet, jwtVerify} from 'jose';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
+import {readHostingConfig, createFamilyAccess} from './family-auth.mjs';
 
 const root = fileURLToPath(new URL('.', import.meta.url));
 try { loadEnvFile(root+'.env.local'); } catch(error) { if(error.code!=='ENOENT') throw error; }
 const voiceModel='gpt-realtime-2.1-mini';
-const origin = 'http://127.0.0.1:5175';
+const hosting = readHostingConfig();
+const origin = hosting.origin;
 const callback = origin + '/auth/callback';
 const random = () => randomBytes(32).toString('base64url');
 await mkdir(root + '.local', {recursive:true, mode:0o700});
@@ -22,6 +24,7 @@ const lessons=vm.runInNewContext((await readFile(root+'public/lessons.js','utf8'
 const learningCore=vm.runInNewContext((await readFile(root+'public/game-core.js','utf8'))+';'+(await readFile(root+'public/learning-core.js','utf8'))+'; LearningCore');
 const jwks=createRemoteJWKSet(new URL('https://auth.openai.com/.well-known/jwks.json'));
 const sessions=new Map();
+const familyAccess=createFamilyAccess({config:hosting,sessions});
 const mime={'.png':'image/png','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8'};
 function json(res,status,data){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8'});res.end(JSON.stringify(data));}
 function fail(message,status=400){return Object.assign(new Error(message),{status,safe:true});}
@@ -66,20 +69,23 @@ async function generate(s, input, instructions){
  return answer;
 }
 const server=http.createServer(async(req,res)=>{
- res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','no-referrer');
+ // Keep the Origin header on same-origin native form POSTs; omit referrers to other sites.
+ res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','same-origin');
  res.setHeader('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; img-src 'self' data:; media-src 'self' blob:; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
  try {
-  if(req.headers.host!=='127.0.0.1:5175')throw fail('不允許的主機。',403);
+  if(req.headers.host!==hosting.host)throw fail('不允許的主機。',403);
   const url=new URL(req.url,origin);
-  let sid=req.headers.cookie?.match(/(?:^|;\s*)northstar=([A-Za-z0-9_-]+)/)?.[1];
-  let s=sessions.get(sid);
-  if(s && s.created+8*3600000<Date.now()){sessions.delete(sid);s=null;}
+  if(hosting.secure)res.setHeader('Strict-Transport-Security','max-age=31536000');
+  const access=await familyAccess.handle(req,res,url);
+  if(access.handled)return;
+  const s=access.session;
   if(req.method==='POST' && (req.headers.origin!==origin || !s || req.headers['x-csrf-token']!==s.csrf))throw fail('請重新整理頁面後再試。',403);
   if(req.method==='GET' && url.pathname==='/api/status'){
-   if(!s){sid=random();s={created:Date.now(),csrf:random(),chats:new Map()};sessions.set(sid,s);res.setHeader('Set-Cookie',`northstar=${sid}; Path=/; HttpOnly; SameSite=Lax; Max-Age=28800`);}
-   return json(res,200,{voiceAvailable:!!process.env.OPENAI_API_KEY,voiceModel,connected:!!s.tokens && s.expires>Date.now(),model:s.model||null,csrf:s.csrf,loginError:s.loginError||null});
+   const familyAuthenticated=familyAccess.isAllowed(s);
+   return json(res,200,{familyRequired:hosting.mode==='family',familyAuthenticated,textLoginAvailable:hosting.chatgptLoginEnabled&&familyAuthenticated,voiceAvailable:familyAuthenticated&&!!process.env.OPENAI_API_KEY,voiceModel,connected:familyAuthenticated&&!!s.tokens&&s.expires>Date.now(),model:s.model||null,csrf:s.csrf,loginError:s.loginError||null});
   }
   if(req.method==='POST' && url.pathname==='/auth/start'){
+   if(!hosting.chatgptLoginEnabled)throw fail('此網站的 ChatGPT 文字授權尚未啟用。',503);
    delete s.loginError;const state=random(),nonce=random(),verifier=random();
    s.pending={state,nonce,verifier,expires:Date.now()+600000,client:registration?.client_id};
    const params=new URLSearchParams({client_id:registration?.client_id||'dynamic_agent_client',ext_agent_host_id:host.id,response_type:'code',redirect_uri:callback,scope:'openid profile email offline_access resource.invoke chatgpt.tokens.use.direct',resource:'https://api.openai.com/v1',state,nonce,code_challenge_method:'S256',code_challenge:createHash('sha256').update(verifier).digest('base64url')});
@@ -87,6 +93,7 @@ const server=http.createServer(async(req,res)=>{
    return json(res,200,{url:'https://auth.openai.com/api/accounts/authorize?'+params});
   }
   if(req.method==='GET' && url.pathname==='/auth/callback'){
+   if(!hosting.chatgptLoginEnabled)throw fail('此網站的 ChatGPT 文字授權尚未啟用。',503);
    const pending=s?.pending;if(s)delete s.pending;
    if(!pending || pending.expires<Date.now() || url.searchParams.get('state')!==pending.state)throw fail('登入驗證失敗或已逾時，請回首頁重新登入。');
    if(url.searchParams.has('error'))throw fail('未完成 ChatGPT 授權。請回首頁重新登入；若帳號不支援，此試用版不會改用付費 API。');
@@ -138,10 +145,12 @@ const server=http.createServer(async(req,res)=>{
    try{const reply=await generate(s,input,instructions);s.chats.set(key,[...history.slice(-10),{role:'user',content:data.message+(data.image?'（此輪有附圖；後續若需重新檢視，請學生再次附圖。）':'')},{role:'assistant',content:reply}]);return json(res,200,{reply});}finally{s.busy=false;}
   }
   if(req.method==='GET'){
-   const allowed=['/','/index.html','/app.js','/lessons.js','/diagrams.js','/learning-core.js','/game-core.js','/games.js','/tutor.js','/scratchpad.js','/realtime.js','/mascot-xiaoguang.png','/xiaoguang-sprites.png','/north-star-logo.png','/styles.css'];
+   const allowed=['/','/index.html','/app.js','/lessons.js','/diagrams.js','/learning-core.js','/game-core.js','/games.js','/tutor.js','/scratchpad.js','/realtime.js','/mascot-xiaoguang.png','/xiaoguang-sprites.png','/north-star-logo.png','/styles.css','/family-login.js','/family-auth.css'];
    if(!allowed.includes(url.pathname))throw fail('找不到頁面。',404);
    const name=url.pathname==='/'?'index.html':url.pathname.slice(1);
-   const content=await readFile(root+'public/'+name);res.writeHead(200,{'Content-Type':mime[name.slice(name.lastIndexOf('.'))]||'application/octet-stream'});return res.end(content);
+   let content=await readFile(root+'public/'+name);
+   if(name==='index.html')content=content.toString().replace('<!--FAMILY_ACCOUNT-->',familyAccess.accountMarkup(s));
+   res.writeHead(200,{'Content-Type':mime[name.slice(name.lastIndexOf('.'))]||'application/octet-stream'});return res.end(content);
   }
   throw fail('找不到功能。',404);
  }catch(error){
@@ -154,6 +163,6 @@ const server=http.createServer(async(req,res)=>{
   json(res,error.safe?error.status:500,{error:message});
  }
 });
-server.listen(5175,'127.0.0.1',()=>console.log('North Star local: '+origin+'/#lesson/angles'));
-server.on('error',()=>{console.error('無法啟動本機服務，請確認 5175 埠未被使用。');process.exit(1);});
+server.listen(hosting.port,hosting.bindHost,()=>console.log(`North Star (${hosting.mode}): ${origin}/#home`));
+server.on('error',()=>{console.error(`無法啟動服務，請確認 ${hosting.port} 埠與監聽設定。`);process.exit(1);});
 setInterval(()=>{for(const[id,s]of sessions)if(s.created+8*3600000<Date.now())sessions.delete(id);},60000).unref();

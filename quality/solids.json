@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "unit": "solids",
+  "coverage": [
+    "10-1",
+    "10-2",
+    "10-3",
+    "10-4",
+    "10-5"
+  ],
+  "questions": [
+    {
+      "id": "solids-1",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "正方體有幾個面？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：上下前後左右6面",
+      "scaffolding": [
+        "想一想上、下、前、後、左、右。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "上下前後左右6面",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "上下前後左右6面"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "正方體題使用長方體描述與長方形前面。",
+          "resolution": "正方體使用正方形前面與正確描述。"
+        }
+      ],
+      "fingerprint": "c35a36422fae3d7e77244cbcedf4a26a35d2096f6d6671e15014a81755550e6d"
+    },
+    {
+      "id": "solids-2",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "長方體有幾條邊？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：上4下4連接4共12",
+      "scaffolding": [
+        "上方4條、下方4條、連接上下4條。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "上4下4連接4共12",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "12"
+          ],
+          "accept": true,
+          "reason": "上4下4連接4共12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "13"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "10c202ae15f6bbb4175a1c33764212db6307b6da6f20bed7642a8980a4dbae70"
+    },
+    {
+      "id": "solids-3",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "正方體有幾個頂點？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：上下各4共8",
+      "scaffolding": [
+        "上方4個、下方4個。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "上下各4共8",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "8"
+          ],
+          "accept": true,
+          "reason": "上下各4共8"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "9"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "正方體頂點題沿用長方體圖。",
+          "resolution": "改用正方體圖。"
+        }
+      ],
+      "fingerprint": "e0296eba50b5d3efec0f78e2f3909e192d74edefea1339240787ab6be6c34de0"
+    },
+    {
+      "id": "solids-4",
+      "revision": 1,
+      "curriculum": "10-3",
+      "objective": "長方體的上面和下面有什麼關係？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：相對面平行",
+      "scaffolding": [
+        "這是相對的兩個面。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "相對面平行",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "互相平行"
+          ],
+          "accept": true,
+          "reason": "相對面平行"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "互相垂直"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：互相垂直"
+        },
+        {
+          "answers": [
+            "一定重合"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：一定重合"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c1d147b8039d3c6dfa078da5cb0c55adc1b12689e93f41d30bbb470d7fb7712a"
+    },
+    {
+      "id": "solids-5",
+      "revision": 1,
+      "curriculum": "10-3",
+      "objective": "長方體的前面和上面有什麼關係？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：相鄰面垂直",
+      "scaffolding": [
+        "這是相鄰的兩個面。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "相鄰面垂直",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "互相垂直"
+          ],
+          "accept": true,
+          "reason": "相鄰面垂直"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "互相平行"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：互相平行"
+        },
+        {
+          "answers": [
+            "沒有共同的邊"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：沒有共同的邊"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "ca3f98109333cdd931d2a0f2e6e5c1a3816924aba89c978e6c1c88a8cf24c940"
+    },
+    {
+      "id": "solids-6",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "數一數長方體的構成要素。",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：6面8頂點",
+      "scaffolding": [
+        "分別數平面與角點。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "6面8頂點",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "6",
+            "8"
+          ],
+          "accept": true,
+          "reason": "6面8頂點"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7",
+            "8"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "6",
+            "9"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "fa8846764a68215399490ffdfec7d2ee11797327177d3101d363933f4c9176a0"
+    },
+    {
+      "id": "solids-7",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "小光只數出圖上可見的3個面，就說長方體有3個面。實際有幾個？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "看見3個面，所以全部只有3個面。",
+      "scaffolding": [
+        "背面還有被遮住的面。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "可見3隱藏3共6",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "6"
+          ],
+          "accept": true,
+          "reason": "可見3隱藏3共6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "7"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "74c31f78b92423cf85ecc8876caac4b9d8b5c45f8c794c624223b98408989a4a"
+    },
+    {
+      "id": "solids-8",
+      "revision": 1,
+      "curriculum": "10-1",
+      "objective": "正方體的6個面都具有哪個特徵？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：正方體等棱六面全等正方形",
+      "scaffolding": [
+        "正方體所有邊都等長。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "正方體等棱六面全等正方形",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "都是一樣大的正方形"
+          ],
+          "accept": true,
+          "reason": "正方體等棱六面全等正方形"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "都是三角形"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：都是三角形"
+        },
+        {
+          "answers": [
+            "只有相對的面一樣大"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：只有相對的面一樣大"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "資料標成cube但繪圖程式忽略shape。",
+          "resolution": "繪圖依cube/cuboid區分，並支援頂點與尺寸。"
+        }
+      ],
+      "fingerprint": "da71a2115b227e06fcec2da596b15f77b7e772d7124b0de89a323ca4c0310c27"
+    },
+    {
+      "id": "solids-game-1",
+      "revision": 1,
+      "curriculum": "10-4",
+      "objective": "這是正方體的展開圖。摺成盒子後，選出與 A 面相對的那一面。",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "空間推理",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "scaffolding": [
+        "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "[\"F\"]"
+          ],
+          "accept": true,
+          "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[\"F\"]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "8153ecad44a5bfa4020c29d86cbf963b0dd5a1062500cfa17fe9c1c9864a1f56"
+    },
+    {
+      "id": "solids-game-2",
+      "revision": 1,
+      "curriculum": "10-4",
+      "objective": "這是正方體的展開圖。摺成盒子後，選出與 C 面相鄰的所有面。",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "空間推理",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "scaffolding": [
+        "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "[\"A\",\"B\",\"D\",\"F\"]"
+          ],
+          "accept": true,
+          "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[\"B\",\"D\",\"F\"]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[\"F\",\"D\",\"B\",\"A\"]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "67b5aea3d6f3ace4067240b07e6c15b487cae17caddfb1b3a490f04f5d7d753f"
+    },
+    {
+      "id": "solids-game-3",
+      "revision": 1,
+      "curriculum": "10-4",
+      "objective": "這是正方體的展開圖。摺成盒子後，選出與 B 面相對的那一面。",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "空間推理",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "scaffolding": [
+        "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "[\"D\"]"
+          ],
+          "accept": true,
+          "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[\"D\"]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "945fd951d9a9b735b34d6d6b3afba392be491e20df8f257105615fefdc13096c"
+    },
+    {
+      "id": "solids-review-1",
+      "revision": 1,
+      "curriculum": "10-2",
+      "objective": "看前面 ABCD，哪一條邊和 AB 平行？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：前面相對邊AB、DC平行",
+      "scaffolding": [
+        "平行的兩邊，延長後也不相交。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "前面相對邊AB、DC平行",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "DC"
+          ],
+          "accept": true,
+          "reason": "前面相對邊AB、DC平行"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "AD"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：AD"
+        },
+        {
+          "answers": [
+            "BC"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：BC"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [
+        ">A</text>",
+        ">B</text>",
+        ">C</text>",
+        ">D</text>"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "481350545c3153f6d602dae27c8dc4782c35042f14ef009fd567d10d6da38cf8"
+    },
+    {
+      "id": "solids-review-2",
+      "revision": 1,
+      "curriculum": "10-2",
+      "objective": "看前面 ABCD，AB 和 AD 有什麼關係？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "辨認與比較",
+      "interaction": "選擇判斷",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：長方形A角為直角",
+      "scaffolding": [
+        "兩邊在 A 點相交，形成什麼角？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "長方形A角為直角",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "互相垂直"
+          ],
+          "accept": true,
+          "reason": "長方形A角為直角"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "互相平行"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：互相平行"
+        },
+        {
+          "answers": [
+            "同一條邊"
+          ],
+          "accept": false,
+          "reason": "逐一排除不符合條件的選項：同一條邊"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [
+        ">A</text>",
+        ">B</text>",
+        ">C</text>",
+        ">D</text>"
+      ],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "7dc45fd9f64f97944700b90169b76e3a80c3b424e9ba1ec168642c59335e9a54"
+    },
+    {
+      "id": "solids-review-3",
+      "revision": 1,
+      "curriculum": "10-5",
+      "objective": "邊長 3 公分的正方體，六個面的總面積是多少？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3×3×6=54",
+      "scaffolding": [
+        "先算一個正方形面，再想有幾個相同的面。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3×3×6=54",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "54"
+          ],
+          "accept": true,
+          "reason": "3×3×6=54"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "55"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "d60489ebe5dc387cd4483582128d630dfeff21e402384a6a211597e7e6c3e7fb"
+    },
+    {
+      "id": "solids-review-4",
+      "revision": 1,
+      "curriculum": "10-5",
+      "objective": "長方體長 4、寬 3、高 2 公分，表面積是多少？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×(4×3+4×2+3×2)=52",
+      "scaffolding": [
+        "三種面各有兩個：長乘寬、長乘高、寬乘高。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×(4×3+4×2+3×2)=52",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "52"
+          ],
+          "accept": true,
+          "reason": "2×(4×3+4×2+3×2)=52"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "53"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "e3dbda663e5b16890e6f45f97a5c3be21da02c4dd2679f5bf1dee3da0070b243"
+    },
+    {
+      "id": "solids-review-5",
+      "revision": 1,
+      "curriculum": "10-5",
+      "objective": "邊長 2 公分的正方體盒子沒有蓋子，只算外面的五個面，共幾平方公分？",
+      "prerequisites": [
+        "面、邊、頂點",
+        "平行垂直與長方形面積"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2×2×5=20",
+      "scaffolding": [
+        "完整正方體有六個面，拿掉蓋子後還有幾個？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2×2×5=20",
+      "reviewNote": "正方體採正方形前面；線段題標頂點、表面積題明列尺寸。展開圖仍需實際摺合驗證。",
+      "cases": [
+        {
+          "answers": [
+            "20"
+          ],
+          "accept": true,
+          "reason": "2×2×5=20"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "21"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "965a0d7cf6baefe4b40a697f635045ee805afd71601b7b72b057257cc22b0766"
+    }
+  ]
+}

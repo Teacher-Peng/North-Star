@@ -53,7 +53,7 @@ const lessons = Object.freeze([
         "explain": "週二的點對應25本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -69,7 +69,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-1"
+        "id": "charts-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -80,7 +81,7 @@ const lessons = Object.freeze([
         "explain": "30−15＝15本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -96,7 +97,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-2"
+        "id": "charts-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -117,7 +119,7 @@ const lessons = Object.freeze([
         "explain": "20＋25＝45本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -133,7 +135,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-3"
+        "id": "charts-3",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -148,7 +151,7 @@ const lessons = Object.freeze([
         "explain": "25本下降到15本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -164,7 +167,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-4"
+        "id": "charts-4",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -175,7 +179,7 @@ const lessons = Object.freeze([
         "explain": "5格×每格5本＝25本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -192,7 +196,8 @@ const lessons = Object.freeze([
           "step": 5
         },
         "work": "週二在第5格，所以是5本。",
-        "id": "charts-5"
+        "id": "charts-5",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -203,7 +208,7 @@ const lessons = Object.freeze([
         "explain": "30−15＝15本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -219,7 +224,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-6"
+        "id": "charts-6",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -232,46 +238,29 @@ const lessons = Object.freeze([
         "answer": "折線圖",
         "hint": "需要依時間順序看增減。",
         "explain": "折線圖適合呈現隨時間變化的資料。",
-        "diagram": {
-          "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
-          "labels": [
-            "週一",
-            "週二",
-            "週三",
-            "週四"
-          ],
-          "values": [
-            20,
-            25,
-            15,
-            30
-          ],
-          "unit": "本",
-          "step": 5
-        },
-        "id": "charts-7"
+        "id": "charts-7",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
-        "prompt": "四天合計與平均每天借閱量各是多少？",
+        "prompt": "四天一共借出幾本？週五再借出幾本，五天合計就到 100 本？",
         "fields": [
           {
-            "label": "合計",
+            "label": "四天合計",
             "answer": "90",
             "unit": "本"
           },
           {
-            "label": "平均",
-            "answer": "22.5",
+            "label": "週五還需要",
+            "answer": "10",
             "unit": "本"
           }
         ],
-        "hint": "先把四天的本數合起來，再平均分成四份。",
-        "explain": "合計90本，平均90÷4＝22.5本。",
+        "hint": "先加總四天，再和目標 100 本比較。",
+        "explain": "20＋25＋15＋30＝90；100−90＝10 本。",
         "diagram": {
           "kind": "chart",
-          "description": "圖書角借閱量：週一20本、週二25本、週三15本、週四30本。縱軸每格5本。",
+          "description": "圖書角週一到週四借閱量。橫軸是日期，縱軸單位是本，每格 5 本。",
           "labels": [
             "週一",
             "週二",
@@ -287,7 +276,8 @@ const lessons = Object.freeze([
           "unit": "本",
           "step": 5
         },
-        "id": "charts-8"
+        "id": "charts-8",
+        "practiceRole": "core"
       },
       {
         "id": "charts-game-1",
@@ -313,7 +303,8 @@ const lessons = Object.freeze([
           "unit": "本"
         },
         "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
-        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。",
+        "practiceRole": "guided"
       },
       {
         "id": "charts-game-2",
@@ -339,7 +330,8 @@ const lessons = Object.freeze([
           "unit": "下"
         },
         "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
-        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。",
+        "practiceRole": "guided"
       },
       {
         "id": "charts-game-3",
@@ -365,11 +357,94 @@ const lessons = Object.freeze([
           "unit": "毫米"
         },
         "hint": "先選一天，沿著刻度找它的數量。每一格代表 5。",
-        "explain": "四個點按日期連起來，就能看到上升、下降或不變。"
+        "explain": "四個點按日期連起來，就能看到上升、下降或不變。",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "charts-review-1",
+        "type": "choice",
+        "prompt": "看圖例找五乙：哪一天五乙比五甲少借書？",
+        "hint": "同一天的兩根長條是一組，再比高度。",
+        "explain": "週二五甲 20 本、五乙 10 本，五乙較少。",
+        "answer": "週二",
+        "diagram": {
+          "kind": "grouped-chart",
+          "labels": [
+            "週一",
+            "週二",
+            "週三"
+          ],
+          "series": [
+            {
+              "label": "五甲",
+              "values": [
+                10,
+                20,
+                15
+              ]
+            },
+            {
+              "label": "五乙",
+              "values": [
+                15,
+                10,
+                20
+              ]
+            }
+          ],
+          "step": 5,
+          "unit": "本",
+          "description": "兩班借閱量的複雜長條圖，每格 5 本。先看圖例，再找日期。"
+        },
+        "choices": [
+          "週一",
+          "週二",
+          "週三"
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "charts-review-2",
+        "type": "number",
+        "prompt": "週三兩班共借出幾本書？",
+        "hint": "先按圖例讀出兩班的數量，再相加。",
+        "explain": "五甲 15 本，五乙 20 本，合計 35 本。",
+        "answer": "35",
+        "diagram": {
+          "kind": "grouped-chart",
+          "labels": [
+            "週一",
+            "週二",
+            "週三"
+          ],
+          "series": [
+            {
+              "label": "五甲",
+              "values": [
+                10,
+                20,
+                15
+              ]
+            },
+            {
+              "label": "五乙",
+              "values": [
+                15,
+                10,
+                20
+              ]
+            }
+          ],
+          "step": 5,
+          "unit": "本",
+          "description": "兩班借閱量的複雜長條圖，每格 5 本。先看圖例，再找日期。"
+        },
+        "unit": "本",
+        "practiceRole": "core"
       }
     ],
     "duration": 15,
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "小小資料記錄員"
   },
   {
@@ -404,7 +479,8 @@ const lessons = Object.freeze([
           "description": "哪一個數是 18 的因數？"
         },
         "type": "choice",
-        "id": "factors-1"
+        "id": "factors-1",
+        "practiceRole": "core"
       },
       {
         "prompt": "20 的因數共有幾個？",
@@ -420,7 +496,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "個",
-        "id": "factors-2"
+        "id": "factors-2",
+        "practiceRole": "core"
       },
       {
         "prompt": "有 24 顆珠子，每串要一樣多且沒有剩下。每串可以有幾顆？",
@@ -442,7 +519,8 @@ const lessons = Object.freeze([
           "7 顆",
           "8 顆",
           "9 顆"
-        ]
+        ],
+        "practiceRole": "core"
       },
       {
         "prompt": "15 顆糖果，每袋裝 3 顆，可以剛好裝成幾袋？",
@@ -463,7 +541,8 @@ const lessons = Object.freeze([
           "description": "15 顆糖果，每袋裝 3 顆，可以剛好裝成幾袋？"
         },
         "type": "choice",
-        "id": "factors-4"
+        "id": "factors-4",
+        "practiceRole": "core"
       },
       {
         "prompt": "16 的因數共有幾個？",
@@ -479,7 +558,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "個",
-        "id": "factors-5"
+        "id": "factors-5",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "哪一個數不是 12 的因數？",
@@ -487,11 +567,12 @@ const lessons = Object.freeze([
         "hint": "留意最後一排有沒有排滿。",
         "explain": "12 ÷ 5 = 2 餘 2，不能整除，所以 5 不是 12 的因數。",
         "diagram": {
-          "kind": "groups",
-          "total": 12,
-          "cols": 5,
-          "solutionCols": 5,
-          "description": "哪一個數不是 12 的因數？"
+          "kind": "cards",
+          "items": [
+            "12 個物品",
+            "每組個數要能整除 12"
+          ],
+          "description": "檢查選項能否把 12 個物品剛好分完。"
         },
         "type": "choice",
         "unit": "",
@@ -501,7 +582,8 @@ const lessons = Object.freeze([
           "3",
           "5",
           "6"
-        ]
+        ],
+        "practiceRole": "core"
       },
       {
         "prompt": "30 顆珠子，每串 6 顆，可以剛好串成幾串？",
@@ -522,12 +604,13 @@ const lessons = Object.freeze([
           "description": "30 顆珠子，每串 6 顆，可以剛好串成幾串？"
         },
         "type": "choice",
-        "id": "factors-7"
+        "id": "factors-7",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "哪一個數是 28 的因數？",
         "answer": "7",
-        "hint": "試著把每排個數調成選項，看看哪個排得剛好。",
+        "hint": "把每個選項當成每串顆數，用除法檢查會不會剩下。",
         "explain": "28 = 7 × 4，所以 7 是 28 的因數。",
         "diagram": {
           "kind": "groups",
@@ -544,7 +627,8 @@ const lessons = Object.freeze([
           "5",
           "7",
           "9"
-        ]
+        ],
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "18 顆珠子，每串 4 顆，最多做成幾串完整的手鍊？",
@@ -560,7 +644,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "串",
-        "id": "factors-9"
+        "id": "factors-9",
+        "practiceRole": "core"
       },
       {
         "prompt": "哪一組完整列出了 10 的所有因數？",
@@ -581,7 +666,8 @@ const lessons = Object.freeze([
           "description": "哪一組完整列出了 10 的所有因數？"
         },
         "type": "choice",
-        "id": "factors-10"
+        "id": "factors-10",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -598,7 +684,8 @@ const lessons = Object.freeze([
             "24"
           ]
         },
-        "id": "factors-11"
+        "id": "factors-11",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -615,7 +702,8 @@ const lessons = Object.freeze([
             "6、12、18…"
           ]
         },
-        "id": "factors-12"
+        "id": "factors-12",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -641,7 +729,8 @@ const lessons = Object.freeze([
           "cols": 6,
           "solutionCols": 6
         },
-        "id": "factors-13"
+        "id": "factors-13",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -659,7 +748,8 @@ const lessons = Object.freeze([
           ]
         },
         "work": "18÷5＝3，所以5是18的因數。",
-        "id": "factors-14"
+        "id": "factors-14",
+        "practiceRole": "core"
       },
       {
         "id": "factors-game-1",
@@ -671,7 +761,8 @@ const lessons = Object.freeze([
           "total": 12
         },
         "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
-        "explain": "12 的因數，就是所有能把 12 個物品剛好分完的每袋個數。"
+        "explain": "12 的因數，就是所有能把 12 個物品剛好分完的每袋個數。",
+        "practiceRole": "guided"
       },
       {
         "id": "factors-game-2",
@@ -683,7 +774,8 @@ const lessons = Object.freeze([
           "total": 18
         },
         "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
-        "explain": "18 的因數，就是所有能把 18 個物品剛好分完的每袋個數。"
+        "explain": "18 的因數，就是所有能把 18 個物品剛好分完的每袋個數。",
+        "practiceRole": "guided"
       },
       {
         "id": "factors-game-3",
@@ -695,7 +787,40 @@ const lessons = Object.freeze([
           "total": 24
         },
         "hint": "每袋個數 × 袋數，要剛好等於總數。1 個一袋也可以喔。",
-        "explain": "24 的因數，就是所有能把 24 個物品剛好分完的每袋個數。"
+        "explain": "24 的因數，就是所有能把 24 個物品剛好分完的每袋個數。",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "factors-review-1",
+        "type": "choice",
+        "prompt": "145、230、312，哪個數同時是 2、5 和 10 的倍數？",
+        "hint": "看看個位數，先想什麼數可以被 10 整除。",
+        "explain": "230 個位數為 0，同時可被 2、5、10 整除。",
+        "answer": "230",
+        "choices": [
+          "145",
+          "230",
+          "312"
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "factors-review-2",
+        "type": "number",
+        "prompt": "紅燈每 4 秒閃一次，綠燈每 6 秒閃一次。現在一起閃，至少再過幾秒會一起閃？",
+        "hint": "列出兩盞燈接下來閃亮的秒數，找最早相同的一次。",
+        "explain": "4 的倍數：4、8、12；6 的倍數：6、12；再過 12 秒。",
+        "answer": "12",
+        "diagram": {
+          "kind": "cards",
+          "items": [
+            "紅燈：每 4 秒",
+            "綠燈：每 6 秒"
+          ],
+          "description": "兩燈現在一起閃，找下一次同時閃亮。"
+        },
+        "unit": "秒",
+        "practiceRole": "core"
       }
     ],
     "unit": 2,
@@ -720,7 +845,7 @@ const lessons = Object.freeze([
       "cols": 3,
       "solutionCols": 3
     },
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "點心分袋工坊"
   },
   {
@@ -761,7 +886,8 @@ const lessons = Object.freeze([
         },
         "stage": "找第三個角",
         "type": "choice",
-        "id": "angles-1"
+        "id": "angles-1",
+        "practiceRole": "core"
       },
       {
         "prompt": "兩個內角是 40° 和 80°，剩下的角是多少？",
@@ -783,7 +909,8 @@ const lessons = Object.freeze([
         "stage": "找第三個角",
         "type": "number",
         "unit": "度",
-        "id": "angles-2"
+        "id": "angles-2",
+        "practiceRole": "core"
       },
       {
         "prompt": "這個直角三角形有一個角是 35°，另一個銳角是多少？",
@@ -805,7 +932,8 @@ const lessons = Object.freeze([
         "stage": "直角三角形",
         "type": "number",
         "unit": "度",
-        "id": "angles-3"
+        "id": "angles-3",
+        "practiceRole": "core"
       },
       {
         "prompt": "兩個內角分別是 25° 和 45°，未知角是多少？",
@@ -832,7 +960,8 @@ const lessons = Object.freeze([
         },
         "stage": "辨認鈍角",
         "type": "choice",
-        "id": "angles-4"
+        "id": "angles-4",
+        "practiceRole": "core"
       },
       {
         "prompt": "等腰三角形的頂角是 40°，每一個底角是多少？",
@@ -854,7 +983,8 @@ const lessons = Object.freeze([
         "stage": "等腰三角形",
         "type": "number",
         "unit": "度",
-        "id": "angles-5"
+        "id": "angles-5",
+        "practiceRole": "core"
       },
       {
         "prompt": "等腰三角形的一個底角是 50°，頂角是多少？",
@@ -876,7 +1006,8 @@ const lessons = Object.freeze([
         "stage": "等腰三角形",
         "type": "number",
         "unit": "度",
-        "id": "angles-6"
+        "id": "angles-6",
+        "practiceRole": "core"
       },
       {
         "prompt": "正三角形的三個角相等，每一個角是多少？",
@@ -903,7 +1034,8 @@ const lessons = Object.freeze([
         },
         "stage": "正三角形",
         "type": "choice",
-        "id": "angles-7"
+        "id": "angles-7",
+        "practiceRole": "core"
       },
       {
         "prompt": "兩個角是 65° 和 55°，神祕角是多少？",
@@ -925,7 +1057,8 @@ const lessons = Object.freeze([
         "stage": "混合練習",
         "type": "number",
         "unit": "度",
-        "id": "angles-8"
+        "id": "angles-8",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "等腰直角三角形的兩個銳角相等，每個銳角是多少？",
@@ -947,7 +1080,8 @@ const lessons = Object.freeze([
         "stage": "等腰直角三角形",
         "type": "number",
         "unit": "度",
-        "id": "angles-9"
+        "id": "angles-9",
+        "practiceRole": "core"
       },
       {
         "prompt": "三角形的一個角是 100°，另一個是 30°，最後一個角是多少？",
@@ -974,7 +1108,8 @@ const lessons = Object.freeze([
         },
         "stage": "生活挑戰",
         "type": "choice",
-        "id": "angles-10"
+        "id": "angles-10",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -993,7 +1128,8 @@ const lessons = Object.freeze([
             "?"
           ]
         },
-        "id": "angles-11"
+        "id": "angles-11",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1015,7 +1151,8 @@ const lessons = Object.freeze([
             "2、3、5"
           ]
         },
-        "id": "angles-12"
+        "id": "angles-12",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -1045,7 +1182,8 @@ const lessons = Object.freeze([
           "unknown": 0,
           "equilateral": true
         },
-        "id": "angles-13"
+        "id": "angles-13",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -1065,7 +1203,8 @@ const lessons = Object.freeze([
           "unknown": 2
         },
         "work": "50＋60＝110，所以第三角是110°。",
-        "id": "angles-14"
+        "id": "angles-14",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1077,14 +1216,15 @@ const lessons = Object.freeze([
           "kind": "polygon",
           "sides": 5,
           "diagonals": false,
-          "description": "5條直線段首尾相接圍成圖形。圖形大小與方向不影響邊數。"
+          "description": "沿著圖形外框觀察直線段與相接的頂點。"
         },
         "unit": "條",
-        "id": "angles-15"
+        "id": "angles-15",
+        "practiceRole": "core"
       },
       {
         "type": "number",
-        "prompt": "圖中的六邊形有幾個頂點？",
+        "prompt": "圖中的多邊形有幾個頂點？",
         "answer": "6",
         "hint": "兩條相鄰邊相接的地方就是頂點。",
         "explain": "六邊形有6條邊，也有6個頂點。",
@@ -1092,10 +1232,11 @@ const lessons = Object.freeze([
           "kind": "polygon",
           "sides": 6,
           "diagonals": false,
-          "description": "6條直線段首尾相接圍成圖形。圖形大小與方向不影響邊數。"
+          "description": "沿著圖形外框觀察直線段與相接的頂點。"
         },
         "unit": "個",
-        "id": "angles-16"
+        "id": "angles-16",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1114,7 +1255,8 @@ const lessons = Object.freeze([
           "diagonals": false,
           "description": "5條直線段首尾相接圍成圖形。圖形大小與方向不影響邊數。"
         },
-        "id": "angles-17"
+        "id": "angles-17",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1136,7 +1278,8 @@ const lessons = Object.freeze([
           ],
           "description": "長方形；長 6 公分；寬 3 公分；四個角都是直角"
         },
-        "id": "angles-18"
+        "id": "angles-18",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1157,7 +1300,8 @@ const lessons = Object.freeze([
           ],
           "description": "2 公分；3 公分；5 公分"
         },
-        "id": "angles-19"
+        "id": "angles-19",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1180,7 +1324,8 @@ const lessons = Object.freeze([
           ],
           "description": "已知邊長 4 公分；已知邊長 7 公分；第三邊？"
         },
-        "id": "angles-20"
+        "id": "angles-20",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -1199,7 +1344,8 @@ const lessons = Object.freeze([
         },
         "unit": "公分",
         "work": "只檢查4＋8＞3，所以能圍成。",
-        "id": "angles-21"
+        "id": "angles-21",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1221,7 +1367,8 @@ const lessons = Object.freeze([
           ],
           "unknown": 0
         },
-        "id": "angles-22"
+        "id": "angles-22",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1239,7 +1386,8 @@ const lessons = Object.freeze([
           "unknown": 2
         },
         "unit": "度",
-        "id": "angles-23"
+        "id": "angles-23",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -1267,7 +1415,8 @@ const lessons = Object.freeze([
           ],
           "unknown": 2
         },
-        "id": "angles-24"
+        "id": "angles-24",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -1288,7 +1437,8 @@ const lessons = Object.freeze([
           ],
           "description": "直角 90°；直角 90°；第三角必須大於 0°"
         },
-        "id": "angles-25"
+        "id": "angles-25",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1310,7 +1460,8 @@ const lessons = Object.freeze([
           ],
           "unknown": null
         },
-        "id": "angles-26"
+        "id": "angles-26",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1329,7 +1480,8 @@ const lessons = Object.freeze([
           "isosceles": true
         },
         "unit": "度",
-        "id": "angles-27"
+        "id": "angles-27",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -1358,7 +1510,8 @@ const lessons = Object.freeze([
           "unknown": 0,
           "isosceles": true
         },
-        "id": "angles-28"
+        "id": "angles-28",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -1377,7 +1530,8 @@ const lessons = Object.freeze([
           "isosceles": true
         },
         "unit": "度",
-        "id": "angles-29"
+        "id": "angles-29",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "error",
@@ -1397,30 +1551,22 @@ const lessons = Object.freeze([
         },
         "unit": "度",
         "work": "頂角80°，所以每個底角是180−80＝100°。",
-        "id": "angles-30"
+        "id": "angles-30",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
-        "prompt": "等腰三角形有一個角是100°，這個角一定在哪裡？",
+        "prompt": "等腰三角形有一個 100° 的角。為什麼它不可能是底角？",
         "choices": [
-          "頂角",
-          "底角",
-          "無法判斷"
+          "另一個底角也會是 100°，兩角已超過 180°",
+          "所有三角形的底角都必須是 60°",
+          "底角一定比頂角小"
         ],
-        "answer": "頂角",
+        "answer": "另一個底角也會是 100°，兩角已超過 180°",
         "hint": "如果底角是100°，另一個底角也會是100°。",
         "explain": "兩個100°已超過180°，所以100°只能是頂角。",
-        "diagram": {
-          "kind": "angles",
-          "values": [
-            40,
-            40,
-            100
-          ],
-          "unknown": 0,
-          "isosceles": true
-        },
-        "id": "angles-31"
+        "id": "angles-31",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1438,7 +1584,8 @@ const lessons = Object.freeze([
           "unknown": 2
         },
         "unit": "度",
-        "id": "angles-32"
+        "id": "angles-32",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -1457,7 +1604,8 @@ const lessons = Object.freeze([
           "isosceles": true
         },
         "unit": "度",
-        "id": "angles-33"
+        "id": "angles-33",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -1472,7 +1620,8 @@ const lessons = Object.freeze([
           "description": "4條直線段首尾相接圍成圖形。從同一頂點畫出對角線。"
         },
         "unit": "個",
-        "id": "angles-34"
+        "id": "angles-34",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -1497,7 +1646,8 @@ const lessons = Object.freeze([
           "diagonals": true,
           "description": "4條直線段首尾相接圍成圖形。從同一頂點畫出對角線。"
         },
-        "id": "angles-35"
+        "id": "angles-35",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1517,7 +1667,8 @@ const lessons = Object.freeze([
           "description": "四邊形；75°；85°；110°；？"
         },
         "unit": "度",
-        "id": "angles-36"
+        "id": "angles-36",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -1537,13 +1688,14 @@ const lessons = Object.freeze([
           "description": "四邊形；90°；90°；90°；？"
         },
         "unit": "度",
-        "id": "angles-37"
+        "id": "angles-37",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "error",
         "prompt": "小光求四邊形的第四角，應改成多少度？",
         "answer": "110",
-        "hint": "小明用錯了哪種圖形的內角和？",
+        "hint": "小光用錯了哪種圖形的內角和？",
         "explain": "應用四邊形的360°：360−70−80−100＝110°。",
         "diagram": {
           "kind": "cards",
@@ -1558,7 +1710,8 @@ const lessons = Object.freeze([
         },
         "unit": "度",
         "work": "已知70°、80°、100°，用180−70−80−100計算。",
-        "id": "angles-38"
+        "id": "angles-38",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1579,7 +1732,8 @@ const lessons = Object.freeze([
           ],
           "unknown": null
         },
-        "id": "angles-39"
+        "id": "angles-39",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -1606,7 +1760,8 @@ const lessons = Object.freeze([
           ],
           "description": "三角形：40°、60°、？；四邊形：80°、90°、100°、？"
         },
-        "id": "angles-40"
+        "id": "angles-40",
+        "practiceRole": "core"
       },
       {
         "id": "angles-game-1",
@@ -1625,7 +1780,8 @@ const lessons = Object.freeze([
           "target": 180
         },
         "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
-        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。",
+        "practiceRole": "guided"
       },
       {
         "id": "angles-game-2",
@@ -1644,7 +1800,8 @@ const lessons = Object.freeze([
           "target": 180
         },
         "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
-        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。",
+        "practiceRole": "guided"
       },
       {
         "id": "angles-game-3",
@@ -1663,7 +1820,60 @@ const lessons = Object.freeze([
           "target": 180
         },
         "hint": "看拼圖下方的角度合計。超過 180° 時，可以換一片比較小的。",
-        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。"
+        "explain": "三片角不重疊地拼成平角，就是三角形內角和 180° 的意思。",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "angles-review-1",
+        "type": "steps",
+        "prompt": "從同一頂點畫對角線，把這個5邊形分成三角形。內角和是多少？",
+        "hint": "數出分成幾個三角形，每個三角形內角和是 180°。",
+        "explain": "分成 3 個三角形，3×180＝540°。",
+        "fields": [
+          {
+            "label": "三角形數量",
+            "answer": "3",
+            "unit": "個"
+          },
+          {
+            "label": "內角和",
+            "answer": "540",
+            "unit": "度"
+          }
+        ],
+        "diagram": {
+          "kind": "polygon",
+          "sides": 5,
+          "diagonals": true,
+          "description": "從同一頂點畫出不相交的對角線，數一數三角形區塊。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "angles-review-2",
+        "type": "steps",
+        "prompt": "從同一頂點畫對角線，把這個6邊形分成三角形。內角和是多少？",
+        "hint": "數出分成幾個三角形，每個三角形內角和是 180°。",
+        "explain": "分成 4 個三角形，4×180＝720°。",
+        "fields": [
+          {
+            "label": "三角形數量",
+            "answer": "4",
+            "unit": "個"
+          },
+          {
+            "label": "內角和",
+            "answer": "720",
+            "unit": "度"
+          }
+        ],
+        "diagram": {
+          "kind": "polygon",
+          "sides": 6,
+          "diagonals": true,
+          "description": "從同一頂點畫出不相交的對角線，數一數三角形區塊。"
+        },
+        "practiceRole": "core"
       }
     ],
     "unit": 3,
@@ -1703,7 +1913,7 @@ const lessons = Object.freeze([
       ],
       "unknown": 2
     },
-    "revision": 3,
+    "revision": 4,
     "gameTitle": "角度拼拼樂"
   },
   {
@@ -1738,7 +1948,8 @@ const lessons = Object.freeze([
           "description": "哪一個分數和 1/2 一樣大？"
         },
         "type": "choice",
-        "id": "fractions-1"
+        "id": "fractions-1",
+        "practiceRole": "core"
       },
       {
         "prompt": "2/3 擴分成分母是 12 的分數，分子是多少？",
@@ -1754,7 +1965,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "",
-        "id": "fractions-2"
+        "id": "fractions-2",
+        "practiceRole": "core"
       },
       {
         "prompt": "6/8 的分子和分母都除以 2，得到哪一個分數？",
@@ -1771,7 +1983,8 @@ const lessons = Object.freeze([
         "type": "number",
         "unit": "",
         "id": "fractions-3",
-        "exactFraction": true
+        "exactFraction": true,
+        "practiceRole": "core"
       },
       {
         "prompt": "哪一個分數與 3/4 一樣大？",
@@ -1792,7 +2005,8 @@ const lessons = Object.freeze([
           "description": "哪一個分數與 3/4 一樣大？"
         },
         "type": "choice",
-        "id": "fractions-4"
+        "id": "fractions-4",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "1/3 擴分成分母是 9 的分數，分子是多少？",
@@ -1808,7 +2022,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "",
-        "id": "fractions-5"
+        "id": "fractions-5",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "4/6 約成分母是 3 的分數，會得到什麼？",
@@ -1825,7 +2040,8 @@ const lessons = Object.freeze([
         "type": "number",
         "unit": "",
         "id": "fractions-6",
-        "exactFraction": true
+        "exactFraction": true,
+        "practiceRole": "core"
       },
       {
         "prompt": "2/5 擴分成分母是 10 的分數，分子是多少？",
@@ -1846,7 +2062,8 @@ const lessons = Object.freeze([
           "description": "2/5 擴分成分母是 10 的分數，分子是多少？"
         },
         "type": "choice",
-        "id": "fractions-7"
+        "id": "fractions-7",
+        "practiceRole": "core"
       },
       {
         "prompt": "9/12 約成分母是 4 的分數，會得到什麼？",
@@ -1863,7 +2080,8 @@ const lessons = Object.freeze([
         "type": "number",
         "unit": "",
         "id": "fractions-8",
-        "exactFraction": true
+        "exactFraction": true,
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "3/5 擴分成分母是 15 的分數，分子是多少？",
@@ -1879,7 +2097,8 @@ const lessons = Object.freeze([
         },
         "type": "number",
         "unit": "",
-        "id": "fractions-9"
+        "id": "fractions-9",
+        "practiceRole": "reinforcement"
       },
       {
         "prompt": "5/10 約成分母是 2 的分數，會得到什麼？",
@@ -1900,7 +2119,8 @@ const lessons = Object.freeze([
           "description": "5/10 約成分母是 2 的分數，會得到什麼？"
         },
         "type": "choice",
-        "id": "fractions-10"
+        "id": "fractions-10",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -1916,7 +2136,8 @@ const lessons = Object.freeze([
           "denominator": 8,
           "targetDenominator": 4
         },
-        "id": "fractions-11"
+        "id": "fractions-11",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -1947,7 +2168,8 @@ const lessons = Object.freeze([
             3
           ]
         },
-        "id": "fractions-12"
+        "id": "fractions-12",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -1972,7 +2194,8 @@ const lessons = Object.freeze([
             3
           ]
         },
-        "id": "fractions-13"
+        "id": "fractions-13",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -1983,13 +2206,14 @@ const lessons = Object.freeze([
         "explain": "3×2＝6，所以2/3＝4/6。",
         "diagram": {
           "kind": "fraction",
-          "description": "3等份著色2份，改為6等份。",
+          "description": "一個整體分成 3 等份，著色 2 份。要改成分子為 4 的等值分數。",
           "numerator": 2,
           "denominator": 3,
           "targetDenominator": 6
         },
         "work": "2/3＝4/3",
-        "id": "fractions-14"
+        "id": "fractions-14",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2004,7 +2228,8 @@ const lessons = Object.freeze([
           "targetDenominator": 21
         },
         "unit": "",
-        "id": "fractions-15"
+        "id": "fractions-15",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -2029,7 +2254,8 @@ const lessons = Object.freeze([
           "denominator": 5,
           "targetDenominator": 20
         },
-        "id": "fractions-16"
+        "id": "fractions-16",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2044,7 +2270,8 @@ const lessons = Object.freeze([
           "targetDenominator": 24
         },
         "unit": "",
-        "id": "fractions-17"
+        "id": "fractions-17",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -2063,7 +2290,8 @@ const lessons = Object.freeze([
           "denominator": 5,
           "targetDenominator": 15
         },
-        "id": "fractions-18"
+        "id": "fractions-18",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -2079,7 +2307,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "work": "3/4＝(3＋8)/(4＋8)＝11/12。",
-        "id": "fractions-19"
+        "id": "fractions-19",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2095,7 +2324,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "exactFraction": true,
-        "id": "fractions-20"
+        "id": "fractions-20",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2111,7 +2341,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "exactFraction": true,
-        "id": "fractions-21"
+        "id": "fractions-21",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -2127,7 +2358,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "exactFraction": true,
-        "id": "fractions-22"
+        "id": "fractions-22",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -2152,7 +2384,8 @@ const lessons = Object.freeze([
           "denominator": 30,
           "targetDenominator": 3
         },
-        "id": "fractions-23"
+        "id": "fractions-23",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2176,7 +2409,8 @@ const lessons = Object.freeze([
           ],
           "description": "4/6；5/7；6/9；8/12"
         },
-        "id": "fractions-24"
+        "id": "fractions-24",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -2192,7 +2426,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "work": "9/12＝3/12。",
-        "id": "fractions-25"
+        "id": "fractions-25",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2210,7 +2445,8 @@ const lessons = Object.freeze([
           "denominator": 6,
           "targetDenominator": 3
         },
-        "id": "fractions-26"
+        "id": "fractions-26",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -2241,7 +2477,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-27"
+        "id": "fractions-27",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -2272,7 +2509,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-28"
+        "id": "fractions-28",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -2303,7 +2541,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-29"
+        "id": "fractions-29",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -2328,7 +2567,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-30"
+        "id": "fractions-30",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2352,7 +2592,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-31"
+        "id": "fractions-31",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2377,7 +2618,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-32"
+        "id": "fractions-32",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2402,7 +2644,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-33"
+        "id": "fractions-33",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -2427,7 +2670,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-34"
+        "id": "fractions-34",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2452,18 +2696,19 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-35"
+        "id": "fractions-35",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
-        "prompt": "大披薩的1/2和小披薩的1/2，實際份量一定相同嗎？",
+        "prompt": "兩個大小不同的披薩，各取 1/2，實際份量會一樣嗎？",
         "choices": [
-          "一定相同",
-          "不一定，要看整個披薩的大小"
+          "一樣，因為都是 1/2",
+          "不一樣，大披薩的一半比較多"
         ],
-        "answer": "不一定，要看整個披薩的大小",
+        "answer": "不一樣，大披薩的一半比較多",
         "hint": "分數相同，也要確認「一個整體」是否一樣大。",
-        "explain": "整體不同大時，一半的實際份量也可能不同。",
+        "explain": "同樣取一半，整個披薩較大的那份，實際份量也較多。",
         "diagram": {
           "kind": "cards",
           "items": [
@@ -2473,7 +2718,8 @@ const lessons = Object.freeze([
           ],
           "description": "大披薩取一半；小披薩取一半；整體大小不同"
         },
-        "id": "fractions-36"
+        "id": "fractions-36",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -2504,7 +2750,8 @@ const lessons = Object.freeze([
           ],
           "description": "兩條長條各代表同樣大小的一個整體。"
         },
-        "id": "fractions-37"
+        "id": "fractions-37",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2526,7 +2773,8 @@ const lessons = Object.freeze([
           ],
           "description": "1/2；2/3；3/4"
         },
-        "id": "fractions-38"
+        "id": "fractions-38",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -2548,7 +2796,8 @@ const lessons = Object.freeze([
         },
         "unit": "",
         "work": "4/5比3/4大，因為分子4比3大；比較分子就夠了。",
-        "id": "fractions-39"
+        "id": "fractions-39",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -2578,7 +2827,8 @@ const lessons = Object.freeze([
           "denominator": 24,
           "targetDenominator": 12
         },
-        "id": "fractions-40"
+        "id": "fractions-40",
+        "practiceRole": "core"
       },
       {
         "id": "fractions-game-1",
@@ -2596,7 +2846,8 @@ const lessons = Object.freeze([
           "label": "塗色格"
         },
         "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
-        "explain": "1/2 和 4/8 一樣大；只是每一份切得更小。"
+        "explain": "1/2 和 4/8 一樣大；只是每一份切得更小。",
+        "practiceRole": "guided"
       },
       {
         "id": "fractions-game-2",
@@ -2614,7 +2865,8 @@ const lessons = Object.freeze([
           "label": "塗色格"
         },
         "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
-        "explain": "2/3 和 8/12 一樣大；只是每一份切得更小。"
+        "explain": "2/3 和 8/12 一樣大；只是每一份切得更小。",
+        "practiceRole": "guided"
       },
       {
         "id": "fractions-game-3",
@@ -2632,7 +2884,8 @@ const lessons = Object.freeze([
           "label": "塗色格"
         },
         "hint": "上下兩條一樣長。試著讓塗色的總長度一樣。",
-        "explain": "3/4 和 9/12 一樣大；只是每一份切得更小。"
+        "explain": "3/4 和 9/12 一樣大；只是每一份切得更小。",
+        "practiceRole": "guided"
       }
     ],
     "unit": 4,
@@ -2669,7 +2922,7 @@ const lessons = Object.freeze([
       "denominator": 2,
       "targetDenominator": 4
     },
-    "revision": 3,
+    "revision": 4,
     "gameTitle": "分數調色盤"
   },
   {
@@ -2736,7 +2989,8 @@ const lessons = Object.freeze([
           "description": "第4欄為垂直對稱軸。A在第1欄第4列，另一側的對稱點待補。"
         },
         "id": "symmetry-1",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2752,7 +3006,8 @@ const lessons = Object.freeze([
           "unit": "公分"
         },
         "id": "symmetry-2",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -2785,7 +3040,8 @@ const lessons = Object.freeze([
           "description": "第4欄為垂直對稱軸。P在第2欄第4列，另一側的對稱點待補。"
         },
         "id": "symmetry-3",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2804,7 +3060,8 @@ const lessons = Object.freeze([
           "distance": 3
         },
         "id": "symmetry-4",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2818,7 +3075,8 @@ const lessons = Object.freeze([
           "description": "正方形，四邊等長、四角直角。"
         },
         "id": "symmetry-5",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2833,7 +3091,8 @@ const lessons = Object.freeze([
           "description": "長6公分、寬4公分的長方形。"
         },
         "id": "symmetry-6",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -2857,7 +3116,8 @@ const lessons = Object.freeze([
         },
         "work": "左側3格 → 右側5格",
         "id": "symmetry-7",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -2875,7 +3135,8 @@ const lessons = Object.freeze([
           ]
         },
         "id": "symmetry-8",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2893,7 +3154,8 @@ const lessons = Object.freeze([
           "description": "非長方形、非菱形的一般平行四邊形。"
         },
         "id": "symmetry-9",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2908,7 +3170,8 @@ const lessons = Object.freeze([
           "description": "三邊等長的正三角形。"
         },
         "id": "symmetry-10",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -2923,7 +3186,8 @@ const lessons = Object.freeze([
           "description": "兩腰等長、底邊與腰長不同的等腰三角形。"
         },
         "id": "symmetry-11",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2941,7 +3205,8 @@ const lessons = Object.freeze([
           "description": "長與寬不同的長方形。"
         },
         "id": "symmetry-12",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2959,7 +3224,8 @@ const lessons = Object.freeze([
           "description": "非長方形、非菱形的一般平行四邊形。"
         },
         "id": "symmetry-13",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2978,7 +3244,8 @@ const lessons = Object.freeze([
           "description": "圓形。"
         },
         "id": "symmetry-14",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -2996,7 +3263,8 @@ const lessons = Object.freeze([
           "description": "正方形。"
         },
         "id": "symmetry-15",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -3012,7 +3280,8 @@ const lessons = Object.freeze([
         },
         "work": "只有水平和垂直兩條，斜線不算。",
         "id": "symmetry-16",
-        "section": "5-1"
+        "section": "5-1",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -3039,7 +3308,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：P在第4欄第6列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-17",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3057,7 +3327,8 @@ const lessons = Object.freeze([
           "description": "A —— 對稱軸 —— A′；A到A′合計10公分"
         },
         "id": "symmetry-18",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3075,7 +3346,8 @@ const lessons = Object.freeze([
           "description": "角A：65°；對稱角A′：？"
         },
         "id": "symmetry-19",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3105,7 +3377,8 @@ const lessons = Object.freeze([
           "description": "左側 AB＝4公分；左側 BC＝6公分；右側 A′B′＝？；右側 B′C′＝？"
         },
         "id": "symmetry-20",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -3137,7 +3410,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第1欄第5列、A′在第7欄第5列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-21",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -3156,7 +3430,8 @@ const lessons = Object.freeze([
         },
         "work": "48×2＝96°。",
         "id": "symmetry-22",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -3185,7 +3460,8 @@ const lessons = Object.freeze([
           "description": "A到軸：6公分；軸到A′：？；A到A′：？"
         },
         "id": "symmetry-23",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -3216,7 +3492,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第2欄第5列、候選點在第6欄第6列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-24",
-        "section": "5-2"
+        "section": "5-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3249,7 +3526,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第1欄第2列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-25",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3282,7 +3560,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：B在第3欄第6列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-26",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -3315,7 +3594,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：C在第6欄第3列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-27",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -3348,7 +3628,8 @@ const lessons = Object.freeze([
           "description": "虛線第4列是水平對稱軸；欄數向右增加、列數向上增加。已知點：D在第2欄第1列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-28",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3386,7 +3667,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第2欄第2列、B在第1欄第5列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-29",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -3423,7 +3705,8 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第3欄第1列、B在第1欄第4列、C在第3欄第7列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-30",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -3452,7 +3735,8 @@ const lessons = Object.freeze([
         },
         "work": "畫在第7欄第5列：左右距離對了，高度往上移了。",
         "id": "symmetry-31",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3490,11 +3774,12 @@ const lessons = Object.freeze([
           "description": "虛線第4欄是垂直對稱軸；欄數向右增加、列數向上增加。已知點：A在第2欄第2列、B在第2欄第6列。只標出已知點，另一側待補。"
         },
         "id": "symmetry-32",
-        "section": "5-3"
+        "section": "5-3",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
-        "prompt": "只對摺一次的紙，展開後原來的摺線通常扮演什麼角色？",
+        "prompt": "紙對摺一次，兩層重合一起剪出圖形。展開後，原來的摺線有什麼作用？",
         "choices": [
           "剪出圖形的一條對稱軸",
           "一定是圖形的一條外邊",
@@ -3509,7 +3794,8 @@ const lessons = Object.freeze([
           "description": "紙沿中間垂直虛線對摺，藍色為保留的右半張，橘色虛線為剪線。從摺線上方沿斜線剪到右側，再沿斜線剪回摺線下方，保留靠摺線的三角形部分。"
         },
         "id": "symmetry-33",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -3528,7 +3814,8 @@ const lessons = Object.freeze([
           "description": "紙沿中間垂直虛線對摺，藍色為保留的右半張，橘色虛線為剪線。從摺線上方沿斜線剪到右側，再沿斜線剪回摺線下方，保留靠摺線的三角形部分。"
         },
         "id": "symmetry-34",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -3544,10 +3831,11 @@ const lessons = Object.freeze([
         "diagram": {
           "kind": "paper-fold",
           "cut": "notch",
-          "description": "紙沿中間垂直虛線對摺，藍色為保留的右半張，橘色虛線為剪線。從摺線剪下半個菱形的缺口，展開觀察洞口。"
+          "description": "紙向右對摺一次。橘色虛線是要剪去的等腰三角形缺口，缺口的底在摺線上；展開後觀察洞口。"
         },
         "id": "symmetry-35",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3566,7 +3854,8 @@ const lessons = Object.freeze([
           "description": "對摺一次 → 2層；打一孔（不碰摺線）；展開 → ？個孔"
         },
         "id": "symmetry-36",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -3585,7 +3874,8 @@ const lessons = Object.freeze([
           "description": "紙沿中間垂直虛線對摺，藍色為保留的右半張，橘色虛線為剪線。從摺線上方沿斜線剪到右側，再沿斜線剪回摺線下方，保留靠摺線的三角形部分。"
         },
         "id": "symmetry-37",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -3605,7 +3895,8 @@ const lessons = Object.freeze([
         },
         "work": "兩層重合，打一孔，展開也只有1孔。",
         "id": "symmetry-38",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "steps",
@@ -3633,7 +3924,8 @@ const lessons = Object.freeze([
           "description": "右側孔到摺線3公分；展開後左側也有孔"
         },
         "id": "symmetry-39",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "choice",
@@ -3651,7 +3943,8 @@ const lessons = Object.freeze([
           "description": "正方形。"
         },
         "id": "symmetry-40",
-        "section": "5-4"
+        "section": "5-4",
+        "practiceRole": "core"
       },
       {
         "id": "symmetry-game-1",
@@ -3669,7 +3962,8 @@ const lessons = Object.freeze([
           ]
         },
         "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
-        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。",
+        "practiceRole": "guided"
       },
       {
         "id": "symmetry-game-2",
@@ -3687,7 +3981,8 @@ const lessons = Object.freeze([
           ]
         },
         "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
-        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。",
+        "practiceRole": "guided"
       },
       {
         "id": "symmetry-game-3",
@@ -3705,11 +4000,12 @@ const lessons = Object.freeze([
           ]
         },
         "hint": "先找一個點：數它到虛線幾格，在另一側數一樣多格。",
-        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。"
+        "explain": "每一對對稱點到軸的距離相等，連線也與軸垂直。",
+        "practiceRole": "guided"
       }
     ],
     "duration": 45,
-    "revision": 3,
+    "revision": 4,
     "gameTitle": "鏡子畫家"
   },
   {
@@ -3769,7 +4065,8 @@ const lessons = Object.freeze([
             3
           ]
         },
-        "id": "fraction-sums-1"
+        "id": "fraction-sums-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3790,7 +4087,8 @@ const lessons = Object.freeze([
             2
           ]
         },
-        "id": "fraction-sums-2"
+        "id": "fraction-sums-2",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3811,7 +4109,8 @@ const lessons = Object.freeze([
             6
           ]
         },
-        "id": "fraction-sums-3"
+        "id": "fraction-sums-3",
+        "practiceRole": "reinforcement"
       },
       {
         "type": "number",
@@ -3832,7 +4131,8 @@ const lessons = Object.freeze([
             3
           ]
         },
-        "id": "fraction-sums-4"
+        "id": "fraction-sums-4",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -3863,7 +4163,8 @@ const lessons = Object.freeze([
             4
           ]
         },
-        "id": "fraction-sums-5"
+        "id": "fraction-sums-5",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -3885,7 +4186,8 @@ const lessons = Object.freeze([
           ]
         },
         "work": "分子相加、分母也相加。",
-        "id": "fraction-sums-6"
+        "id": "fraction-sums-6",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3902,7 +4204,8 @@ const lessons = Object.freeze([
             "用掉 3/4 公尺"
           ]
         },
-        "id": "fraction-sums-7"
+        "id": "fraction-sums-7",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -3923,7 +4226,8 @@ const lessons = Object.freeze([
             4
           ]
         },
-        "id": "fraction-sums-8"
+        "id": "fraction-sums-8",
+        "practiceRole": "core"
       },
       {
         "id": "fraction-sums-game-1",
@@ -3948,7 +4252,8 @@ const lessons = Object.freeze([
           "label": "結果格"
         },
         "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
-        "explain": "1/2 + 1/3 ＝ 5/6。每格大小一致，才可以直接數格子。"
+        "explain": "1/2 + 1/3 ＝ 5/6。每格大小一致，才可以直接數格子。",
+        "practiceRole": "guided"
       },
       {
         "id": "fraction-sums-game-2",
@@ -3973,7 +4278,8 @@ const lessons = Object.freeze([
           "label": "結果格"
         },
         "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
-        "explain": "3/4 − 1/2 ＝ 2/8。每格大小一致，才可以直接數格子。"
+        "explain": "3/4 − 1/2 ＝ 2/8。每格大小一致，才可以直接數格子。",
+        "practiceRole": "guided"
       },
       {
         "id": "fraction-sums-game-3",
@@ -3998,11 +4304,32 @@ const lessons = Object.freeze([
           "label": "結果格"
         },
         "hint": "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
-        "explain": "2/3 + 1/6 ＝ 10/12。每格大小一致，才可以直接數格子。"
+        "explain": "2/3 + 1/6 ＝ 10/12。每格大小一致，才可以直接數格子。",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "fraction-sums-review-1",
+        "type": "number",
+        "prompt": "1 又 1/2 公尺的緞帶，加上 2/3 公尺，共幾公尺？（可填假分數或帶分數）",
+        "hint": "可以先把帶分數變成假分數，再通分。",
+        "explain": "3/2＋2/3＝9/6＋4/6＝13/6，也就是 2 又 1/6 公尺。",
+        "answer": "13/6",
+        "unit": "公尺",
+        "practiceRole": "core"
+      },
+      {
+        "id": "fraction-sums-review-2",
+        "type": "number",
+        "prompt": "2 又 1/4 公升的果汁，倒出 5/6 公升，剩下幾公升？",
+        "hint": "先把 2 又 1/4 寫成假分數，再找共同分母。",
+        "explain": "9/4−5/6＝27/12−10/12＝17/12，也就是 1 又 5/12 公升。",
+        "answer": "17/12",
+        "unit": "公升",
+        "practiceRole": "core"
       }
     ],
     "duration": 15,
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "分數點心店"
   },
   {
@@ -4054,7 +4381,8 @@ const lessons = Object.freeze([
             "24 + 6 × 3"
           ]
         },
-        "id": "operations-1"
+        "id": "operations-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4070,7 +4398,8 @@ const lessons = Object.freeze([
             "(24 + 6) × 3"
           ]
         },
-        "id": "operations-2"
+        "id": "operations-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -4096,7 +4425,8 @@ const lessons = Object.freeze([
             "120 ÷ 3 ÷ 4"
           ]
         },
-        "id": "operations-3"
+        "id": "operations-3",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -4113,7 +4443,8 @@ const lessons = Object.freeze([
           ]
         },
         "work": "48÷(4×2)＝6",
-        "id": "operations-4"
+        "id": "operations-4",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4131,7 +4462,8 @@ const lessons = Object.freeze([
             "60 下"
           ]
         },
-        "id": "operations-5"
+        "id": "operations-5",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -4158,7 +4490,8 @@ const lessons = Object.freeze([
             "付 200 元"
           ]
         },
-        "id": "operations-6"
+        "id": "operations-6",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4174,7 +4507,8 @@ const lessons = Object.freeze([
             "300 − (60 + 20) × 2"
           ]
         },
-        "id": "operations-7"
+        "id": "operations-7",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -4195,7 +4529,8 @@ const lessons = Object.freeze([
             "平均分 6 份"
           ]
         },
-        "id": "operations-8"
+        "id": "operations-8",
+        "practiceRole": "core"
       },
       {
         "id": "operations-game-1",
@@ -4215,7 +4550,8 @@ const lessons = Object.freeze([
           "illustration": null
         },
         "hint": "先找乘法，再做加法。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？6 × 3 ＝ 18 → 24 ＋ 18 ＝ 42"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？6 × 3 ＝ 18 → 24 ＋ 18 ＝ 42",
+        "practiceRole": "guided"
       },
       {
         "id": "operations-game-2",
@@ -4235,7 +4571,8 @@ const lessons = Object.freeze([
           "illustration": null
         },
         "hint": "括號像一間小房間，先把裡面的計算完成。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？24 ＋ 6 ＝ 30 → 30 × 3 ＝ 90"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？24 ＋ 6 ＝ 30 → 30 × 3 ＝ 90",
+        "practiceRole": "guided"
       },
       {
         "id": "operations-game-3",
@@ -4255,18 +4592,67 @@ const lessons = Object.freeze([
           "illustration": null
         },
         "hint": "先知道要付多少錢，才能算找回多少。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？25 × 4 ＝ 100 → 200 − 100 ＝ 100"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？25 × 4 ＝ 100 → 200 − 100 ＝ 100",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "operations-review-1",
+        "type": "choice",
+        "prompt": "要算 25 × 12，哪個拆法會得到相同結果？",
+        "hint": "把 12 分成兩部分，每部分都要乘以 25。",
+        "explain": "25×(10＋2)＝25×10＋25×2，這是分配律。",
+        "answer": "25 × 10 ＋ 25 × 2",
+        "choices": [
+          "25 × 10 ＋ 2",
+          "25 × 10 ＋ 25 × 2",
+          "25 ＋ 10 ＋ 2"
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "operations-review-2",
+        "type": "steps",
+        "prompt": "用簡便方法算 99 × 6。先把 99 想成 100 少 1。",
+        "hint": "先算 100 個 6，再扣掉多算的那一個 6。",
+        "explain": "100×6＝600；600−6＝594。",
+        "fields": [
+          {
+            "label": "100 × 6",
+            "answer": "600",
+            "unit": ""
+          },
+          {
+            "label": "99 × 6",
+            "answer": "594",
+            "unit": ""
+          }
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "operations-review-3",
+        "type": "choice",
+        "prompt": "32 × 25，先把 32 拆成 8 × 4，怎麼分組比較好算？",
+        "hint": "找找哪兩個數相乘能湊成 100。",
+        "explain": "(8×4)×25＝8×(4×25)＝8×100＝800。",
+        "answer": "8 × (4 × 25)",
+        "choices": [
+          "8 × (4 × 25)",
+          "8 ＋ (4 × 25)",
+          "(8 ＋ 4) × 25"
+        ],
+        "practiceRole": "core"
       }
     ],
     "duration": 15,
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "算式修理站"
   },
   {
     "id": "area",
     "title": "剪一剪、拼一拼，算出面積",
     "concept": "平行四邊形、三角形和梯形的面積",
-    "description": "沿著對角線切開，面積的祕密就出現了。",
+    "description": "找高度、比大小、抓錯誤，再幫小光完成面積任務。",
     "icon": "△",
     "color": "purple",
     "duration": 15,
@@ -4276,260 +4662,354 @@ const lessons = Object.freeze([
     "visual": "area",
     "questions": [
       {
-        "prompt": "三角形的底是 8 公分，高是 5 公分，面積是多少？",
-        "choices": [
-          "13 平方公分",
-          "20 平方公分",
-          "40 平方公分",
-          "80 平方公分"
-        ],
-        "answer": "20 平方公分",
-        "hint": "先算底 × 高，再取一半。",
-        "explain": "8 × 5 ÷ 2 = 20，面積是 20 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 8,
-          "height": 5,
-          "rectangle": false,
-          "description": "三角形的底是 8 公分，高是 5 公分，面積是多少？"
-        },
+        "id": "area-v2-1",
         "type": "choice",
-        "id": "area-1"
-      },
-      {
-        "prompt": "三角形的底是 10 公分，高是 6 公分，面積是多少？",
-        "answer": "30",
-        "hint": "想像先拼成一個底 10、高 6 的平行四邊形，再取一半。",
-        "explain": "10 × 6 ÷ 2 = 30，面積是 30 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 10,
-          "height": 6,
-          "rectangle": false,
-          "description": "三角形的底是 10 公分，高是 6 公分，面積是多少？"
-        },
-        "type": "number",
-        "unit": "平方公分",
-        "id": "area-2"
-      },
-      {
-        "prompt": "一個長方形面積是 36 平方公分。沿對角線切開後，其中一個三角形面積是多少？",
-        "answer": "18",
-        "hint": "對角線把長方形分成兩個面積相等的三角形。",
-        "explain": "36 ÷ 2 = 18，所以每個三角形是 18 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 9,
-          "height": 4,
-          "rectangle": true,
-          "description": "一個長方形面積是 36 平方公分。沿對角線切開後，其中一個三角形面積是多少？"
-        },
-        "type": "number",
-        "unit": "平方公分",
-        "id": "area-3"
-      },
-      {
-        "prompt": "三角形的底是 6 公分，高是 7 公分，面積是多少？",
+        "focus": "辨認底與高",
+        "prompt": "底邊已塗成橘色。A、B 哪一條線是對應的高？",
+        "hint": "找找哪條線和橘色底邊形成直角。",
+        "explain": "B 線和底邊垂直，是這條底邊對應的高；A 是斜邊。",
+        "answer": "B 線",
         "choices": [
-          "18 平方公分",
-          "21 平方公分",
-          "42 平方公分",
-          "26 平方公分"
+          "A 線",
+          "B 線",
+          "兩條都是"
         ],
-        "answer": "21 平方公分",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "6 × 7 = 42；42 ÷ 2 = 21 平方公分。",
         "diagram": {
-          "kind": "area",
-          "base": 6,
-          "height": 7,
-          "rectangle": false,
-          "description": "三角形的底是 6 公分，高是 7 公分，面積是多少？"
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "找出橘色底邊對應的高",
+              "shape": "height",
+              "base": "8",
+              "height": "?"
+            }
+          ],
+          "description": "橘色線是底邊。請觀察 A、B 線與圖中的直角記號。示意圖，以標示數值為準。"
         },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-2",
         "type": "choice",
-        "id": "area-4"
-      },
-      {
-        "prompt": "三角形的底是 12 公分，高是 5 公分，面積是多少？",
-        "answer": "30",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "12 × 5 = 60；60 ÷ 2 = 30 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 12,
-          "height": 5,
-          "rectangle": false,
-          "description": "三角形的底是 12 公分，高是 5 公分，面積是多少？"
-        },
-        "type": "number",
-        "unit": "平方公分",
-        "id": "area-5"
-      },
-      {
-        "prompt": "三角形的底是 9 公分，高是 8 公分，面積是多少？",
-        "answer": "36",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "9 × 8 = 72；72 ÷ 2 = 36 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 9,
-          "height": 8,
-          "rectangle": false,
-          "description": "三角形的底是 9 公分，高是 8 公分，面積是多少？"
-        },
-        "type": "number",
-        "unit": "平方公分",
-        "id": "area-6"
-      },
-      {
-        "prompt": "三角形的底是 14 公分，高是 3 公分，面積是多少？",
+        "focus": "比較與說理",
+        "prompt": "甲、乙的頂點位置不同。不必算出面積，哪個說法正確？",
+        "hint": "比較兩張圖標示的底和高，不要只看斜邊。",
+        "explain": "兩個三角形都底 8、高 4，面積相同。頂點左右移動，只要高不變，面積就不變。",
+        "answer": "一樣大，因為底和高都相同",
         "choices": [
-          "26 平方公分",
-          "18 平方公分",
-          "21 平方公分",
-          "42 平方公分"
+          "乙比較大，因為斜邊比較長",
+          "一樣大，因為底和高都相同",
+          "甲比較大，因為比較端正"
         ],
-        "answer": "21 平方公分",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "14 × 3 = 42；42 ÷ 2 = 21 平方公分。",
         "diagram": {
-          "kind": "area",
-          "base": 14,
-          "height": 3,
-          "rectangle": false,
-          "description": "三角形的底是 14 公分，高是 3 公分，面積是多少？"
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "甲",
+              "shape": "triangle",
+              "base": "8",
+              "height": "4"
+            },
+            {
+              "title": "乙",
+              "shape": "lean-triangle",
+              "base": "8",
+              "height": "4"
+            }
+          ],
+          "description": "甲：三角形，底 8 公分，高 4 公分；乙：三角形（頂點在右側），底 8 公分，高 4 公分。示意圖，以標示數值為準。"
         },
-        "type": "choice",
-        "id": "area-7"
+        "practiceRole": "core"
       },
       {
-        "prompt": "三角形的底是 5 公分，高是 4 公分，面積是多少？",
-        "answer": "10",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "5 × 4 = 20；20 ÷ 2 = 10 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 5,
-          "height": 4,
-          "rectangle": false,
-          "description": "三角形的底是 5 公分，高是 4 公分，面積是多少？"
-        },
+        "id": "area-v2-3",
         "type": "number",
+        "focus": "面積守恆",
+        "prompt": "一張面積 24 平方公分的紙，剪開後拼成另一個圖形，沒有重疊也沒有空隙。拼好後的面積是多少？",
+        "hint": "想想有沒有增加或丟掉任何一片紙。",
+        "explain": "只移動紙片，沒有增減紙片，所以面積仍是 24 平方公分。",
+        "answer": "24",
         "unit": "平方公分",
-        "id": "area-8"
+        "practiceRole": "core"
       },
       {
-        "prompt": "三角形的底是 16 公分，高是 5 公分，面積是多少？",
-        "answer": "40",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "16 × 5 = 80；80 ÷ 2 = 40 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 16,
-          "height": 5,
-          "rectangle": false,
-          "description": "三角形的底是 16 公分，高是 5 公分，面積是多少？"
-        },
+        "id": "area-v2-4",
         "type": "number",
-        "unit": "平方公分",
-        "id": "area-9"
-      },
-      {
-        "prompt": "三角形的底是 7 公分，高是 6 公分，面積是多少？",
-        "choices": [
-          "42 平方公分",
-          "26 平方公分",
-          "18 平方公分",
-          "21 平方公分"
-        ],
-        "answer": "21 平方公分",
-        "hint": "先用底 × 高求出兩個相同三角形拼成的面積，再除以 2。",
-        "explain": "7 × 6 = 42；42 ÷ 2 = 21 平方公分。",
-        "diagram": {
-          "kind": "area",
-          "base": 7,
-          "height": 6,
-          "rectangle": false,
-          "description": "三角形的底是 7 公分，高是 6 公分，面積是多少？"
-        },
-        "type": "choice",
-        "id": "area-10"
-      },
-      {
-        "type": "number",
-        "prompt": "平行四邊形底8公分、高5公分，面積多少？",
-        "answer": "40",
-        "unit": "平方公分",
-        "hint": "平行四邊形面積＝底×高。",
-        "explain": "8×5＝40平方公分。",
-        "diagram": {
-          "kind": "shape-area",
-          "description": "平行四邊形底8公分，虛線垂直高5公分。",
-          "shape": "parallelogram",
-          "base": 8,
-          "height": 5
-        },
-        "id": "area-11"
-      },
-      {
-        "type": "number",
-        "prompt": "梯形上底4公分、下底8公分、高5公分，面積多少？",
-        "answer": "30",
-        "unit": "平方公分",
-        "hint": "先把上底和下底相加。",
-        "explain": "(4＋8)×5÷2＝30平方公分。",
-        "diagram": {
-          "kind": "shape-area",
-          "description": "梯形上底4公分、下底8公分、垂直高5公分。",
-          "shape": "trapezoid",
-          "top": 4,
-          "base": 8,
-          "height": 5
-        },
-        "id": "area-12"
-      },
-      {
-        "type": "steps",
-        "prompt": "三角形底10公分、高6公分，分兩步算面積。",
-        "fields": [
-          {
-            "label": "底乘高",
-            "answer": "60",
-            "unit": ""
-          },
-          {
-            "label": "取一半的面積",
-            "answer": "30",
-            "unit": "平方公分"
-          }
-        ],
-        "hint": "兩個全等三角形可拼成平行四邊形。",
-        "explain": "10×6＝60；60÷2＝30平方公分。",
-        "diagram": {
-          "kind": "area",
-          "description": "三角形底10公分、高6公分。",
-          "base": 10,
-          "height": 6
-        },
-        "id": "area-13"
-      },
-      {
-        "type": "error",
-        "prompt": "小光算梯形面積時忘記除以2。請填正確面積。",
+        "focus": "基本計算",
+        "prompt": "幫小光算這面三角旗需要多少平方公分的布。",
+        "hint": "可以先想兩面一樣的旗子合起來有多大。",
+        "explain": "8 × 5 ÷ 2 = 20 平方公分。",
         "answer": "20",
         "unit": "平方公分",
-        "hint": "梯形公式最後還要÷2。",
-        "explain": "(3＋7)×4÷2＝20平方公分。",
         "diagram": {
-          "kind": "shape-area",
-          "description": "梯形上底3公分、下底7公分、高4公分。",
-          "shape": "trapezoid",
-          "top": 3,
-          "base": 7,
-          "height": 4
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "三角旗",
+              "shape": "triangle",
+              "base": "8",
+              "height": "5"
+            }
+          ],
+          "description": "三角旗：三角形，底 8 公分，高 5 公分。示意圖，以標示數值為準。"
         },
-        "work": "(上底3＋下底7)×高4＝40平方公分",
-        "id": "area-14"
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-5",
+        "type": "choice",
+        "focus": "辨認錯誤",
+        "prompt": "小光說：「底是 8，斜邊是 5，所以面積是 8 × 5 = 40。」錯在哪裡？",
+        "hint": "面積公式裡的兩個長度，有什麼方向關係？",
+        "explain": "平行四邊形要用底 × 對應的高，因此是 8 × 4 = 32 平方公分。",
+        "answer": "應該用垂直的高 4，不是斜邊 5",
+        "choices": [
+          "應該用垂直的高 4，不是斜邊 5",
+          "乘法應該改成加法",
+          "平行四邊形都要再除以 2"
+        ],
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "斜邊 5 公分",
+              "shape": "parallelogram",
+              "base": "8",
+              "height": "4"
+            }
+          ],
+          "description": "斜邊 5 公分：平行四邊形，底 8 公分，高 4 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-6",
+        "type": "number",
+        "focus": "逆推高度",
+        "prompt": "三角形面積是 24 平方公分，底是 8 公分。高是多少公分？",
+        "hint": "先想兩個這樣的三角形拼起來，面積會是多少。",
+        "explain": "24 × 2 ÷ 8 = 6 公分。",
+        "answer": "6",
+        "unit": "公分",
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "面積 24 平方公分",
+              "shape": "triangle",
+              "base": "8",
+              "height": "?"
+            }
+          ],
+          "description": "面積 24 平方公分：三角形，底 8 公分，高 ? 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-7",
+        "type": "choice",
+        "focus": "變化規律",
+        "prompt": "三角形的底不變，高變成原來的 2 倍。面積會怎樣？",
+        "hint": "把底 × 高 ÷ 2 中改變的部分找出來。",
+        "explain": "底不變、高乘以 2，算出的面積也乘以 2。",
+        "answer": "變成原來的 2 倍",
+        "choices": [
+          "不變",
+          "變成原來的 2 倍",
+          "變成原來的 4 倍"
+        ],
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "原來",
+              "shape": "triangle",
+              "base": "6",
+              "height": "3"
+            },
+            {
+              "title": "改變後",
+              "shape": "triangle",
+              "base": "6",
+              "height": "6"
+            }
+          ],
+          "description": "原來：三角形，底 6 公分，高 3 公分；改變後：三角形，底 6 公分，高 6 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-8",
+        "type": "number",
+        "focus": "梯形計算",
+        "prompt": "這塊梯形貼紙的面積是多少？",
+        "hint": "兩張相同梯形可以拼成一個平行四邊形。",
+        "explain": "(4 + 8) × 5 ÷ 2 = 30 平方公分。",
+        "answer": "30",
+        "unit": "平方公分",
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "梯形貼紙",
+              "shape": "trapezoid",
+              "base": "8",
+              "height": "5",
+              "top": "4"
+            }
+          ],
+          "description": "梯形貼紙：梯形，底 8 公分，高 5 公分，上底 4 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-9",
+        "type": "choice",
+        "focus": "判斷資料是否足夠",
+        "prompt": "只知道三角形的底是 8 公分，就能確定面積嗎？",
+        "hint": "同樣的底，頂點可以在不同高度嗎？",
+        "explain": "底一樣但高不同，面積會不同。只有底的資料不夠。",
+        "answer": "不能，還需要這條底邊對應的高",
+        "choices": [
+          "可以，8 ÷ 2 就好",
+          "不能，還需要這條底邊對應的高",
+          "可以，所有底是 8 的三角形都一樣大"
+        ],
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "只有底已知",
+              "shape": "triangle",
+              "base": "8",
+              "height": "?"
+            }
+          ],
+          "description": "只有底已知：三角形，底 8 公分，高 ? 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-10",
+        "type": "number",
+        "focus": "組合圖形",
+        "prompt": "長方形紙板長 10、寬 6 公分，剪掉右上角底 4、高 3 公分的三角形。剩下的面積是多少？",
+        "hint": "先算整張紙，再扣掉剪走的部分。",
+        "explain": "整張 10 × 6 = 60；剪掉 4 × 3 ÷ 2 = 6；剩下 54 平方公分。",
+        "answer": "54",
+        "unit": "平方公分",
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "虛線角落剪掉：底 4、高 3",
+              "shape": "cutout",
+              "base": "10",
+              "height": "6",
+              "cutBase": "4",
+              "cutHeight": "3"
+            }
+          ],
+          "description": "虛線角落剪掉：底 4、高 3：長方形剪去右上角三角形，底 10 公分，高 6 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-11",
+        "type": "steps",
+        "focus": "自主設計",
+        "prompt": "設計一面面積 12 平方公分的三角旗！底和高都用 1～12 的整數公分。填出你自己的設計。",
+        "hint": "試選一個底，想想要配上多高，才會得到指定面積。",
+        "explain": "你的底 × 高 ÷ 2 = 12，符合設計條件！這題有不同的正確設計，你可以在手寫區畫出自己的三角旗。",
+        "fields": [
+          {
+            "label": "我設計的底",
+            "unit": "公分"
+          },
+          {
+            "label": "我設計的高",
+            "unit": "公分"
+          }
+        ],
+        "constraint": {
+          "kind": "triangle-design",
+          "area": 12,
+          "min": 1,
+          "max": 12
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-12",
+        "type": "number",
+        "focus": "逆推梯形",
+        "prompt": "梯形面積 30 平方公分，上底 4、下底 8 公分。高是多少？",
+        "hint": "先把兩個相同梯形合起來的面積找出來。",
+        "explain": "30 × 2 ÷ (4 + 8) = 5 公分。",
+        "answer": "5",
+        "unit": "公分",
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "面積 30 平方公分",
+              "shape": "trapezoid",
+              "base": "8",
+              "height": "?",
+              "top": "4"
+            }
+          ],
+          "description": "面積 30 平方公分：梯形，底 8 公分，高 ? 公分，上底 4 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-13",
+        "type": "steps",
+        "focus": "生活應用",
+        "prompt": "小光要用色紙貼滿平行四邊形卡片。每張色紙可覆蓋 6 平方公分，可剪拼、不重疊。至少需要幾張？",
+        "hint": "先算卡片面積，再想每張色紙能覆蓋多少。",
+        "explain": "卡片 9 × 4 = 36 平方公分；36 ÷ 6 = 6 張。",
+        "fields": [
+          {
+            "label": "卡片面積",
+            "answer": "36",
+            "unit": "平方公分"
+          },
+          {
+            "label": "需要色紙",
+            "answer": "6",
+            "unit": "張"
+          }
+        ],
+        "diagram": {
+          "kind": "area-panels",
+          "panels": [
+            {
+              "title": "卡片",
+              "shape": "parallelogram",
+              "base": "9",
+              "height": "4"
+            }
+          ],
+          "description": "卡片：平行四邊形，底 9 公分，高 4 公分。示意圖，以標示數值為準。"
+        },
+        "practiceRole": "core"
+      },
+      {
+        "id": "area-v2-14",
+        "type": "choice",
+        "focus": "解釋公式",
+        "prompt": "兩個全等三角形拼成底 8、高 5 的平行四邊形。求一個三角形的面積，為什麼要除以 2？",
+        "hint": "底乘高得到的是一片，還是兩片的面積？",
+        "explain": "兩個全等三角形面積相同。底 × 高算出合起來的面積，所以一個要取一半。",
+        "answer": "底乘高算的是兩個三角形合起來的面積",
+        "choices": [
+          "因為三角形有兩條斜邊",
+          "底乘高算的是兩個三角形合起來的面積",
+          "因為所有圖形的面積都要除以 2"
+        ],
+        "practiceRole": "core"
       },
       {
         "id": "area-game-1",
@@ -4551,7 +5031,8 @@ const lessons = Object.freeze([
           "illustration": "triangle"
         },
         "hint": "先求兩片合起來的面積，再分回一片。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → 8 × 5 ＝ 40 平方公分 → 40 ÷ 2 ＝ 20 平方公分"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → 8 × 5 ＝ 40 平方公分 → 40 ÷ 2 ＝ 20 平方公分",
+        "practiceRole": "guided"
       },
       {
         "id": "area-game-2",
@@ -4571,7 +5052,8 @@ const lessons = Object.freeze([
           "illustration": "parallelogram"
         },
         "hint": "搬家後面積沒有增加，也沒有減少。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？剪開再平移，拼成長方形 → 6 × 4 ＝ 24 平方公分"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？剪開再平移，拼成長方形 → 6 × 4 ＝ 24 平方公分",
+        "practiceRole": "guided"
       },
       {
         "id": "area-game-3",
@@ -4593,7 +5075,8 @@ const lessons = Object.freeze([
           "illustration": "trapezoid"
         },
         "hint": "拼起來的底，是原本上底加下底。",
-        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → (4 ＋ 8) × 5 ＝ 60 平方公分 → 60 ÷ 2 ＝ 30 平方公分"
+        "explain": "一步接一步，說說看：為什麼這一步要先做？兩片拼成平行四邊形 → (4 ＋ 8) × 5 ＝ 60 平方公分 → 60 ÷ 2 ＝ 30 平方公分",
+        "practiceRole": "guided"
       }
     ],
     "unit": 8,
@@ -4618,8 +5101,9 @@ const lessons = Object.freeze([
       "height": 4,
       "rectangle": true
     },
-    "revision": 2,
-    "gameTitle": "面積拼圖隊"
+    "revision": 3,
+    "gameTitle": "面積拼圖隊",
+    "contentRevision": "area-diversity-v2"
   },
   {
     "id": "time",
@@ -4671,7 +5155,8 @@ const lessons = Object.freeze([
             "20 分鐘"
           ]
         },
-        "id": "time-1"
+        "id": "time-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4689,7 +5174,8 @@ const lessons = Object.freeze([
             "45 分"
           ]
         },
-        "id": "time-2"
+        "id": "time-2",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -4715,7 +5201,8 @@ const lessons = Object.freeze([
             "135 分 ÷ 60"
           ]
         },
-        "id": "time-3"
+        "id": "time-3",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4732,7 +5219,8 @@ const lessons = Object.freeze([
             "÷ 5"
           ]
         },
-        "id": "time-4"
+        "id": "time-4",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -4750,7 +5238,8 @@ const lessons = Object.freeze([
           ]
         },
         "work": "1分鐘＝100秒，所以合計140秒。",
-        "id": "time-5"
+        "id": "time-5",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4768,7 +5257,8 @@ const lessons = Object.freeze([
             "10:15"
           ]
         },
-        "id": "time-6"
+        "id": "time-6",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -4795,7 +5285,8 @@ const lessons = Object.freeze([
             "× 2"
           ]
         },
-        "id": "time-7"
+        "id": "time-7",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4812,7 +5303,8 @@ const lessons = Object.freeze([
             "÷ 3"
           ]
         },
-        "id": "time-8"
+        "id": "time-8",
+        "practiceRole": "core"
       },
       {
         "id": "time-game-1",
@@ -4827,7 +5319,8 @@ const lessons = Object.freeze([
           "operation": "multiply"
         },
         "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
-        "explain": "45 × 3 ＝ 135 分鐘，也就是 2 小時 15 分鐘。"
+        "explain": "45 × 3 ＝ 135 分鐘，也就是 2 小時 15 分鐘。",
+        "practiceRole": "guided"
       },
       {
         "id": "time-game-2",
@@ -4842,7 +5335,8 @@ const lessons = Object.freeze([
           "operation": "multiply"
         },
         "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
-        "explain": "30 × 4 ＝ 120 分鐘，也就是 2 小時 0 分鐘。"
+        "explain": "30 × 4 ＝ 120 分鐘，也就是 2 小時 0 分鐘。",
+        "practiceRole": "guided"
       },
       {
         "id": "time-game-3",
@@ -4857,11 +5351,12 @@ const lessons = Object.freeze([
           "operation": "divide"
         },
         "hint": "一個小時盒等於 60 分鐘。先把時間都換成分鐘，再計算。",
-        "explain": "150 ÷ 5 ＝ 30 分鐘，也就是 0 小時 30 分鐘。"
+        "explain": "150 ÷ 5 ＝ 30 分鐘，也就是 0 小時 30 分鐘。",
+        "practiceRole": "guided"
       }
     ],
     "duration": 15,
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "時間任務站"
   },
   {
@@ -4904,10 +5399,11 @@ const lessons = Object.freeze([
         "explain": "共有6個面。",
         "diagram": {
           "kind": "solid",
-          "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
-          "shape": "cuboid"
+          "description": "正方體透視示意圖，前方為正方形，虛線表示被遮住的邊。",
+          "shape": "cube"
         },
-        "id": "solids-1"
+        "id": "solids-1",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4921,7 +5417,8 @@ const lessons = Object.freeze([
           "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
           "shape": "cuboid"
         },
-        "id": "solids-2"
+        "id": "solids-2",
+        "practiceRole": "core"
       },
       {
         "type": "number",
@@ -4932,10 +5429,11 @@ const lessons = Object.freeze([
         "explain": "4＋4＝8個。",
         "diagram": {
           "kind": "solid",
-          "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
-          "shape": "cuboid"
+          "description": "正方體透視示意圖，前方為正方形，虛線表示被遮住的邊。",
+          "shape": "cube"
         },
-        "id": "solids-3"
+        "id": "solids-3",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -4953,7 +5451,8 @@ const lessons = Object.freeze([
           "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
           "shape": "cuboid"
         },
-        "id": "solids-4"
+        "id": "solids-4",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -4971,7 +5470,8 @@ const lessons = Object.freeze([
           "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
           "shape": "cuboid"
         },
-        "id": "solids-5"
+        "id": "solids-5",
+        "practiceRole": "core"
       },
       {
         "type": "steps",
@@ -4995,7 +5495,8 @@ const lessons = Object.freeze([
           "description": "透視示意圖標出長方體的前面、上面和右面，虛線表示被遮住的邊。線條比例僅示意。",
           "shape": "cuboid"
         },
-        "id": "solids-6"
+        "id": "solids-6",
+        "practiceRole": "core"
       },
       {
         "type": "error",
@@ -5010,7 +5511,8 @@ const lessons = Object.freeze([
           "shape": "cuboid"
         },
         "work": "看見3個面，所以全部只有3個面。",
-        "id": "solids-7"
+        "id": "solids-7",
+        "practiceRole": "core"
       },
       {
         "type": "choice",
@@ -5025,10 +5527,11 @@ const lessons = Object.freeze([
         "explain": "每個面都是全等的正方形。",
         "diagram": {
           "kind": "solid",
-          "description": "正方體透視示意圖。",
+          "description": "正方體透視示意圖，前方為正方形，虛線表示被遮住的邊。",
           "shape": "cube"
         },
-        "id": "solids-8"
+        "id": "solids-8",
+        "practiceRole": "core"
       },
       {
         "id": "solids-game-1",
@@ -5041,7 +5544,8 @@ const lessons = Object.freeze([
           "relation": "opposite"
         },
         "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
-        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。",
+        "practiceRole": "guided"
       },
       {
         "id": "solids-game-2",
@@ -5054,7 +5558,8 @@ const lessons = Object.freeze([
           "relation": "adjacent"
         },
         "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
-        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。",
+        "practiceRole": "guided"
       },
       {
         "id": "solids-game-3",
@@ -5067,11 +5572,107 @@ const lessons = Object.freeze([
           "relation": "opposite"
         },
         "hint": "沿著相連的邊想像摺起來；相對的面不會共用一條邊。",
-        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。"
+        "explain": "正方體有三組相對的面：A 和 F、B 和 D、C 和 E。相鄰的面互相垂直。",
+        "practiceRole": "guided"
+      },
+      {
+        "id": "solids-review-1",
+        "type": "choice",
+        "prompt": "看前面 ABCD，哪一條邊和 AB 平行？",
+        "hint": "平行的兩邊，延長後也不相交。",
+        "explain": "AB 與 DC 是長方形相對的兩條邊，互相平行。",
+        "answer": "DC",
+        "diagram": {
+          "kind": "solid",
+          "shape": "cuboid",
+          "vertices": true,
+          "description": "前面四個頂點依左下、右下、右上、左上標成 A、B、C、D；後面對應頂點為 E、F、G、H。"
+        },
+        "choices": [
+          "AD",
+          "BC",
+          "DC"
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "solids-review-2",
+        "type": "choice",
+        "prompt": "看前面 ABCD，AB 和 AD 有什麼關係？",
+        "hint": "兩邊在 A 點相交，形成什麼角？",
+        "explain": "長方形在 A 的角是直角，所以 AB 和 AD 垂直。",
+        "answer": "互相垂直",
+        "diagram": {
+          "kind": "solid",
+          "shape": "cuboid",
+          "vertices": true,
+          "description": "前面四個頂點依左下、右下、右上、左上標成 A、B、C、D；後面對應頂點為 E、F、G、H。"
+        },
+        "choices": [
+          "互相平行",
+          "互相垂直",
+          "同一條邊"
+        ],
+        "practiceRole": "core"
+      },
+      {
+        "id": "solids-review-3",
+        "type": "number",
+        "prompt": "邊長 3 公分的正方體，六個面的總面積是多少？",
+        "hint": "先算一個正方形面，再想有幾個相同的面。",
+        "explain": "3×3＝9；9×6＝54 平方公分。",
+        "answer": "54",
+        "diagram": {
+          "kind": "solid",
+          "shape": "cube",
+          "edgeLength": 3,
+          "description": "正方體每條邊都是 3 公分。"
+        },
+        "unit": "平方公分",
+        "practiceRole": "core"
+      },
+      {
+        "id": "solids-review-4",
+        "type": "number",
+        "prompt": "長方體長 4、寬 3、高 2 公分，表面積是多少？",
+        "hint": "三種面各有兩個：長乘寬、長乘高、寬乘高。",
+        "explain": "(4×3＋4×2＋3×2)×2＝(12＋8＋6)×2＝52 平方公分。",
+        "answer": "52",
+        "diagram": {
+          "kind": "solid",
+          "shape": "cuboid",
+          "dimensions": [
+            4,
+            3,
+            2
+          ],
+          "description": "長方體長 4 公分、寬 3 公分、高 2 公分。"
+        },
+        "unit": "平方公分",
+        "practiceRole": "core"
+      },
+      {
+        "id": "solids-review-5",
+        "type": "number",
+        "prompt": "邊長 2 公分的正方體盒子沒有蓋子，只算外面的五個面，共幾平方公分？",
+        "hint": "完整正方體有六個面，拿掉蓋子後還有幾個？",
+        "explain": "2×2＝4；4×5＝20 平方公分。",
+        "answer": "20",
+        "diagram": {
+          "kind": "cards",
+          "items": [
+            "邊長 2 公分",
+            "沒有蓋子",
+            "只算外表面，忽略厚度"
+          ],
+          "description": "無蓋正方體盒，計算五個外表面。"
+        },
+        "unit": "平方公分",
+        "practiceRole": "core"
       }
     ],
     "duration": 15,
-    "revision": 2,
+    "revision": 3,
     "gameTitle": "紙盒探險家"
   }
 ]);

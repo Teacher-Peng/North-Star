@@ -1,0 +1,1344 @@
+{
+  "date": "2026-10-20",
+  "method": "開發助理逐題讀題後獨立列出算式或幾何理由；未從題庫 answer 產生正例。面積既有案例留在 area.json。",
+  "questions": {
+    "charts-1": {
+      "answers": [
+        "25"
+      ],
+      "reason": "週二刻度25"
+    },
+    "charts-2": {
+      "answers": [
+        "15"
+      ],
+      "reason": "30−15=15"
+    },
+    "charts-3": {
+      "answers": [
+        "20",
+        "45"
+      ],
+      "reason": "20，20+25=45"
+    },
+    "charts-4": {
+      "answers": [
+        "週二到週三"
+      ],
+      "reason": "25降至15"
+    },
+    "charts-5": {
+      "answers": [
+        "25"
+      ],
+      "reason": "5格×5=25"
+    },
+    "charts-6": {
+      "answers": [
+        "15"
+      ],
+      "reason": "30−15=15"
+    },
+    "charts-7": {
+      "answers": [
+        "折線圖"
+      ],
+      "reason": "隨時間變化適合折線"
+    },
+    "charts-8": {
+      "answers": [
+        "90",
+        "10"
+      ],
+      "reason": "20+25+15+30=90；100−90=10"
+    },
+    "factors-1": {
+      "answers": [
+        "6"
+      ],
+      "reason": "18÷6=3"
+    },
+    "factors-2": {
+      "answers": [
+        "6"
+      ],
+      "reason": "1,2,4,5,10,20共6個"
+    },
+    "factors-3": {
+      "answers": [
+        "8 顆"
+      ],
+      "reason": "24÷8=3"
+    },
+    "factors-4": {
+      "answers": [
+        "5 袋"
+      ],
+      "reason": "15÷3=5"
+    },
+    "factors-5": {
+      "answers": [
+        "5"
+      ],
+      "reason": "1,2,4,8,16共5個"
+    },
+    "factors-6": {
+      "answers": [
+        "5"
+      ],
+      "reason": "12÷5有餘數"
+    },
+    "factors-7": {
+      "answers": [
+        "5 串"
+      ],
+      "reason": "30÷6=5"
+    },
+    "factors-8": {
+      "answers": [
+        "7"
+      ],
+      "reason": "28÷7=4"
+    },
+    "factors-9": {
+      "answers": [
+        "4"
+      ],
+      "reason": "18÷4=4餘2"
+    },
+    "factors-10": {
+      "answers": [
+        "1、2、5、10"
+      ],
+      "reason": "1×10、2×5"
+    },
+    "factors-11": {
+      "answers": [
+        "6"
+      ],
+      "reason": "18與24的公因數1,2,3,6"
+    },
+    "factors-12": {
+      "answers": [
+        "12"
+      ],
+      "reason": "4與6下一個共同倍數12"
+    },
+    "factors-13": {
+      "answers": [
+        "4",
+        "0"
+      ],
+      "reason": "24÷6=4餘0"
+    },
+    "factors-14": {
+      "answers": [
+        "3"
+      ],
+      "reason": "18−5×3=3"
+    },
+    "angles-1": {
+      "answers": [
+        "70°"
+      ],
+      "reason": "180−50−60=70"
+    },
+    "angles-2": {
+      "answers": [
+        "60"
+      ],
+      "reason": "180−40−80=60"
+    },
+    "angles-3": {
+      "answers": [
+        "55"
+      ],
+      "reason": "90−35=55"
+    },
+    "angles-4": {
+      "answers": [
+        "110°"
+      ],
+      "reason": "180−25−45=110"
+    },
+    "angles-5": {
+      "answers": [
+        "70"
+      ],
+      "reason": "(180−40)÷2=70"
+    },
+    "angles-6": {
+      "answers": [
+        "80"
+      ],
+      "reason": "180−2×50=80"
+    },
+    "angles-7": {
+      "answers": [
+        "60°"
+      ],
+      "reason": "180÷3=60"
+    },
+    "angles-8": {
+      "answers": [
+        "60"
+      ],
+      "reason": "180−65−55=60"
+    },
+    "angles-9": {
+      "answers": [
+        "45"
+      ],
+      "reason": "90÷2=45"
+    },
+    "angles-10": {
+      "answers": [
+        "50°"
+      ],
+      "reason": "180−100−30=50"
+    },
+    "angles-11": {
+      "answers": [
+        "90"
+      ],
+      "reason": "360−80−90−100=90"
+    },
+    "angles-12": {
+      "answers": [
+        "3、4、5公分"
+      ],
+      "reason": "3+4>5；2+3不大於5或6"
+    },
+    "angles-13": {
+      "answers": [
+        "180",
+        "60"
+      ],
+      "reason": "180；180÷3=60"
+    },
+    "angles-14": {
+      "answers": [
+        "70"
+      ],
+      "reason": "180−110=70"
+    },
+    "angles-15": {
+      "answers": [
+        "5"
+      ],
+      "reason": "沿外框5段"
+    },
+    "angles-16": {
+      "answers": [
+        "6"
+      ],
+      "reason": "六個相鄰邊交點"
+    },
+    "angles-17": {
+      "answers": [
+        "每條邊等長，且每個內角相等"
+      ],
+      "reason": "正多邊形需同時等邊等角"
+    },
+    "angles-18": {
+      "answers": [
+        "不是，四條邊並非全等長"
+      ],
+      "reason": "6≠3，未等邊"
+    },
+    "angles-19": {
+      "answers": [
+        "不能"
+      ],
+      "reason": "2+3=5不能圍成"
+    },
+    "angles-20": {
+      "answers": [
+        "8公分"
+      ],
+      "reason": "3<第三邊<11，選8"
+    },
+    "angles-21": {
+      "answers": [
+        "7"
+      ],
+      "reason": "3+4=7<8"
+    },
+    "angles-22": {
+      "answers": [
+        "90°"
+      ],
+      "reason": "180−90=90"
+    },
+    "angles-23": {
+      "answers": [
+        "65"
+      ],
+      "reason": "180−48−67=65"
+    },
+    "angles-24": {
+      "answers": [
+        "110",
+        "70"
+      ],
+      "reason": "72+38=110；180−110=70"
+    },
+    "angles-25": {
+      "answers": [
+        "不可以"
+      ],
+      "reason": "90+90=180，無第三個正角"
+    },
+    "angles-26": {
+      "answers": [
+        "鈍角三角形"
+      ],
+      "reason": "最大角110>90"
+    },
+    "angles-27": {
+      "answers": [
+        "40"
+      ],
+      "reason": "(180−100)÷2=40"
+    },
+    "angles-28": {
+      "answers": [
+        "144",
+        "72"
+      ],
+      "reason": "180−36=144；144÷2=72"
+    },
+    "angles-29": {
+      "answers": [
+        "50"
+      ],
+      "reason": "180−65×2=50"
+    },
+    "angles-30": {
+      "answers": [
+        "50"
+      ],
+      "reason": "(180−80)÷2=50"
+    },
+    "angles-31": {
+      "answers": [
+        "另一個底角也會是 100°，兩角已超過 180°"
+      ],
+      "reason": "兩底角若均100，和200超過180"
+    },
+    "angles-32": {
+      "answers": [
+        "62"
+      ],
+      "reason": "90−28=62"
+    },
+    "angles-33": {
+      "answers": [
+        "70"
+      ],
+      "reason": "180−55−55=70"
+    },
+    "angles-34": {
+      "answers": [
+        "2"
+      ],
+      "reason": "四邊形從一頂點可分2三角形"
+    },
+    "angles-35": {
+      "answers": [
+        "2",
+        "360"
+      ],
+      "reason": "2×180=360"
+    },
+    "angles-36": {
+      "answers": [
+        "90"
+      ],
+      "reason": "360−75−85−110=90"
+    },
+    "angles-37": {
+      "answers": [
+        "90"
+      ],
+      "reason": "360−3×90=90"
+    },
+    "angles-38": {
+      "answers": [
+        "110"
+      ],
+      "reason": "360−70−80−100=110"
+    },
+    "angles-39": {
+      "answers": [
+        "不會，仍然是180°"
+      ],
+      "reason": "旋轉、同比例放大不改角度"
+    },
+    "angles-40": {
+      "answers": [
+        "80",
+        "90"
+      ],
+      "reason": "180−40−60=80；360−80−90−100=90"
+    },
+    "fractions-1": {
+      "answers": [
+        "2/4"
+      ],
+      "reason": "1/2=2/4"
+    },
+    "fractions-2": {
+      "answers": [
+        "8"
+      ],
+      "reason": "2×4=8"
+    },
+    "fractions-3": {
+      "answers": [
+        "3/4"
+      ],
+      "reason": "6÷2/8÷2=3/4"
+    },
+    "fractions-4": {
+      "answers": [
+        "6/8"
+      ],
+      "reason": "3/4=6/8"
+    },
+    "fractions-5": {
+      "answers": [
+        "3"
+      ],
+      "reason": "1×3=3"
+    },
+    "fractions-6": {
+      "answers": [
+        "2/3"
+      ],
+      "reason": "4÷2/6÷2=2/3"
+    },
+    "fractions-7": {
+      "answers": [
+        "4"
+      ],
+      "reason": "2×2=4"
+    },
+    "fractions-8": {
+      "answers": [
+        "3/4"
+      ],
+      "reason": "9÷3/12÷3=3/4"
+    },
+    "fractions-9": {
+      "answers": [
+        "9"
+      ],
+      "reason": "3×3=9"
+    },
+    "fractions-10": {
+      "answers": [
+        "1/2"
+      ],
+      "reason": "5÷5/10÷5=1/2"
+    },
+    "fractions-11": {
+      "answers": [
+        "3"
+      ],
+      "reason": "6÷2=3"
+    },
+    "fractions-12": {
+      "answers": [
+        "3",
+        "2"
+      ],
+      "reason": "1/2=3/6；1/3=2/6"
+    },
+    "fractions-13": {
+      "answers": [
+        "3/4"
+      ],
+      "reason": "9/12>8/12"
+    },
+    "fractions-14": {
+      "answers": [
+        "6"
+      ],
+      "reason": "3×2=6"
+    },
+    "fractions-15": {
+      "answers": [
+        "9"
+      ],
+      "reason": "3×3=9"
+    },
+    "fractions-16": {
+      "answers": [
+        "4",
+        "16"
+      ],
+      "reason": "20÷5=4；4×4=16"
+    },
+    "fractions-17": {
+      "answers": [
+        "24"
+      ],
+      "reason": "8×(15÷5)=24"
+    },
+    "fractions-18": {
+      "answers": [
+        "分子分母都乘3"
+      ],
+      "reason": "分子分母同乘3保持比值"
+    },
+    "fractions-19": {
+      "answers": [
+        "9"
+      ],
+      "reason": "3×(12÷4)=9"
+    },
+    "fractions-20": {
+      "answers": [
+        "2/3"
+      ],
+      "reason": "gcd(12,18)=6"
+    },
+    "fractions-21": {
+      "answers": [
+        "3/5"
+      ],
+      "reason": "gcd(15,25)=5"
+    },
+    "fractions-22": {
+      "answers": [
+        "3/4"
+      ],
+      "reason": "gcd(18,24)=6"
+    },
+    "fractions-23": {
+      "answers": [
+        "2",
+        "3"
+      ],
+      "reason": "20與30同除10"
+    },
+    "fractions-24": {
+      "answers": [
+        "5/7"
+      ],
+      "reason": "gcd(5,7)=1"
+    },
+    "fractions-25": {
+      "answers": [
+        "4"
+      ],
+      "reason": "12÷(9÷3)=4"
+    },
+    "fractions-26": {
+      "answers": [
+        "能，再約成2/3"
+      ],
+      "reason": "gcd(4,6)=2"
+    },
+    "fractions-27": {
+      "answers": [
+        "8",
+        "9"
+      ],
+      "reason": "2×4=8；3×3=9"
+    },
+    "fractions-28": {
+      "answers": [
+        "6",
+        "7"
+      ],
+      "reason": "3×2=6；7不變"
+    },
+    "fractions-29": {
+      "answers": [
+        "20",
+        "9"
+      ],
+      "reason": "5×4=20；3×3=9"
+    },
+    "fractions-30": {
+      "answers": [
+        "12"
+      ],
+      "reason": "lcm(4,6)=12"
+    },
+    "fractions-31": {
+      "answers": [
+        "可以，共同分母不一定要最小"
+      ],
+      "reason": "24為3和4的公倍數"
+    },
+    "fractions-32": {
+      "answers": [
+        "5/8"
+      ],
+      "reason": "24/40<25/40"
+    },
+    "fractions-33": {
+      "answers": [
+        "5/6"
+      ],
+      "reason": "15/18>14/18"
+    },
+    "fractions-34": {
+      "answers": [
+        "一樣大"
+      ],
+      "reason": "均等於2/3"
+    },
+    "fractions-35": {
+      "answers": [
+        "第一條的3/4"
+      ],
+      "reason": "6/8>5/8"
+    },
+    "fractions-36": {
+      "answers": [
+        "不一樣，大披薩的一半比較多"
+      ],
+      "reason": "整體較大，同取一半份量較大"
+    },
+    "fractions-37": {
+      "answers": [
+        "4",
+        "5"
+      ],
+      "reason": "2×2=4；5不變"
+    },
+    "fractions-38": {
+      "answers": [
+        "1/2 ＜ 2/3 ＜ 3/4"
+      ],
+      "reason": "6/12<8/12<9/12"
+    },
+    "fractions-39": {
+      "answers": [
+        "15"
+      ],
+      "reason": "3×5=15"
+    },
+    "fractions-40": {
+      "answers": [
+        "2",
+        "3",
+        "8"
+      ],
+      "reason": "16/24=2/3=8/12"
+    },
+    "symmetry-1": {
+      "answers": [
+        "3"
+      ],
+      "reason": "軸4−欄1=3"
+    },
+    "symmetry-2": {
+      "answers": [
+        "8"
+      ],
+      "reason": "4+4=8"
+    },
+    "symmetry-3": {
+      "answers": [
+        "2",
+        "4"
+      ],
+      "reason": "距離2；合計2×2=4"
+    },
+    "symmetry-4": {
+      "answers": [
+        "沿線對摺能完全重合"
+      ],
+      "reason": "反射需完全重合"
+    },
+    "symmetry-5": {
+      "answers": [
+        "4"
+      ],
+      "reason": "水平、垂直、兩對角線共4"
+    },
+    "symmetry-6": {
+      "answers": [
+        "2"
+      ],
+      "reason": "非正方形長方形僅2軸"
+    },
+    "symmetry-7": {
+      "answers": [
+        "3"
+      ],
+      "reason": "兩側同距為3"
+    },
+    "symmetry-8": {
+      "answers": [
+        "7"
+      ],
+      "reason": "對稱邊等長7"
+    },
+    "symmetry-9": {
+      "answers": [
+        "不一定，還要對摺後完全重合"
+      ],
+      "reason": "等面積未必全等可摺合"
+    },
+    "symmetry-10": {
+      "answers": [
+        "3"
+      ],
+      "reason": "每頂點到對邊中點共3"
+    },
+    "symmetry-11": {
+      "answers": [
+        "1"
+      ],
+      "reason": "非正三角形等腰僅1軸"
+    },
+    "symmetry-12": {
+      "answers": [
+        "不是"
+      ],
+      "reason": "長短不同沿對角線不能重合"
+    },
+    "symmetry-13": {
+      "answers": [
+        "不是"
+      ],
+      "reason": "一般斜平行四邊形無鏡射軸"
+    },
+    "symmetry-14": {
+      "answers": [
+        "任何通過圓心的直線"
+      ],
+      "reason": "圓對任一直徑鏡射不變"
+    },
+    "symmetry-15": {
+      "answers": [
+        "是，對稱軸跟著轉動"
+      ],
+      "reason": "旋轉不改線對稱性"
+    },
+    "symmetry-16": {
+      "answers": [
+        "4"
+      ],
+      "reason": "四軸"
+    },
+    "symmetry-17": {
+      "answers": [
+        "仍在P的位置"
+      ],
+      "reason": "軸上點反射後不變"
+    },
+    "symmetry-18": {
+      "answers": [
+        "5"
+      ],
+      "reason": "10÷2=5"
+    },
+    "symmetry-19": {
+      "answers": [
+        "65"
+      ],
+      "reason": "對稱角相等65"
+    },
+    "symmetry-20": {
+      "answers": [
+        "4",
+        "6"
+      ],
+      "reason": "對應AB4、BC6"
+    },
+    "symmetry-21": {
+      "answers": [
+        "互相垂直，而且被軸平分"
+      ],
+      "reason": "對稱軸是對稱點連線的垂直平分線"
+    },
+    "symmetry-22": {
+      "answers": [
+        "48"
+      ],
+      "reason": "鏡射保持角48"
+    },
+    "symmetry-23": {
+      "answers": [
+        "6",
+        "12"
+      ],
+      "reason": "距離6、合計12"
+    },
+    "symmetry-24": {
+      "answers": [
+        "不一定，還要在同一條垂線的另一側"
+      ],
+      "reason": "同距還要同一垂線另一側"
+    },
+    "symmetry-25": {
+      "answers": [
+        "7",
+        "2"
+      ],
+      "reason": "8−1=7，列2不變"
+    },
+    "symmetry-26": {
+      "answers": [
+        "5",
+        "6"
+      ],
+      "reason": "8−3=5，列6不變"
+    },
+    "symmetry-27": {
+      "answers": [
+        "2",
+        "3"
+      ],
+      "reason": "8−6=2，列3不變"
+    },
+    "symmetry-28": {
+      "answers": [
+        "2",
+        "7"
+      ],
+      "reason": "欄2不變，8−1=7"
+    },
+    "symmetry-29": {
+      "answers": [
+        "6",
+        "7"
+      ],
+      "reason": "8−2=6；8−1=7"
+    },
+    "symmetry-30": {
+      "answers": [
+        "按照原圖A、B、C的連接順序"
+      ],
+      "reason": "反射保持頂點相鄰關係"
+    },
+    "symmetry-31": {
+      "answers": [
+        "3"
+      ],
+      "reason": "列3不變"
+    },
+    "symmetry-32": {
+      "answers": [
+        "6",
+        "4"
+      ],
+      "reason": "欄8−2=6，長6−2=4"
+    },
+    "symmetry-33": {
+      "answers": [
+        "剪出圖形的一條對稱軸"
+      ],
+      "reason": "重合兩層剪出鏡像"
+    },
+    "symmetry-34": {
+      "answers": [
+        "菱形"
+      ],
+      "reason": "等腰三角形兩側反射組成四等邊菱形"
+    },
+    "symmetry-35": {
+      "answers": [
+        "菱形洞"
+      ],
+      "reason": "同一缺口兩層展開組成菱形孔"
+    },
+    "symmetry-36": {
+      "answers": [
+        "2"
+      ],
+      "reason": "兩層各穿一次，共2孔"
+    },
+    "symmetry-37": {
+      "answers": [
+        "可能把左右兩半分開"
+      ],
+      "reason": "連接摺線完全剪斷會分離"
+    },
+    "symmetry-38": {
+      "answers": [
+        "2"
+      ],
+      "reason": "兩層兩孔"
+    },
+    "symmetry-39": {
+      "answers": [
+        "3",
+        "6"
+      ],
+      "reason": "距離3、合計6"
+    },
+    "symmetry-40": {
+      "answers": [
+        "不一定，某些圖形有更多條"
+      ],
+      "reason": "正方形為多軸反例"
+    },
+    "fraction-sums-1": {
+      "answers": [
+        "5/6"
+      ],
+      "reason": "3/6+2/6=5/6"
+    },
+    "fraction-sums-2": {
+      "answers": [
+        "1/4"
+      ],
+      "reason": "3/4−2/4=1/4"
+    },
+    "fraction-sums-3": {
+      "answers": [
+        "5/6"
+      ],
+      "reason": "4/6+1/6=5/6"
+    },
+    "fraction-sums-4": {
+      "answers": [
+        "1/2"
+      ],
+      "reason": "5/6−2/6=3/6=1/2"
+    },
+    "fraction-sums-5": {
+      "answers": [
+        "2",
+        "3"
+      ],
+      "reason": "2/4+1/4=3/4"
+    },
+    "fraction-sums-6": {
+      "answers": [
+        "5/6"
+      ],
+      "reason": "3/6+2/6=5/6"
+    },
+    "fraction-sums-7": {
+      "answers": [
+        "5/4"
+      ],
+      "reason": "8/4−3/4=5/4"
+    },
+    "fraction-sums-8": {
+      "answers": [
+        "7/12"
+      ],
+      "reason": "4/12+3/12=7/12"
+    },
+    "operations-1": {
+      "answers": [
+        "42"
+      ],
+      "reason": "24+18=42"
+    },
+    "operations-2": {
+      "answers": [
+        "90"
+      ],
+      "reason": "30×3=90"
+    },
+    "operations-3": {
+      "answers": [
+        "40",
+        "10"
+      ],
+      "reason": "120÷3=40；40÷4=10"
+    },
+    "operations-4": {
+      "answers": [
+        "24"
+      ],
+      "reason": "12×2=24"
+    },
+    "operations-5": {
+      "answers": [
+        "50"
+      ],
+      "reason": "150÷3=50"
+    },
+    "operations-6": {
+      "answers": [
+        "100",
+        "100"
+      ],
+      "reason": "25×4=100；200−100=100"
+    },
+    "operations-7": {
+      "answers": [
+        "140"
+      ],
+      "reason": "300−80×2=140"
+    },
+    "operations-8": {
+      "answers": [
+        "(36＋24)÷6"
+      ],
+      "reason": "先把36與24相加，再除以6"
+    },
+    "time-1": {
+      "answers": [
+        "80"
+      ],
+      "reason": "60+20=80"
+    },
+    "time-2": {
+      "answers": [
+        "135"
+      ],
+      "reason": "45×3=135"
+    },
+    "time-3": {
+      "answers": [
+        "2",
+        "15"
+      ],
+      "reason": "135=2×60+15"
+    },
+    "time-4": {
+      "answers": [
+        "30"
+      ],
+      "reason": "150÷5=30"
+    },
+    "time-5": {
+      "answers": [
+        "100"
+      ],
+      "reason": "60+40=100"
+    },
+    "time-6": {
+      "answers": [
+        "35"
+      ],
+      "reason": "20+15=35"
+    },
+    "time-7": {
+      "answers": [
+        "135",
+        "270"
+      ],
+      "reason": "120+15=135；135×2=270"
+    },
+    "time-8": {
+      "answers": [
+        "2"
+      ],
+      "reason": "360÷3÷60=2"
+    },
+    "solids-1": {
+      "answers": [
+        "6"
+      ],
+      "reason": "上下前後左右6面"
+    },
+    "solids-2": {
+      "answers": [
+        "12"
+      ],
+      "reason": "上4下4連接4共12"
+    },
+    "solids-3": {
+      "answers": [
+        "8"
+      ],
+      "reason": "上下各4共8"
+    },
+    "solids-4": {
+      "answers": [
+        "互相平行"
+      ],
+      "reason": "相對面平行"
+    },
+    "solids-5": {
+      "answers": [
+        "互相垂直"
+      ],
+      "reason": "相鄰面垂直"
+    },
+    "solids-6": {
+      "answers": [
+        "6",
+        "8"
+      ],
+      "reason": "6面8頂點"
+    },
+    "solids-7": {
+      "answers": [
+        "6"
+      ],
+      "reason": "可見3隱藏3共6"
+    },
+    "solids-8": {
+      "answers": [
+        "都是一樣大的正方形"
+      ],
+      "reason": "正方體等棱六面全等正方形"
+    },
+    "charts-review-1": {
+      "answers": [
+        "週二"
+      ],
+      "reason": "週二五乙10小於五甲20"
+    },
+    "charts-review-2": {
+      "answers": [
+        "35"
+      ],
+      "reason": "15+20=35"
+    },
+    "factors-review-1": {
+      "answers": [
+        "230"
+      ],
+      "reason": "個位0，同時為2、5、10倍數"
+    },
+    "factors-review-2": {
+      "answers": [
+        "12"
+      ],
+      "reason": "lcm(4,6)=12"
+    },
+    "angles-review-1": {
+      "answers": [
+        "3",
+        "540"
+      ],
+      "reason": "5−2=3；3×180=540"
+    },
+    "angles-review-2": {
+      "answers": [
+        "4",
+        "720"
+      ],
+      "reason": "6−2=4；4×180=720"
+    },
+    "operations-review-1": {
+      "answers": [
+        "25 × 10 ＋ 25 × 2"
+      ],
+      "reason": "25×(10+2)分配為兩個乘積"
+    },
+    "operations-review-2": {
+      "answers": [
+        "600",
+        "594"
+      ],
+      "reason": "100×6=600；減6=594"
+    },
+    "operations-review-3": {
+      "answers": [
+        "8 × (4 × 25)"
+      ],
+      "reason": "乘法結合律，4×25=100"
+    },
+    "fraction-sums-review-1": {
+      "answers": [
+        "13/6"
+      ],
+      "reason": "3/2+2/3=9/6+4/6=13/6"
+    },
+    "fraction-sums-review-2": {
+      "answers": [
+        "17/12"
+      ],
+      "reason": "9/4−5/6=27/12−10/12=17/12"
+    },
+    "solids-review-1": {
+      "answers": [
+        "DC"
+      ],
+      "reason": "前面相對邊AB、DC平行"
+    },
+    "solids-review-2": {
+      "answers": [
+        "互相垂直"
+      ],
+      "reason": "長方形A角為直角"
+    },
+    "solids-review-3": {
+      "answers": [
+        "54"
+      ],
+      "reason": "3×3×6=54"
+    },
+    "solids-review-4": {
+      "answers": [
+        "52"
+      ],
+      "reason": "2×(4×3+4×2+3×2)=52"
+    },
+    "solids-review-5": {
+      "answers": [
+        "20"
+      ],
+      "reason": "2×2×5=20"
+    },
+    "charts-game-1": {
+      "answers": [
+        "[20,25,15,30]"
+      ],
+      "reason": "按題幹資料逐日描點；不是重新計算總量"
+    },
+    "charts-game-2": {
+      "answers": [
+        "[15,20,30,25]"
+      ],
+      "reason": "按題幹資料逐日描點；不是重新計算總量"
+    },
+    "charts-game-3": {
+      "answers": [
+        "[10,20,20,30]"
+      ],
+      "reason": "按題幹資料逐日描點；不是重新計算總量"
+    },
+    "factors-game-1": {
+      "answers": [
+        "[1,2,3,4,6,12]"
+      ],
+      "reason": "列出所有正因數，成對相乘等於總數"
+    },
+    "factors-game-2": {
+      "answers": [
+        "[1,2,3,6,9,18]"
+      ],
+      "reason": "列出所有正因數，成對相乘等於總數"
+    },
+    "factors-game-3": {
+      "answers": [
+        "[1,2,3,4,6,8,12,24]"
+      ],
+      "reason": "列出所有正因數，成對相乘等於總數"
+    },
+    "angles-game-1": {
+      "answers": [
+        "[0,1,2]"
+      ],
+      "reason": "50+60+70；45+45+90；40+60+80皆為180"
+    },
+    "angles-game-2": {
+      "answers": [
+        "[0,1,2]"
+      ],
+      "reason": "50+60+70；45+45+90；40+60+80皆為180"
+    },
+    "angles-game-3": {
+      "answers": [
+        "[0,1,2]"
+      ],
+      "reason": "50+60+70；45+45+90；40+60+80皆為180"
+    },
+    "fractions-game-1": {
+      "answers": [
+        "[0,1,2,3]"
+      ],
+      "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+    },
+    "fractions-game-2": {
+      "answers": [
+        "[0,1,2,3,4,5,6,7]"
+      ],
+      "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+    },
+    "fractions-game-3": {
+      "answers": [
+        "[0,1,2,3,4,5,6,7,8]"
+      ],
+      "reason": "1/2×8=4；2/3×12=8；3/4×12=9"
+    },
+    "symmetry-game-1": {
+      "answers": [
+        "[12,18,33]"
+      ],
+      "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+    },
+    "symmetry-game-2": {
+      "answers": [
+        "[11,19,40]"
+      ],
+      "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+    },
+    "symmetry-game-3": {
+      "answers": [
+        "[37,31,40]"
+      ],
+      "reason": "7×7格，以第4欄或第4列反射，軸兩側等距"
+    },
+    "fraction-sums-game-1": {
+      "answers": [
+        "[0,1,2,3,4]"
+      ],
+      "reason": "通分後為5/6、2/8、10/12"
+    },
+    "fraction-sums-game-2": {
+      "answers": [
+        "[0,1]"
+      ],
+      "reason": "通分後為5/6、2/8、10/12"
+    },
+    "fraction-sums-game-3": {
+      "answers": [
+        "[0,1,2,3,4,5,6,7,8,9]"
+      ],
+      "reason": "通分後為5/6、2/8、10/12"
+    },
+    "operations-game-1": {
+      "answers": [
+        "[1,0]"
+      ],
+      "reason": "先乘除或括號，買東西先總價再找零"
+    },
+    "operations-game-2": {
+      "answers": [
+        "[1,0]"
+      ],
+      "reason": "先乘除或括號，買東西先總價再找零"
+    },
+    "operations-game-3": {
+      "answers": [
+        "[1,0]"
+      ],
+      "reason": "先乘除或括號，買東西先總價再找零"
+    },
+    "time-game-1": {
+      "answers": [
+        "[2,15]"
+      ],
+      "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+    },
+    "time-game-2": {
+      "answers": [
+        "[2,0]"
+      ],
+      "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+    },
+    "time-game-3": {
+      "answers": [
+        "[0,30]"
+      ],
+      "reason": "45×3=135；30×4=120；150÷5=30，轉小時和餘分"
+    },
+    "solids-game-1": {
+      "answers": [
+        "[\"F\"]"
+      ],
+      "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+    },
+    "solids-game-2": {
+      "answers": [
+        "[\"A\",\"B\",\"D\",\"F\"]"
+      ],
+      "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+    },
+    "solids-game-3": {
+      "answers": [
+        "[\"D\"]"
+      ],
+      "reason": "折合展開圖相對面為AF、BD、CE；C相鄰ABDF"
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "unit": "fraction-sums",
+  "coverage": [
+    "6-1",
+    "6-2",
+    "6-3"
+  ],
+  "questions": [
+    {
+      "id": "fraction-sums-1",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "1/2 ＋ 1/3 等於多少？（可填分數，如 3/4）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3/6+2/6=5/6",
+      "scaffolding": [
+        "先把分母2和3通分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3/6+2/6=5/6",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "5/6"
+          ],
+          "accept": true,
+          "reason": "3/6+2/6=5/6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6/6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "10/12"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "b449e45f1c02bb30acde28a4a58bd6398ab96ccdfe6ab2605651db4239a8fb21"
+    },
+    {
+      "id": "fraction-sums-2",
+      "revision": 1,
+      "curriculum": "6-2",
+      "objective": "3/4 − 1/2 等於多少？（可填分數，如 3/4）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3/4−2/4=1/4",
+      "scaffolding": [
+        "先把分母4和2通分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3/4−2/4=1/4",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "1/4"
+          ],
+          "accept": true,
+          "reason": "3/4−2/4=1/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2/4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2/8"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "c3aebcbcbe9d983479d71465c4eafca6ac0c9ff752925c2da05a3d65e4245e67"
+    },
+    {
+      "id": "fraction-sums-3",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "2/3 ＋ 1/6 等於多少？（可填分數，如 3/4）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：4/6+1/6=5/6",
+      "scaffolding": [
+        "先把分母3和6通分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "4/6+1/6=5/6",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "5/6"
+          ],
+          "accept": true,
+          "reason": "4/6+1/6=5/6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6/6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "10/12"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "reinforcement-variant",
+          "severity": "warning",
+          "status": "open",
+          "reason": "同策略變體，已在題目選單標為加強練習；不宣稱是新的思考任務。"
+        }
+      ],
+      "fingerprint": "c97162d3ea2d43177ad55635dc9ad8eb84f355ea854339dcd0638d31da9566df"
+    },
+    {
+      "id": "fraction-sums-4",
+      "revision": 1,
+      "curriculum": "6-2",
+      "objective": "5/6 − 1/3 等於多少？（可填分數，如 3/4）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：5/6−2/6=3/6=1/2",
+      "scaffolding": [
+        "先把分母6和3通分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "5/6−2/6=3/6=1/2",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "1/2"
+          ],
+          "accept": true,
+          "reason": "5/6−2/6=3/6=1/2"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "2/2"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2/4"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "d96fea6c8dd9b09f979104aae6c51afee7a6417d17b5fc1bec662cae0b6cbd05"
+    },
+    {
+      "id": "fraction-sums-5",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "計算1/2＋1/4，先通分再相加。",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "分步推理",
+      "interaction": "分欄填答",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：2/4+1/4=3/4",
+      "scaffolding": [
+        "半個整體，在分成四份時占幾份？",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "2/4+1/4=3/4",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "2",
+            "3"
+          ],
+          "accept": true,
+          "reason": "2/4+1/4=3/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "3",
+            "3"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "2",
+            "4"
+          ],
+          "accept": false,
+          "reason": "第2欄錯誤，整題不得算通過"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "024f2868da2e5c4b07d18a6744ffe6b881662d0be9efe8678f0c79900ad9161e"
+    },
+    {
+      "id": "fraction-sums-6",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "小光算1/2＋1/3＝2/5，請填正確答案。",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "找錯",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "分子相加、分母也相加。",
+      "scaffolding": [
+        "分母是份的大小，不能直接相加。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3/6+2/6=5/6",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "5/6"
+          ],
+          "accept": true,
+          "reason": "3/6+2/6=5/6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6/6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "10/12"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "dfa8a106f0336971b04da042308b929ffdbf9d354b535c002a07d0a50be6b3b1"
+    },
+    {
+      "id": "fraction-sums-7",
+      "revision": 1,
+      "curriculum": "6-3",
+      "objective": "有2公尺緞帶，用掉3/4公尺，剩幾公尺？（用分數填答）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：8/4−3/4=5/4",
+      "scaffolding": [
+        "2公尺可以寫成8/4公尺。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "8/4−3/4=5/4",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "5/4"
+          ],
+          "accept": true,
+          "reason": "8/4−3/4=5/4"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "6/4"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "10/8"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        },
+        {
+          "answers": [
+            "1又1/4"
+          ],
+          "accept": true,
+          "reason": "帶分數等值答案應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "grade5-repair",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "正確帶分數1又1/4無法輸入判分；空格可能被誤合成11/4。",
+          "resolution": "支援帶分數並先辨認分隔；保留假分數與數值等價。"
+        }
+      ],
+      "fingerprint": "eda1381ba9f9d1db140d9afd3c5885e23545ff3e58248d4388239b30e9951fe7"
+    },
+    {
+      "id": "fraction-sums-8",
+      "revision": 1,
+      "curriculum": "6-3",
+      "objective": "上午喝1/3公升水，下午喝1/4公升，共喝幾公升？",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "基礎",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：4/12+3/12=7/12",
+      "scaffolding": [
+        "共同分母可以用12。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "4/12+3/12=7/12",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "7/12"
+          ],
+          "accept": true,
+          "reason": "4/12+3/12=7/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "8/12"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "14/24"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "4ff607c668e6c5afdada9b299b14024037e46b84cfc5bc8f2d77859842619ba2"
+    },
+    {
+      "id": "fraction-sums-game-1",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "把 1/2 + 1/3 的結果塗在下方。整條分成 6 格，每格一樣大。",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：通分後為5/6、2/8、10/12",
+      "scaffolding": [
+        "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "通分後為5/6、2/8、10/12",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2,3,4]"
+          ],
+          "accept": true,
+          "reason": "通分後為5/6、2/8、10/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2,3,4]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[4,3,2,1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "80379fd762222f02327475958577eddc3361dd9b2c7c2c68b94a5c291aa6305e"
+    },
+    {
+      "id": "fraction-sums-game-2",
+      "revision": 1,
+      "curriculum": "6-2",
+      "objective": "把 3/4 − 1/2 的結果塗在下方。整條分成 8 格，每格一樣大。",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：通分後為5/6、2/8、10/12",
+      "scaffolding": [
+        "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "通分後為5/6、2/8、10/12",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1]"
+          ],
+          "accept": true,
+          "reason": "通分後為5/6、2/8、10/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "60d108dc436ae18e21c243fbf677eaa0a3c52cff804f526e155c6b7385934ff2"
+    },
+    {
+      "id": "fraction-sums-game-3",
+      "revision": 1,
+      "curriculum": "6-1",
+      "objective": "把 2/3 + 1/6 的結果塗在下方。整條分成 12 格，每格一樣大。",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "等份塗色",
+      "interaction": "點選／拖曳（另有按鈕操作）",
+      "difficulty": "引導探索",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：通分後為5/6、2/8、10/12",
+      "scaffolding": [
+        "先看每一種份量在下面占幾小格，再決定要合起來還是拿掉。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "通分後為5/6、2/8、10/12",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "[0,1,2,3,4,5,6,7,8,9]"
+          ],
+          "accept": true,
+          "reason": "通分後為5/6、2/8、10/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7,8,9]"
+          ],
+          "accept": false,
+          "reason": "不完整或錯誤的操作結果"
+        },
+        {
+          "answers": [
+            "[9,8,7,6,5,4,3,2,1,0]"
+          ],
+          "accept": true,
+          "reason": "相同集合以不同點選順序完成也應接受"
+        },
+        {
+          "answers": [
+            "[1,2,3,4,5,6,7,8,9,1]"
+          ],
+          "accept": false,
+          "reason": "不能重複計算同一個格子或角片"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [],
+      "fingerprint": "02a3261672d38e60aae152e88e8e3f7e5178c97a5081de52bc34cbc26e0eb6c9"
+    },
+    {
+      "id": "fraction-sums-review-1",
+      "revision": 1,
+      "curriculum": "6-3",
+      "objective": "1 又 1/2 公尺的緞帶，加上 2/3 公尺，共幾公尺？（可填假分數或帶分數）",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：3/2+2/3=9/6+4/6=13/6",
+      "scaffolding": [
+        "可以先把帶分數變成假分數，再通分。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "3/2+2/3=9/6+4/6=13/6",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "13/6"
+          ],
+          "accept": true,
+          "reason": "3/2+2/3=9/6+4/6=13/6"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "14/6"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "26/12"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        },
+        {
+          "answers": [
+            "2又1/6"
+          ],
+          "accept": true,
+          "reason": "帶分數等值答案應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "f8794922abc64472ae2858cf8afdd88fb3ed4aafc651f5f67682052341e227ee"
+    },
+    {
+      "id": "fraction-sums-review-2",
+      "revision": 1,
+      "curriculum": "6-3",
+      "objective": "2 又 1/4 公升的果汁，倒出 5/6 公升，剩下幾公升？",
+      "prerequisites": [
+        "等值分數與通分",
+        "假分數與帶分數"
+      ],
+      "thinking": "數值推理",
+      "interaction": "自行輸入",
+      "difficulty": "應用／進階",
+      "misconception": "需避免只看外觀或忽略條件；檢查依據：9/4−5/6=27/12−10/12=17/12",
+      "scaffolding": [
+        "先把 2 又 1/4 寫成假分數，再找共同分母。",
+        "需要時回看本單元觀念或請小光示範另一組數字。"
+      ],
+      "grading": "9/4−5/6=27/12−10/12=17/12",
+      "reviewNote": "帶分數是本單元延伸，需先複習假分數；支援「1又1/4」和「1 1/4」。",
+      "cases": [
+        {
+          "answers": [
+            "17/12"
+          ],
+          "accept": true,
+          "reason": "9/4−5/6=27/12−10/12=17/12"
+        },
+        {
+          "answers": [],
+          "accept": false,
+          "reason": "未作答不能算通過"
+        },
+        {
+          "answers": [
+            "18/12"
+          ],
+          "accept": false,
+          "reason": "第1欄錯誤，整題不得算通過"
+        },
+        {
+          "answers": [
+            "34/24"
+          ],
+          "accept": true,
+          "reason": "未限制形式，等值分數應接受"
+        },
+        {
+          "answers": [
+            "1又5/12"
+          ],
+          "accept": true,
+          "reason": "帶分數等值答案應接受"
+        }
+      ],
+      "facts": [],
+      "renderLabels": [],
+      "reviews": {
+        "pedagogical": {
+          "status": "pending"
+        },
+        "visual": {
+          "status": "pending"
+        },
+        "human": {
+          "status": "pending"
+        },
+        "child": {
+          "status": "pending"
+        }
+      },
+      "findings": [
+        {
+          "id": "coverage-added",
+          "severity": "major",
+          "status": "resolved",
+          "reason": "本小節原有代表題不足。",
+          "resolution": "新增本題並納入獨立推導的正反判分案例；並非宣稱完整習作覆蓋。"
+        }
+      ],
+      "fingerprint": "f5b981edd2ccc86f08e3d879d5ca0f02b0a22fef4536be20f6d75d1bd4d3ba08"
+    }
+  ]
+}
