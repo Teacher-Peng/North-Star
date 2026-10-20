@@ -455,3 +455,19 @@ HTTPS 瀏覽器實測：錯誤碼拒絕、正確家庭碼登入、首頁十單�
 正式環境補好設定後可啟動，但發布仍被 health check 擋下。新增唯一公開 GET/HEAD /healthz，僅回傳 status ok、無 session／設定／題目資料，讓未連接正式網域前的內部 Host 能做健康檢查。其他路由 Host 與家庭登入檢查保留；GoDaddy General Root path 設為 /healthz，訪客仍走根網址。90 tests／859 fixtures 與 production-mode HTTP guard smoke 通過。原 fetch smoke 的 Host override 未按預期送出，改用 node:http 傳送真實 Host 後同一組斷言通過，未放寬安全條件。
 
 /healthz 讓預覽監測為 OK，但 Publish 啟動檢查仍失敗且無程式例外，因此補非 canonical Host 的 GET/HEAD / 為同樣純 liveness 回應，供尚未綁域名時的根路徑 probe 使用。未提供 session、教材或 AI 權限；非 canonical Host 的其他路徑及 POST 仍拒絕，正式域名根路徑仍需登入。這是刻意新增的公開狀態路由，並非放寬登入／CSRF。HTTP smoke 與 90 tests／859 fixtures 通過。
+
+2026-10-21 發布暫停點：Publish 已存五項正式設定（origin 為 ailearning.com.tw），兩次正式啟動有成功 listening 訊息但 platform startup health check 未過。2147937 的 preview /healthz 為 OK；補根路徑 liveness 的 aaf8246 已測試並推 GitHub，但後續 preview pull 因 GoDaddy 空白再驗證視窗及 Upload failed 未完成。刷新後一次重試仍相同；帳號 Products 頁正常，不推論為整個帳號登出。已請使用者登出／登入以完成重新驗證。尚未修改 DNS 或刪除原 Spelling Bee 檔案，正式網址還未切換。恢復後需確定 preview=aaf8246，再發布／綁域名／實測家庭登入，不能把本機或 preview 通過當成正式完成。
+
+## 2026-10-21 — North Star 正式發布並綁定 ailearning.com.tw
+
+使用者回報正式網址仍顯示舊站。重新檢查時 GoDaddy 已為 Published／Healthy，preview source aaf8246；先前發布阻擋已解除。依既有授權在 Domains 連接帳號持有的 ailearning.com.tw。平台完成 DNS 驗證及憑證流程，明確顯示網域已連接並將流量送往 published app。
+
+權威 DNS A 從 184.168.119.128 改為 160.153.0.229，TTL 3600；1.1.1.1 與 8.8.8.8 已取得新地址。GoDaddy 自動建立憑證驗證 CNAME。本機 resolver／Chrome／新 IAB tab 暫仍命中舊 Spelling Bee，故如實標示本機 DNS 快取尚待更新，未把該瀏覽器畫面宣稱為正式新站。沒有刪除舊站檔案、手動變更郵件或 nameservers、購買方案或發送客服訊息。
+
+以正式 hostname／SNI 對新地址執行 HTTPS 實測，保留完整憑證驗證：首頁導向家庭登入、既有家庭碼登入成功、首頁及教材資源可讀、狀態顯示已登入、登出後教材重新受保護、匿名語音為 401。northstar session cookie 的 Secure／HttpOnly／SameSite=Lax 皆通過。暫用 HTTP harness 的 cookie jar 與 redirect 預期修正原因已記錄於 FAMILY_ACCESS.md；未放寬產品安全檢查或既有測試。
+
+家庭入口使用 https://ailearning.com.tw/，仍是受邀家庭原型；沒有因此宣稱題庫完成真人審查，未測付費語音或 iPad。PUBLIC_ORIGIN 維持正式域名，ChatGPT 訂閱文字授權維持停用；無新增金鑰、無資料庫。
+
+## 2026-10-21 — GoDaddy Preview 啟動命令相容性
+
+使用者要求檢查 GoDaddy dashboard。頁面顯示 Preview Unhealthy／Gateway error，附帶原始錯誤 `npm error Missing script: "dev"`；切至 Published 則 Infra OK／Site OK，不能將 preview 錯誤直接說成正式站掛掉。General 設定未提供 startup command 欄位，因此 package.json 補 `dev: node server.mjs`，與既有 start 執行相同伺服器，不啟用免登入、watch 或其他開發繞過。語法檢查及獨立 port 的 npm run dev／healthz 實測通過。另透過平台 Purge CDN cache，UI 確認 Cache purged。部署修正結果另記。

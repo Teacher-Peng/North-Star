@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "build": "node --check server.mjs",
+    "dev": "node server.mjs",
     "start": "node server.mjs",
     "test": "node --test *.test.mjs public/*.test.mjs scripts/*.test.mjs",
     "quality": "node scripts/check-question-quality.mjs",

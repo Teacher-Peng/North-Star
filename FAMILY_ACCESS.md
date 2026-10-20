@@ -1,6 +1,6 @@
 # Private family access
 
-Status: deployed and browser-tested on the private GoDaddy preview on 2026-10-20. Not published to the live domain. No database or Google account is required for the family login; the hosting provider separately requires the owner to sign in to access its private preview.
+Status (2026-10-21): published on GoDaddy and connected to https://ailearning.com.tw/. Production HTTPS login/logout and protected routes passed an HTTP smoke check against the new server. Google and Cloudflare public DNS return the new address; the local resolver/browser still cached the old Spelling Bee destination at verification time. No database or Google account is required for family login. The checkpoints below retain earlier deployment history.
 
 ## How it works
 
@@ -10,7 +10,7 @@ In family mode, /login is the public entry point. The same-origin form checks CS
 
 ## First invitation and local preview
 
-The first invitation is saved privately in .local/family-invites/main-family.txt. Open that file locally and copy the Access code value into http://localhost:5176/login. It is excluded from Git and must not be uploaded to hosting. Store the code in your password manager; the delivery file can then be removed. The .env.local configuration contains only the hash, not the original code.
+The first invitation is saved privately in .local/family-invites/main-family.txt. Open that file locally and copy the Access code value into https://ailearning.com.tw/login (or http://localhost:5176/login for local preview). It is excluded from Git and must not be uploaded to hosting. Store the code in your password manager; the delivery file can then be removed. The .env.local configuration contains only the hash, not the original code.
 
 Start the family preview:
 
@@ -89,3 +89,27 @@ The exact GET/HEAD /healthz endpoint is public and returns only {"status":"ok"};
 A production-mode HTTP smoke check confirmed liveness succeeds with an internal Host, POST/subpaths do not bypass the Host guard, the correct domain's anonymous home redirects to login and anonymous voice requests remain denied. The first smoke client's fetch did not send the intended Host override; switching to node:http fixed the test setup without changing assertions or relaxing the application guard. The 90-test suite and 859 grading fixtures still pass.
 
 GoDaddy's publish-time startup check still failed despite the separate /healthz probe passing in preview. The read-only root path on a noncanonical Host now also returns only the same liveness response (no cookie/data). This supports startup probes before domain attachment. Login, assets and APIs still require the exact configured Host; POST to the noncanonical root is still rejected. On the canonical domain, / continues to require family login. Production-mode HTTP checks and all 90 tests/859 fixtures passed after this deliberate probe-only behavior change.
+
+## Live publication checkpoint (2026-10-21, pending)
+
+Production now has all five settings, with PUBLIC_ORIGIN=https://ailearning.com.tw; the provider explicitly confirmed they were saved. Two publish attempts started the application successfully but failed the provider's startup health check. Preview commit 2147937 passed /healthz monitoring. Commit aaf8246 adds the noncanonical-root liveness fallback and passed local production HTTP security checks; it is pushed to main but has **not yet been successfully pulled into preview**.
+
+The subsequent GitHub pulls hit a blank embedded GoDaddy reauthentication window and Upload failed. Refreshing and one retry reproduced it. The ordinary GoDaddy account Products page remains accessible, so this is an action-specific verification blocker, not evidence that the entire account is logged out. The owner was asked to sign out/in to renew verification. Resume with Update Preview, verify aaf8246, then publish and attach the custom domain. Do not describe the live site as complete until verified.
+
+DNS is unchanged: ailearning.com.tw A 184.168.119.128; www CNAME ailearning.com.tw. The original Spelling Bee site remains the domain's current destination and its hosting files were not deleted. Domain configuration in the app is unavailable until publish succeeds. No support message was sent and no additional plan or paid service was purchased.
+
+## Live domain connected (2026-10-21)
+
+The prior publication blocker is resolved: GoDaddy reports Published / Healthy with preview source aaf8246. Connected the owned domain through Settings > Domains. GoDaddy completed certificate validation and confirms “Your domain is connected to your app.”
+
+Authoritative DNS now returns A 160.153.0.229, TTL 3600; both 1.1.1.1 and 8.8.8.8 return the new address. GoDaddy also installed the certificate-verification CNAME. The local resolver and browser still returned the old Spelling Bee site at the final browser check; this is an observed DNS propagation limitation, not proof that the new app is absent. No nameservers, email settings, or old hosting files were manually changed.
+
+Verified the new address using the real ailearning.com.tw hostname/SNI and normal certificate validation (no TLS bypass). Production root redirects to /login; the existing family code successfully signs in to /#home; authenticated home, lesson resource and status load; logout revokes access; anonymous lesson access redirects and voice returns 401/loginRequired. The northstar session cookie has Secure, HttpOnly and SameSite=Lax.
+
+The temporary HTTP smoke harness initially inspected all cookies as application cookies and replaced its entire jar when the edge refreshed __cf_bm. It was corrected to check the northstar cookie specifically and merge cookies by name, retaining all session-security requirements. A temporary redirect assertion was corrected to the existing /#home destination after inspecting the login implementation. No application code or existing tests were weakened. No paid AI call was made.
+
+Live browser rendering on this network remains pending its DNS cache expiry; the final local DNS answer retained the old address with 10,275 seconds remaining (about 2 hours 51 minutes). The new authoritative record's one-hour TTL does not shorten an older cached record. The private preview was already browser-tested. iPad behavior, paid voice operation and educator review remain separate unverified items.
+
+## Preview startup compatibility (2026-10-21)
+
+Later the dashboard reported Preview Unhealthy with `npm error Missing script: "dev"`, while Published remained Site OK. The package now provides `npm run dev` as the same `node server.mjs` command as `npm start`, for GoDaddy's preview launcher. It does not alter authentication or hosting environment checks. Syntax and a local dev-command/healthz smoke check passed. GoDaddy also confirmed a published CDN cache purge. Hosted preview redeployment still needs verification.
