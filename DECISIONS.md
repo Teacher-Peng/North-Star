@@ -453,3 +453,5 @@ HTTPS 瀏覽器實測：錯誤碼拒絕、正確家庭碼登入、首頁十單�
 域名設定必須先完成發布才能啟用。已開始 Publish，結果待確認。切換前 DNS 記錄：ailearning.com.tw A = 184.168.119.128；www CNAME = ailearning.com.tw。現行網頁標題 Spelling Bee；此次目標是以 North Star 取代根網址入口，保留舊主機檔案以便回復，沒有刪除舊站。
 
 正式環境補好設定後可啟動，但發布仍被 health check 擋下。新增唯一公開 GET/HEAD /healthz，僅回傳 status ok、無 session／設定／題目資料，讓未連接正式網域前的內部 Host 能做健康檢查。其他路由 Host 與家庭登入檢查保留；GoDaddy General Root path 設為 /healthz，訪客仍走根網址。90 tests／859 fixtures 與 production-mode HTTP guard smoke 通過。原 fetch smoke 的 Host override 未按預期送出，改用 node:http 傳送真實 Host 後同一組斷言通過，未放寬安全條件。
+
+/healthz 讓預覽監測為 OK，但 Publish 啟動檢查仍失敗且無程式例外，因此補非 canonical Host 的 GET/HEAD / 為同樣純 liveness 回應，供尚未綁域名時的根路徑 probe 使用。未提供 session、教材或 AI 權限；非 canonical Host 的其他路徑及 POST 仍拒絕，正式域名根路徑仍需登入。這是刻意新增的公開狀態路由，並非放寬登入／CSRF。HTTP smoke 與 90 tests／859 fixtures 通過。

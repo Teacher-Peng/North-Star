@@ -74,9 +74,10 @@ const server=http.createServer(async(req,res)=>{
  res.setHeader('Content-Security-Policy',"default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; img-src 'self' data:; media-src 'self' blob:; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
  try {
   const url=new URL(req.url,origin);
-  // Hosting probes use an internal Host before the custom domain is connected.
-  // This exact read-only route returns no session, configuration or lesson data.
-  if(url.pathname==='/healthz' && ['GET','HEAD'].includes(req.method)){
+  // Hosting startup probes may ignore the configured health path and use / on
+  // an internal Host. Both probes return only liveness, never app/session data.
+  const probePath=url.pathname==='/healthz' || (url.pathname==='/' && req.headers.host!==hosting.host);
+  if(probePath && ['GET','HEAD'].includes(req.method)){
    res.writeHead(200,{'Content-Type':'application/json; charset=utf-8'});
    res.end(req.method==='HEAD'?'':JSON.stringify({status:'ok'}));return;
   }
