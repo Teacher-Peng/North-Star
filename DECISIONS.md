@@ -471,3 +471,11 @@ HTTPS 瀏覽器實測：錯誤碼拒絕、正確家庭碼登入、首頁十單�
 ## 2026-10-21 — GoDaddy Preview 啟動命令相容性
 
 使用者要求檢查 GoDaddy dashboard。頁面顯示 Preview Unhealthy／Gateway error，附帶原始錯誤 `npm error Missing script: "dev"`；切至 Published 則 Infra OK／Site OK，不能將 preview 錯誤直接說成正式站掛掉。General 設定未提供 startup command 欄位，因此 package.json 補 `dev: node server.mjs`，與既有 start 執行相同伺服器，不啟用免登入、watch 或其他開發繞過。語法檢查及獨立 port 的 npm run dev／healthz 實測通過。另透過平台 Purge CDN cache，UI 確認 Cache purged。部署修正結果另記。
+
+## 2026-10-24 — 家庭存取碼改為 10 碼
+
+使用者要求將 access code 改為 10 碼並部署。新碼由密碼學安全亂數產生，使用 32 種英數字（排除 0、1、I、O），共 50 bits 隨機性；接受大小寫及頭尾空白，不接受內嵌空白或任意長度。伺服器仍只保存 SHA-256 雜湊、家庭 ID 與名稱，維持每分鐘 30 次登入嘗試限制、CSRF、單次 challenge、session 更新與八小時期限。不是自訂短密碼，也不是一次性邀請。
+
+先部署同時相容舊長碼與新碼的程式，再更新該家庭的雜湊設定。未替換雜湊的其他家庭可繼續使用舊碼；被替換的家庭舊碼失效。正式設定變更與重啟後仍須驗證登入與舊碼拒絕。
+
+本次僅針對已發布版本 17b7076 加上登入變更，不包含工作區尚未發布的教材、分數排版或 Polypad 改動。新版測試覆蓋 10 碼格式、大小寫、9/11 碼拒絕、錯碼拒絕、新舊格式並存、碼替換與實際 session 登入。工作區 134 tests、866 判分案例通過；題庫審查狀態未變。

@@ -4,7 +4,7 @@ Status (2026-10-21): published on GoDaddy and connected to https://ailearning.co
 
 ## How it works
 
-Each invited family receives a reusable, randomly generated code containing 192 bits of randomness. The server configuration stores only its SHA-256 hash, family ID and display label. This is a bearer credential: anyone with the full code can enter. It is not a one-time invitation or proof of a person's identity; do not replace it with a short memorable password.
+New invitations use exactly 10 cryptographically random characters from a 32-character alphabet (50 bits of randomness), excluding 0, 1, I and O. Ten-character codes accept either letter case. Legacy 192-bit invitations remain valid only while their hashes remain configured. The server configuration stores only its SHA-256 hash, family ID and display label. This is a bearer credential: anyone with the full code can enter. It is not a one-time invitation or proof of a person's identity; do not replace the random code with a chosen memorable password. The existing 30-attempts-per-minute process limit remains enabled.
 
 In family mode, /login is the public entry point. The same-origin form checks CSRF and a one-use, ten-minute challenge before checking the code. Successful login rotates the session ID and CSRF token. The cookie is HttpOnly and SameSite=Lax, with Secure on HTTPS. Sessions live in server memory for eight hours. All lesson assets, AI APIs and ChatGPT authorization routes require access. Logout deletes the session and expires the cookie. Same-origin referrer policy preserves the browser Origin header for native form POSTs while withholding referrers to other sites.
 

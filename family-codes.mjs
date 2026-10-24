@@ -1,4 +1,7 @@
-import {createHash, randomBytes, timingSafeEqual} from 'node:crypto';
+import {createHash, randomInt, timingSafeEqual} from 'node:crypto';
+
+// 32 unambiguous characters × 10 positions = 50 bits of cryptographic randomness.
+const codeAlphabet = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
 
 export function hashFamilyCode(code) {
   return createHash('sha256').update('north-star-family-code:v1:' + code).digest('hex');
@@ -6,7 +9,7 @@ export function hashFamilyCode(code) {
 export function createFamilyCode(id, label) {
   if (!/^[a-z0-9][a-z0-9-]{0,31}$/.test(id)) throw new Error('Family ID must use 1–32 lowercase letters, digits or hyphens.');
   if (typeof label !== 'string' || !label.trim() || label.length > 60) throw new Error('Family label must contain 1–60 characters.');
-  const code = `ns1.${id}.${randomBytes(24).toString('base64url')}`;
+  const code = Array.from({length: 10}, () => codeAlphabet[randomInt(codeAlphabet.length)]).join('');
   return {code, entry: {id, label: label.trim(), hash: hashFamilyCode(code)}};
 }
 export function readFamilyCodes(value = '') {
@@ -29,6 +32,18 @@ export function readFamilyCodes(value = '') {
 export function verifyFamilyCode(value, codes) {
   if (typeof value !== 'string' || value.length > 128) return null;
   const code = value.trim();
+  if (/^[2-9A-HJ-NP-Za-hj-np-z]{10}$/.test(code)) {
+    const hash = hashFamilyCode(code.toUpperCase());
+    const digest = Buffer.from(hash, 'hex');
+    let identity = null;
+    // Short codes contain no family ID. Compare every configured hash without
+    // returning early; no plaintext code or family identifier reaches the client.
+    for (const entry of codes.values()) {
+      if (timingSafeEqual(digest, Buffer.from(entry.hash, 'hex'))) identity = {id: entry.id, codeHash: hash};
+    }
+    return identity;
+  }
+  // Existing invitations remain valid until their hashes are explicitly rotated.
   const match = /^ns1\.([a-z0-9][a-z0-9-]{0,31})\.([A-Za-z0-9_-]{32})$/.exec(code);
   if (!match) return null;
   const entry = codes.get(match[1]);

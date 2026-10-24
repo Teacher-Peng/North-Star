@@ -156,6 +156,18 @@ test('denies entry when the access code is incorrect', async () => {
   const pending = await givenPendingLogin(fixture);
   thenLoginRejected(await whenLogin(fixture, pending, {accessCode: 'ns1.family.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdeg'}), fixture);
 });
+test('creates an authenticated session when a ten-character invitation is entered in lowercase', async () => {
+  const invitation = createFamilyCode('short-family', 'Short family');
+  const fixture = givenAccess({config: givenConfig({FAMILY_ACCESS_CODES: JSON.stringify([invitation.entry])})});
+  const pending = await givenPendingLogin(fixture);
+
+  const result = await whenLogin(fixture, pending, {accessCode: invitation.code.toLowerCase()});
+
+  assert.equal(result.res.headers.location, '/#home');
+  assert.equal(fixture.access.isAllowed(result.state.session), true);
+  assert.deepEqual(result.state.session.family, {id: 'short-family', codeHash: invitation.entry.hash});
+  assert.notEqual(result.state.sid, pending.sid);
+});
 test('denies entry when the form CSRF token is forged', async () => {
   const fixture = givenAccess();
   const pending = await givenPendingLogin(fixture);
